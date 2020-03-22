@@ -1,0 +1,397 @@
+{
+  "name": "getshifter/shifter-headless",
+  "type": "project",
+  "license": "MIT",
+  "description": "WordPress dependencies for Shifter-headless",
+  "homepage": "https://www.getshifter.io",
+  "authors": [
+    {
+      "name": "Shifter",
+      "email": "support@getshifter.io",
+      "homepage": "https://github.com/getshifter"
+    }
+  ],
+  "keywords": [
+    "wordpress",
+    "stack",
+    "composer",
+    "theme",
+    "wp"
+  ],
+  "support": {
+    "issues": "https://www.getshifter.io"
+  },
+  "config": {
+    "preferred-install": "dist",
+    "vendor-dir": "lib/vendor/"
+  },
+  "scripts": {
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://wpackagist.org"
+    },
+    {
+      "type": "package",
+      "package": {
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "name": "acf-to-rest-api",
+        "dist": {
+          "type": "zip",
+          "url": "https://downloads.wordpress.org/plugin/acf-to-rest-api.3.2.0.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "name": "advanced-custom-fields",
+        "dist": {
+          "type": "zip",
+          "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.5.8.8.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "name": "classic-editor",
+        "dist": {
+          "type": "zip",
+          "url": "https://downloads.wordpress.org/plugin/classic-editor.1.5.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "name": "custom-post-type-ui",
+        "dist": {
+          "type": "zip",
+          "url": "https://downloads.wordpress.org/plugin/custom-post-type-ui.1.7.4.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "name": "export-media-library",
+        "dist": {
+          "type": "zip",
+          "url": "https://downloads.wordpress.org/plugin/export-media-library.3.0.0.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "name": "intuitive-custom-post-order",
+        "dist": {
+          "type": "zip",
+          "url": "https://downloads.wordpress.org/plugin/intuitive-custom-post-order.3.1.2.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "name": "rss-importer",
+        "dist": {
+          "type": "zip",
+          "url": "https://downloads.wordpress.org/plugin/rss-importer.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "name": "search-and-replace",
+        "dist": {
+          "type": "zip",
+          "url": "https://downloads.wordpress.org/plugin/search-and-replace.3.2.1.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "name": "user-role-editor",
+        "dist": {
+          "type": "zip",
+          "url": "https://downloads.wordpress.org/plugin/user-role-editor.4.53.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "name": "wordpress-importer",
+        "dist": {
+          "type": "zip",
+          "url": "https://downloads.wordpress.org/plugin/wordpress-importer.0.7.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "name": "wp-rest-api-controller",
+        "dist": {
+          "type": "zip",
+          "url": "https://downloads.wordpress.org/plugin/wp-rest-api-controller.2.0.3.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "name": "wp-rest-cache",
+        "dist": {
+          "type": "zip",
+          "url": "https://downloads.wordpress.org/plugin/wp-rest-cache.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "name": "wpcat2tag-importer",
+        "dist": {
+          "type": "zip",
+          "url": "https://downloads.wordpress.org/plugin/wpcat2tag-importer.0.5.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "name": "basic-auth",
+        "dist": {
+          "type": "zip",
+          "url": null
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "name": "login-lockdown",
+        "dist": {
+          "type": "zip",
+          "url": "https://downloads.wordpress.org/plugin/login-lockdown.1.8.1.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "name": "polylang",
+        "dist": {
+          "type": "zip",
+          "url": "https://downloads.wordpress.org/plugin/polylang.2.6.10.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "name": "two-factor-authentication",
+        "dist": {
+          "type": "zip",
+          "url": "https://downloads.wordpress.org/plugin/two-factor-authentication.1.7.2.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "name": "va-simple-basic-auth",
+        "dist": {
+          "type": "zip",
+          "url": "https://downloads.wordpress.org/plugin/va-simple-basic-auth.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "name": "woocommerce",
+        "dist": {
+          "type": "zip",
+          "url": "https://downloads.wordpress.org/plugin/woocommerce.4.0.1.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "name": "basic-auth",
+        "dist": {
+          "type": "zip",
+          "url": "https://github.com/WP-API/Basic-Auth/archive/master.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "name": "headless-mode",
+        "dist": {
+          "type": "zip",
+          "url": "https://github.com/getshifter/headless-mode/archive/add_setting_field.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "name": "wp-graphql",
+        "dist": {
+          "type": "tar",
+          "url": "https://api.github.com/repos/wp-graphql/wp-graphql/tarball/v0.7.1"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "name": "wp-graphiql",
+        "dist": {
+          "type": "tar",
+          "url": "https://api.github.com/repos/wp-graphql/wp-graphiql/tarball/v1.0.1"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "name": "wp-graphql-acf",
+        "dist": {
+          "type": "tar",
+          "url": "https://api.github.com/repos/wp-graphql/wp-graphql-acf/tarball/v0.3.1"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "name": "wp-graphql-custom-post-type-ui",
+        "dist": {
+          "type": "tar",
+          "url": "https://api.github.com/repos/wp-graphql/wp-graphql-custom-post-type-ui/tarball/v1.1"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "name": "wp-graphql-jwt-authentication",
+        "dist": {
+          "type": "tar",
+          "url": "https://api.github.com/repos/wp-graphql/wp-graphql-jwt-authentication/tarball/v0.4.0"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "name": "wp-graphql-woocommerce",
+        "dist": {
+          "type": "tar",
+          "url": "https://api.github.com/repos/wp-graphql/wp-graphql-woocommerce/tarball/v0.4.4"
+        }
+      }
+    }
+  ],
+  "require": {
+    "php": ">=7.3",
+    "composer/installers": "1.8.0",
+    "acf-to-rest-api": "dev-master",
+    "advanced-custom-fields": "dev-master",
+    "classic-editor": "dev-master",
+    "custom-post-type-ui": "dev-master",
+    "export-media-library": "dev-master",
+    "intuitive-custom-post-order": "dev-master",
+    "rss-importer": "dev-master",
+    "search-and-replace": "dev-master",
+    "user-role-editor": "dev-master",
+    "wordpress-importer": "dev-master",
+    "wp-rest-api-controller": "dev-master",
+    "wp-rest-cache": "dev-master",
+    "wpcat2tag-importer": "dev-master",
+    "headless-mode": "dev-master",
+    "wp-graphql": "dev-master",
+    "wp-graphiql": "dev-master",
+    "wp-graphql-acf": "dev-master",
+    "wp-graphql-custom-post-type-ui": "dev-master",
+    "wp-graphql-jwt-authentication": "dev-master",
+    "wp-graphql-woocommerce": "dev-master",
+    "basic-auth": "dev-master",
+    "login-lockdown": "dev-master",
+    "polylang": "dev-master",
+    "two-factor-authentication": "dev-master",
+    "va-simple-basic-auth": "dev-master",
+    "woocommerce": "dev-master"
+  },
+  "extra": {
+    "installer-paths": {
+      "plugins/{$name}/": [
+        "type:wordpress-plugin"
+      ]
+    }
+  }
+}

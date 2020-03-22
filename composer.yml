@@ -1,0 +1,32 @@
+---
+name: getshifter/shifter-headless
+type: project
+license: MIT
+description: WordPress dependencies for Shifter-headless
+homepage: https://www.getshifter.io
+authors:
+- name: Shifter
+  email: support@getshifter.io
+  homepage: https://github.com/getshifter
+keywords:
+- wordpress
+- stack
+- composer
+- theme
+- wp
+support:
+  issues: https://www.getshifter.io
+config:
+  preferred-install: dist
+  vendor-dir: lib/vendor/
+scripts: {}
+repositories:
+- type: composer
+  url: https://wpackagist.org
+require:
+  php: ">=7.3"
+  composer/installers: 1.8.0
+extra:
+  installer-paths:
+    plugins/{$name}/:
+    - type:wordpress-plugin

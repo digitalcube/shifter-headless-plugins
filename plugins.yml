@@ -1,0 +1,55 @@
+---
+wordpress:
+  - name: acf-to-rest-api
+  - name: advanced-custom-fields
+  - name: classic-editor
+  - name: custom-post-type-ui
+  - name: export-media-library
+  - name: intuitive-custom-post-order
+  - name: rss-importer
+  - name: search-and-replace
+  - name: user-role-editor
+  - name: wordpress-importer
+  - name: wp-rest-api-controller
+  - name: wp-rest-cache
+  - name: wpcat2tag-importer
+  - name: basic-auth
+    full: true
+  - name: login-lockdown
+    full: true
+  - name: polylang
+    full: true
+  - name: two-factor-authentication
+    full: true
+  - name: va-simple-basic-auth
+    full: true
+  - name: woocommerce
+    full: true
+github:
+  - name: basic-auth
+    type: branch
+    arg: master
+    repo: WP-API/Basic-Auth
+    full: true
+  - name: headless-mode
+    type: branch
+    arg: add_setting_field
+    repo: getshifter/headless-mode
+  - name: wp-graphql
+    type: prerelease_src
+    repo: wp-graphql/wp-graphql
+  - name: wp-graphiql
+    type: prerelease_src
+    repo: wp-graphql/wp-graphiql
+  - name: wp-graphql-acf
+    type: prerelease_src
+    repo: wp-graphql/wp-graphql-acf
+  - name: wp-graphql-custom-post-type-ui
+    type: prerelease_src
+    repo: wp-graphql/wp-graphql-custom-post-type-ui
+  - name: wp-graphql-jwt-authentication
+    type: prerelease_src
+    repo: wp-graphql/wp-graphql-jwt-authentication
+  - name: wp-graphql-woocommerce
+    type: prerelease_src
+    repo: wp-graphql/wp-graphql-woocommerce
