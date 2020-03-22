@@ -14,4 +14,16 @@ RUN php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" \
 
 RUN /usr/local/bin/composer --version
 
-RUN docker-php-ext-enable zip
+ADD build /srv/build
+
+WORKDIR /srv/build/lite
+RUN composer install
+
+WORKDIR /srv/build/full
+RUN composer install
+
+
+FROM busybox:latest
+ARG STAGE=full
+COPY --from=composer /srv/build/${STAGE}/plugins /srv/plugins
+ENTRYPOINT [ "/bin/true" ]

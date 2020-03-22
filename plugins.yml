@@ -13,8 +13,6 @@ wordpress:
   - name: wp-rest-api-controller
   - name: wp-rest-cache
   - name: wpcat2tag-importer
-  - name: basic-auth
-    full: true
   - name: login-lockdown
     full: true
   - name: polylang
@@ -29,7 +27,7 @@ github:
   - name: basic-auth
     type: branch
     arg: master
-    repo: WP-API/Basic-Auth
+    repo: wp-api/basic-auth
     full: true
   - name: headless-mode
     type: branch

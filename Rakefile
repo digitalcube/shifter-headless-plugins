@@ -26,7 +26,7 @@ namespace :composer do
         package: {
           version: 'dev-master',
           type: 'wordpress-plugin',
-          name: plugin['name'],
+          name: 'wordpress/' + plugin['name'],
           dist: {
             type: 'zip'
           }
@@ -45,7 +45,7 @@ namespace :composer do
         package: {
           version: 'dev-master',
           type: 'wordpress-plugin',
-          name: plugin['name'],
+          name: plugin['repo'],
           dist: {
             type: 'tar'
           }
@@ -67,10 +67,10 @@ namespace :composer do
     File.open('build/lite/composer.json', 'w') do |f|
       composer_lite = composer_base.dup
       plugins['wordpress'].map{|x| x['name'] unless x['full']}.compact.each do |name|
-        composer_lite['require'][name] = 'dev-master'
+        composer_lite['require']['wordpress/' + name] = 'dev-master'
       end
-      plugins['github'].map{|x| x['name'] unless x['full']}.compact.each do |name|
-        composer_lite['require'][name] = 'dev-master'
+      plugins['github'].map{|x| x['repo'] unless x['full']}.compact.each do |repo|
+        composer_lite['require'][repo] = 'dev-master'
       end
       f.puts(JSON.pretty_generate(composer_lite))
     end
@@ -78,10 +78,10 @@ namespace :composer do
     File.open('build/full/composer.json', 'w') do |f|
       composer_full = composer_base.dup
       plugins['wordpress'].map{|x| x['name']}.compact.each do |name|
-        composer_full['require'][name] = 'dev-master'
+        composer_full['require']['wordpress/' + name] = 'dev-master'
       end
-      plugins['github'].map{|x| x['name']}.compact.each do |name|
-        composer_full['require'][name] = 'dev-master'
+      plugins['github'].map{|x| x['repo']}.compact.each do |repo|
+        composer_full['require'][repo] = 'dev-master'
       end
       f.puts(JSON.pretty_generate(composer_full))
     end
