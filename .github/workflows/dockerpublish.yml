@@ -54,7 +54,9 @@ jobs:
           docker build . --file Dockerfile --build-arg STAGE=lite --tag image-lite
 
       - name: Log into registry
-        run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login docker.pkg.github.com -u ${{ github.actor }} --password-stdin
+        run: |
+          echo "${{ secrets.GITHUB_TOKEN }}" | docker login docker.pkg.github.com -u ${{ github.actor }} --password-stdin
+          echo "${{ secrets.DHUB_TOKEN }}" | docker login -u ${{ secrets.DHUB_USER }} --password-stdin
 
       - name: Push image
         run: |
@@ -73,6 +75,10 @@ jobs:
           echo VERSION=$VERSION
 
           docker tag image-lite $IMAGE_ID:$VERSION-lite
+          docker tag image-lite ${{ github.repository }}:$VERSION-lite
           docker tag image $IMAGE_ID:$VERSION
+          docker tag image ${{ github.repository }}:$VERSION
           docker push $IMAGE_ID:$VERSION-lite
           docker push $IMAGE_ID:$VERSION
+          docker push ${{ github.repository }}:$VERSION-lite
+          docker push ${{ github.repository }}:$VERSION
