@@ -136,7 +136,7 @@
         "name": "wordpress/user-role-editor",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/user-role-editor.4.53.zip"
+          "url": "https://downloads.wordpress.org/plugin/user-role-editor.4.53.1.zip"
         }
       }
     },
@@ -253,10 +253,10 @@
       "package": {
         "version": "dev-master",
         "type": "wordpress-plugin",
-        "name": "WP-API/Basic-Auth",
+        "name": "wp-api/basic-auth",
         "dist": {
           "type": "zip",
-          "url": "https://github.com/WP-API/Basic-Auth/archive/master.zip"
+          "url": "https://github.com/wp-api/basic-auth/archive/master.zip"
         }
       }
     },

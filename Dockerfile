@@ -26,4 +26,5 @@ RUN composer install
 FROM busybox:latest
 ARG STAGE=full
 COPY --from=composer /srv/build/${STAGE}/plugins /srv/plugins
+VOLUME /srv/plugins
 ENTRYPOINT [ "/bin/true" ]

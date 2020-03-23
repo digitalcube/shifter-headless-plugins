@@ -2,9 +2,9 @@
 require 'json'
 require 'yaml'
 require 'open-uri'
-task default: %i[rubocop]
+task default: %i[composer:build]
 
-desc 'Run rubocop (default)'
+desc 'Run rubocop'
 task :rubocop do
   sh 'rubocop'
 end
@@ -17,7 +17,7 @@ namespace :composer do
   composer_base = YAML.load_file('./composer.yml')
   plugins = YAML.load_file('./plugins.yml')
 
-  desc 'build two composer.json'
+  desc 'build two composer.json (default)'
   task :build do
     # wordpress
     plugins['wordpress'].each do |plugin|
