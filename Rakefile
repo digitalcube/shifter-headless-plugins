@@ -17,107 +17,94 @@ namespace :composer do
   composer_base = YAML.load_file('./composer.yml')
   plugins = YAML.load_file('./plugins.yml')
 
-  desc 'create PLUGINS.md'
-  task :docs do
-    File.open('PLUGINS.md', 'w') do |f|
-      f.puts "# List of Plugins\n\n"
-      f.puts <<~EOL
-      ## From WordPress Plugin Directory
-
-      | Name | Slug | Full only? | Homepage |
-      | --- | --- | --- | --- |
-      EOL
+  desc 'build two composer.json and update PLUGINS.md (default)'
+  task :build do
+    File.open('PLUGINS.md', 'w') do |md|
+      # wordpress
       plugins['wordpress'].each do |plugin|
+        obj_repo = {
+          type: 'package',
+          package: {
+            version: 'dev-master',
+            type: 'wordpress-plugin',
+            name: 'wordpress/' + plugin['name'],
+            dist: {
+              type: 'zip'
+            }
+          }
+        }
         body = JSON.load(URI.open(WP_PLUGIN_API % plugin['name']).read)
-        f.puts(
-          "| [%s](https://wordpress.org/plugins/%s/) | %s | %s | [%s](%s) |" %
-          [body['name'], body['slug'], body['slug'], plugin['full'] ? "True" : "", body['homepage'], body['homepage']]
+        obj_repo[:package][:dist][:url] = body['download_link']
+        puts(plugin['name'], body['version'] )
+        composer_base['repositories'].append(obj_repo)
+        body = JSON.load(URI.open(WP_PLUGIN_API % plugin['name']).read)
+        md.puts(
+          "| [%s](https://wordpress.org/plugins/%s/) | %s | %s | %s | [%s](%s) |" %
+          [body['name'], body['slug'], body['slug'], body['version'].to_s, plugin['full'] ? "True" : "", body['homepage'], body['homepage']]
         )
       end
-      f.puts <<~EOL
+
+      # github
+      md.puts <<~EOL
 
       ## From Github Repository
 
-      | Name | Full only? | Repo |
-      | --- | --- | --- |
+      | Name | Version/Tag | Full only? | Repo |
+      | --- | --- | --- | --- |
       EOL
       plugins['github'].each do |plugin|
-        f.puts(
-          "| %s | %s | [https://github.com/%s](https://github.com/%s) |" %
-          [plugin['name'], plugin['full'] ? "True" : "", plugin['repo'], plugin['repo']]
+        obj_repo = {
+          type: 'package',
+          package: {
+            version: 'dev-master',
+            type: 'wordpress-plugin',
+            name: plugin['repo'],
+            dist: {
+              type: 'tar'
+            }
+          }
+        }
+        case plugin['type']
+        when 'branch'
+          obj_repo[:package][:dist][:type] = 'zip'
+          obj_repo[:package][:dist][:url] = ['https://github.com', plugin['repo'], 'archive', plugin['arg'] + '.zip'].join('/')
+          puts(plugin['name'], plugin['arg'] )
+          plugin['version'] = plugin['arg']
+        when 'prerelease_src'
+          obj_repo[:package][:dist][:type] = 'tar'
+          body = JSON.load URI.open(GITHUB_RELEASE_API % plugin['repo']).read
+          puts(plugin['name'], body[0]['name'] )
+          obj_repo[:package][:dist][:url] = body[0]['tarball_url']
+          plugin['version'] = body[0]['name']
+        end
+        composer_base['repositories'].append(obj_repo)
+        md.puts(
+          "| %s | %s | %s | [https://github.com/%s](https://github.com/%s) |" %
+          [plugin['name'], plugin['version'], plugin['full'] ? "True" : "", plugin['repo'], plugin['repo']]
         )
       end
-    end
-  end
 
+      File.open('build/lite/composer.json', 'w') do |f|
+        composer_lite = composer_base.dup
+        plugins['wordpress'].map{|x| x['name'] unless x['full']}.compact.each do |name|
+          composer_lite['require']['wordpress/' + name] = 'dev-master'
+        end
+        plugins['github'].map{|x| x['repo'] unless x['full']}.compact.each do |repo|
+          composer_lite['require'][repo] = 'dev-master'
+        end
+        f.puts(JSON.pretty_generate(composer_lite))
+      end
 
-  desc 'build two composer.json (default)'
-  task :build do
-    # wordpress
-    plugins['wordpress'].each do |plugin|
-      obj_repo = {
-        type: 'package',
-        package: {
-          version: 'dev-master',
-          type: 'wordpress-plugin',
-          name: 'wordpress/' + plugin['name'],
-          dist: {
-            type: 'zip'
-          }
-        }
-      }
-      body = JSON.load(URI.open(WP_PLUGIN_API % plugin['name']).read)
-      obj_repo[:package][:dist][:url] = body['download_link']
-      puts(plugin['name'], body['version'] )
-      composer_base['repositories'].append(obj_repo)
-    end
-
-    # github
-    plugins['github'].each do |plugin|
-      obj_repo = {
-        type: 'package',
-        package: {
-          version: 'dev-master',
-          type: 'wordpress-plugin',
-          name: plugin['repo'],
-          dist: {
-            type: 'tar'
-          }
-        }
-      }
-      case plugin['type']
-      when 'branch'
-        obj_repo[:package][:dist][:type] = 'zip'
-        obj_repo[:package][:dist][:url] = ['https://github.com', plugin['repo'], 'archive', plugin['arg'] + '.zip'].join('/')
-      when 'prerelease_src'
-        obj_repo[:package][:dist][:type] = 'tar'
-        body = JSON.load URI.open(GITHUB_RELEASE_API % plugin['repo']).read
-        puts(plugin['name'], body[0]['name'] )
-        obj_repo[:package][:dist][:url] = body[0]['tarball_url']
+      File.open('build/full/composer.json', 'w') do |f|
+        composer_full = composer_base.dup
+        plugins['wordpress'].map{|x| x['name']}.compact.each do |name|
+          composer_full['require']['wordpress/' + name] = 'dev-master'
+        end
+        plugins['github'].map{|x| x['repo']}.compact.each do |repo|
+          composer_full['require'][repo] = 'dev-master'
+        end
+        f.puts(JSON.pretty_generate(composer_full))
       end
-      composer_base['repositories'].append(obj_repo)
-    end
-
-    File.open('build/lite/composer.json', 'w') do |f|
-      composer_lite = composer_base.dup
-      plugins['wordpress'].map{|x| x['name'] unless x['full']}.compact.each do |name|
-        composer_lite['require']['wordpress/' + name] = 'dev-master'
-      end
-      plugins['github'].map{|x| x['repo'] unless x['full']}.compact.each do |repo|
-        composer_lite['require'][repo] = 'dev-master'
-      end
-      f.puts(JSON.pretty_generate(composer_lite))
-    end
-
-    File.open('build/full/composer.json', 'w') do |f|
-      composer_full = composer_base.dup
-      plugins['wordpress'].map{|x| x['name']}.compact.each do |name|
-        composer_full['require']['wordpress/' + name] = 'dev-master'
-      end
-      plugins['github'].map{|x| x['repo']}.compact.each do |repo|
-        composer_full['require'][repo] = 'dev-master'
-      end
-      f.puts(JSON.pretty_generate(composer_full))
     end
   end
 end
