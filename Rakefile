@@ -17,6 +17,40 @@ namespace :composer do
   composer_base = YAML.load_file('./composer.yml')
   plugins = YAML.load_file('./plugins.yml')
 
+  desc 'create PLUGINS.md'
+  task :docs do
+    File.open('PLUGINS.md', 'w') do |f|
+      f.puts "# List of Plugins\n\n"
+      f.puts <<~EOL
+      ## From WordPress Plugin Directory
+
+      | Name | Slug | Full only? | Homepage |
+      | --- | --- | --- | --- |
+      EOL
+      plugins['wordpress'].each do |plugin|
+        body = JSON.load(URI.open(WP_PLUGIN_API % plugin['name']).read)
+        f.puts(
+          "| [%s](https://wordpress.org/plugins/%s/) | %s | %s | [%s](%s) |" %
+          [body['name'], body['slug'], body['slug'], plugin['full'] ? "True" : "", body['homepage'], body['homepage']]
+        )
+      end
+      f.puts <<~EOL
+
+      ## From Github Repository
+
+      | Name | Full only? | Repo |
+      | --- | --- | --- |
+      EOL
+      plugins['github'].each do |plugin|
+        f.puts(
+          "| %s | %s | [https://github.com/%s](https://github.com/%s) |" %
+          [plugin['name'], plugin['full'] ? "True" : "", plugin['repo'], plugin['repo']]
+        )
+      end
+    end
+  end
+
+
   desc 'build two composer.json (default)'
   task :build do
     # wordpress
