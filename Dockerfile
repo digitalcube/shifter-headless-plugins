@@ -14,7 +14,7 @@ RUN php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" \
 
 RUN /usr/local/bin/composer --version
 
-ADD build /srv/build
+COPY build /srv/build
 
 WORKDIR /srv/build/lite
 RUN composer install
