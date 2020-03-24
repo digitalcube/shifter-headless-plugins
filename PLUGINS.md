@@ -1,3 +1,9 @@
+# List of Plugins
+
+## From WordPress Plugin Directory
+
+| Name | Slug | Version | Full only? | Homepage |
+| --- | --- | --- | --- | --- |
 | [ACF to REST API](https://wordpress.org/plugins/acf-to-rest-api/) | acf-to-rest-api | 3.2.0 |  | [http://github.com/airesvsg/acf-to-rest-api](http://github.com/airesvsg/acf-to-rest-api) |
 | [Advanced Custom Fields](https://wordpress.org/plugins/advanced-custom-fields/) | advanced-custom-fields | 5.8.8 |  | [https://www.advancedcustomfields.com](https://www.advancedcustomfields.com) |
 | [Classic Editor](https://wordpress.org/plugins/classic-editor/) | classic-editor | 1.5 |  | [https://wordpress.org/plugins/classic-editor/](https://wordpress.org/plugins/classic-editor/) |

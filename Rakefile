@@ -20,6 +20,14 @@ namespace :composer do
   desc 'build two composer.json and update PLUGINS.md (default)'
   task :build do
     File.open('PLUGINS.md', 'w') do |md|
+      md.puts "# List of Plugins\n\n"
+      md.puts <<~EOL
+      ## From WordPress Plugin Directory
+
+      | Name | Slug | Version | Full only? | Homepage |
+      | --- | --- | --- | --- | --- |
+      EOL
+
       # wordpress
       plugins['wordpress'].each do |plugin|
         obj_repo = {
