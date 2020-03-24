@@ -2,7 +2,7 @@ FROM php:7.3-cli-buster as composer
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update  --allow-releaseinfo-change --allow-insecure-repositories \
-  && apt-get upgrade -y && apt-get install -y unzip
+  && apt-get upgrade -y && apt-get install -y unzip git
 
 WORKDIR /tmp
 # Note: pinning install > php composer-setup.php --version=1.5.6

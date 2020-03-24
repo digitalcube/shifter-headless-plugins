@@ -2,6 +2,8 @@
 
 - https://www.getshifter.io
 
+List of Plugins => [PLUGINS.md](./PLUGINS.md)
+
 ## Usage example
 
 with docker-compose
