@@ -5,7 +5,7 @@
 | Name | Slug | Version | Full only? | Homepage |
 | --- | --- | --- | --- | --- |
 | [ACF to REST API](https://wordpress.org/plugins/acf-to-rest-api/) | acf-to-rest-api | 3.2.0 |  | [http://github.com/airesvsg/acf-to-rest-api](http://github.com/airesvsg/acf-to-rest-api) |
-| [Advanced Custom Fields](https://wordpress.org/plugins/advanced-custom-fields/) | advanced-custom-fields | 5.8.8 |  | [https://www.advancedcustomfields.com](https://www.advancedcustomfields.com) |
+| [Advanced Custom Fields](https://wordpress.org/plugins/advanced-custom-fields/) | advanced-custom-fields | 5.8.9 |  | [https://www.advancedcustomfields.com](https://www.advancedcustomfields.com) |
 | [Classic Editor](https://wordpress.org/plugins/classic-editor/) | classic-editor | 1.5 |  | [https://wordpress.org/plugins/classic-editor/](https://wordpress.org/plugins/classic-editor/) |
 | [Custom Post Type UI](https://wordpress.org/plugins/custom-post-type-ui/) | custom-post-type-ui | 1.7.4 |  | [https://github.com/WebDevStudios/custom-post-type-ui/](https://github.com/WebDevStudios/custom-post-type-ui/) |
 | [Export Media Library](https://wordpress.org/plugins/export-media-library/) | export-media-library | 3.0.0 |  | [https://github.com/massedge/wordpress-plugin-export-media-library](https://github.com/massedge/wordpress-plugin-export-media-library) |
@@ -34,4 +34,4 @@
 | wp-graphql-acf | v0.3.1 |  | [https://github.com/wp-graphql/wp-graphql-acf](https://github.com/wp-graphql/wp-graphql-acf) |
 | wp-graphql-custom-post-type-ui | v1.1 |  | [https://github.com/wp-graphql/wp-graphql-custom-post-type-ui](https://github.com/wp-graphql/wp-graphql-custom-post-type-ui) |
 | wp-graphql-jwt-authentication | v0.4.0 |  | [https://github.com/wp-graphql/wp-graphql-jwt-authentication](https://github.com/wp-graphql/wp-graphql-jwt-authentication) |
-| wp-graphql-woocommerce | Release v0.4.4 |  | [https://github.com/wp-graphql/wp-graphql-woocommerce](https://github.com/wp-graphql/wp-graphql-woocommerce) |
+| wp-graphql-woocommerce | Release v0.5.0 |  | [https://github.com/wp-graphql/wp-graphql-woocommerce](https://github.com/wp-graphql/wp-graphql-woocommerce) |
