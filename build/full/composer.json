@@ -208,7 +208,7 @@
         "name": "wordpress/polylang",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/polylang.2.6.10.zip"
+          "url": "https://downloads.wordpress.org/plugin/polylang.2.7.0.1.zip"
         }
       }
     },
@@ -343,6 +343,18 @@
           "url": "https://api.github.com/repos/wp-graphql/wp-graphql-woocommerce/tarball/v0.5.0"
         }
       }
+    },
+    {
+      "type": "package",
+      "package": {
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "name": "valu-digital/wp-graphql-polylang",
+        "dist": {
+          "type": "tar",
+          "url": "https://api.github.com/repos/valu-digital/wp-graphql-polylang/tarball/v0.3.9"
+        }
+      }
     }
   ],
   "require": {
@@ -373,7 +385,8 @@
     "wordpress/two-factor-authentication": "dev-master",
     "wordpress/va-simple-basic-auth": "dev-master",
     "wordpress/woocommerce": "dev-master",
-    "wp-api/basic-auth": "dev-master"
+    "wp-api/basic-auth": "dev-master",
+    "valu-digital/wp-graphql-polylang": "dev-master"
   },
   "extra": {
     "installer-paths": {

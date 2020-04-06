@@ -51,3 +51,7 @@ github:
   - name: wp-graphql-woocommerce
     type: prerelease_src
     repo: wp-graphql/wp-graphql-woocommerce
+  - name: wp-graphql-polylang
+    type: prerelease_src
+    repo: valu-digital/wp-graphql-polylang
+    full: true
