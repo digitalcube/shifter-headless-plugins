@@ -378,14 +378,14 @@
     "wp-graphql/wp-graphiql": "dev-master",
     "wp-graphql/wp-graphql-acf": "dev-master",
     "wp-graphql/wp-graphql-custom-post-type-ui": "dev-master",
-    "wp-graphql/wp-graphql-jwt-authentication": "dev-master",
-    "wp-graphql/wp-graphql-woocommerce": "dev-master",
     "wordpress/login-lockdown": "dev-master",
     "wordpress/polylang": "dev-master",
     "wordpress/two-factor-authentication": "dev-master",
     "wordpress/va-simple-basic-auth": "dev-master",
     "wordpress/woocommerce": "dev-master",
     "wp-api/basic-auth": "dev-master",
+    "wp-graphql/wp-graphql-jwt-authentication": "dev-master",
+    "wp-graphql/wp-graphql-woocommerce": "dev-master",
     "valu-digital/wp-graphql-polylang": "dev-master"
   },
   "extra": {

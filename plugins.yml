@@ -48,9 +48,11 @@ github:
   - name: wp-graphql-jwt-authentication
     type: prerelease_src
     repo: wp-graphql/wp-graphql-jwt-authentication
+    full: true
   - name: wp-graphql-woocommerce
     type: prerelease_src
     repo: wp-graphql/wp-graphql-woocommerce
+    full: true
   - name: wp-graphql-polylang
     type: prerelease_src
     repo: valu-digital/wp-graphql-polylang
