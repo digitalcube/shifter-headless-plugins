@@ -23,6 +23,8 @@ wordpress:
     full: true
   - name: woocommerce
     full: true
+  - name: woocommerce-gateway-stripe
+    full: true
 github:
   - name: basic-auth
     type: branch

@@ -22,6 +22,7 @@
 | [Two Factor Authentication](https://wordpress.org/plugins/two-factor-authentication/) | two-factor-authentication | 1.7.2 | True | [https://www.simbahosting.co.uk/s3/product/two-factor-authentication/](https://www.simbahosting.co.uk/s3/product/two-factor-authentication/) |
 | [VA Simple Basic Auth](https://wordpress.org/plugins/va-simple-basic-auth/) | va-simple-basic-auth | 1.1.0 | True | [https://github.com/VisuAlive/va-simple-basic-auth](https://github.com/VisuAlive/va-simple-basic-auth) |
 | [WooCommerce](https://wordpress.org/plugins/woocommerce/) | woocommerce | 4.0.1 | True | [https://woocommerce.com/](https://woocommerce.com/) |
+| [WooCommerce Stripe Payment Gateway](https://wordpress.org/plugins/woocommerce-gateway-stripe/) | woocommerce-gateway-stripe | 4.3.2 | True | [https://wordpress.org/plugins/woocommerce-gateway-stripe/](https://wordpress.org/plugins/woocommerce-gateway-stripe/) |
 
 ## From Github Repository
 
