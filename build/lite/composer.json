@@ -253,18 +253,6 @@
       "package": {
         "version": "dev-master",
         "type": "wordpress-plugin",
-        "name": "wordpress/woocommerce-gateway-stripe",
-        "dist": {
-          "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/woocommerce-gateway-stripe.4.3.2.zip"
-        }
-      }
-    },
-    {
-      "type": "package",
-      "package": {
-        "version": "dev-master",
-        "type": "wordpress-plugin",
         "name": "wp-api/basic-auth",
         "dist": {
           "type": "zip",
