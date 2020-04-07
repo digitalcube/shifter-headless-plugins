@@ -21,3 +21,7 @@ services:
 volumes:
   plugindata:
 ```
+
+## Contributing
+
+If you have any additional plugins or other opinions, please create an [Issue](https://github.com/getshifter/headless-plugins/issues) with your reasons.
