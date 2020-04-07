@@ -253,18 +253,6 @@
       "package": {
         "version": "dev-master",
         "type": "wordpress-plugin",
-        "name": "wordpress/woocommerce-gateway-stripe",
-        "dist": {
-          "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/woocommerce-gateway-stripe.4.3.2.zip"
-        }
-      }
-    },
-    {
-      "type": "package",
-      "package": {
-        "version": "dev-master",
-        "type": "wordpress-plugin",
         "name": "wp-api/basic-auth",
         "dist": {
           "type": "zip",
@@ -395,7 +383,6 @@
     "wordpress/two-factor-authentication": "dev-master",
     "wordpress/va-simple-basic-auth": "dev-master",
     "wordpress/woocommerce": "dev-master",
-    "wordpress/woocommerce-gateway-stripe": "dev-master",
     "wp-api/basic-auth": "dev-master",
     "wp-graphql/wp-graphql-jwt-authentication": "dev-master",
     "wp-graphql/wp-graphql-woocommerce": "dev-master",
