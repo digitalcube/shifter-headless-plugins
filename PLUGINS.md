@@ -10,6 +10,7 @@
 | [Custom Post Type UI](https://wordpress.org/plugins/custom-post-type-ui/) | custom-post-type-ui | 1.7.4 |  | [https://github.com/WebDevStudios/custom-post-type-ui/](https://github.com/WebDevStudios/custom-post-type-ui/) |
 | [Export Media Library](https://wordpress.org/plugins/export-media-library/) | export-media-library | 3.0.0 |  | [https://github.com/massedge/wordpress-plugin-export-media-library](https://github.com/massedge/wordpress-plugin-export-media-library) |
 | [Intuitive Custom Post Order](https://wordpress.org/plugins/intuitive-custom-post-order/) | intuitive-custom-post-order | 3.1.2 |  | [http://hijiriworld.com/web/plugins/intuitive-custom-post-order/](http://hijiriworld.com/web/plugins/intuitive-custom-post-order/) |
+| [Redirection](https://wordpress.org/plugins/redirection/) | redirection | 4.7.1 |  | [https://redirection.me/](https://redirection.me/) |
 | [RSS Importer](https://wordpress.org/plugins/rss-importer/) | rss-importer | 0.2 |  | [http://wordpress.org/extend/plugins/rss-importer/](http://wordpress.org/extend/plugins/rss-importer/) |
 | [Search &amp; Replace](https://wordpress.org/plugins/search-and-replace/) | search-and-replace | 3.2.1 |  | [https://wordpress.org/plugins/search-and-replace/](https://wordpress.org/plugins/search-and-replace/) |
 | [User Role Editor](https://wordpress.org/plugins/user-role-editor/) | user-role-editor | 4.53.1 |  | [https://www.role-editor.com](https://www.role-editor.com) |
@@ -28,7 +29,6 @@
 | Name | Version/Tag | Full only? | Repo |
 | --- | --- | --- | --- |
 | basic-auth | master | True | [https://github.com/wp-api/basic-auth](https://github.com/wp-api/basic-auth) |
-| headless-mode | add_setting_field |  | [https://github.com/getshifter/headless-mode](https://github.com/getshifter/headless-mode) |
 | wp-graphql | v0.8.1 |  | [https://github.com/wp-graphql/wp-graphql](https://github.com/wp-graphql/wp-graphql) |
 | wp-graphiql | v1.0.1 |  | [https://github.com/wp-graphql/wp-graphiql](https://github.com/wp-graphql/wp-graphiql) |
 | wp-graphql-acf | v0.3.1 |  | [https://github.com/wp-graphql/wp-graphql-acf](https://github.com/wp-graphql/wp-graphql-acf) |

@@ -109,6 +109,18 @@
       "package": {
         "version": "dev-master",
         "type": "wordpress-plugin",
+        "name": "wordpress/redirection",
+        "dist": {
+          "type": "zip",
+          "url": "https://downloads.wordpress.org/plugin/redirection.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "version": "dev-master",
+        "type": "wordpress-plugin",
         "name": "wordpress/rss-importer",
         "dist": {
           "type": "zip",
@@ -265,18 +277,6 @@
       "package": {
         "version": "dev-master",
         "type": "wordpress-plugin",
-        "name": "getshifter/headless-mode",
-        "dist": {
-          "type": "zip",
-          "url": "https://github.com/getshifter/headless-mode/archive/add_setting_field.zip"
-        }
-      }
-    },
-    {
-      "type": "package",
-      "package": {
-        "version": "dev-master",
-        "type": "wordpress-plugin",
         "name": "wp-graphql/wp-graphql",
         "dist": {
           "type": "tar",
@@ -366,6 +366,7 @@
     "wordpress/custom-post-type-ui": "dev-master",
     "wordpress/export-media-library": "dev-master",
     "wordpress/intuitive-custom-post-order": "dev-master",
+    "wordpress/redirection": "dev-master",
     "wordpress/rss-importer": "dev-master",
     "wordpress/search-and-replace": "dev-master",
     "wordpress/user-role-editor": "dev-master",
@@ -373,7 +374,6 @@
     "wordpress/wp-rest-api-controller": "dev-master",
     "wordpress/wp-rest-cache": "dev-master",
     "wordpress/wpcat2tag-importer": "dev-master",
-    "getshifter/headless-mode": "dev-master",
     "wp-graphql/wp-graphql": "dev-master",
     "wp-graphql/wp-graphiql": "dev-master",
     "wp-graphql/wp-graphql-acf": "dev-master",
