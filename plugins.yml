@@ -6,6 +6,7 @@ wordpress:
   - name: custom-post-type-ui
   - name: export-media-library
   - name: intuitive-custom-post-order
+  - name: redirection
   - name: rss-importer
   - name: search-and-replace
   - name: user-role-editor
@@ -29,10 +30,6 @@ github:
     arg: master
     repo: wp-api/basic-auth
     full: true
-  - name: headless-mode
-    type: branch
-    arg: add_setting_field
-    repo: getshifter/headless-mode
   - name: wp-graphql
     type: prerelease_src
     repo: wp-graphql/wp-graphql
