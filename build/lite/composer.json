@@ -208,7 +208,7 @@
         "name": "wordpress/polylang",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/polylang.2.7.0.1.zip"
+          "url": "https://downloads.wordpress.org/plugin/polylang.2.7.1.zip"
         }
       }
     },
