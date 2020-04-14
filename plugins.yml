@@ -4,6 +4,7 @@ wordpress:
   - name: advanced-custom-fields
   - name: classic-editor
   - name: custom-post-type-ui
+  - name: code-snippets
   - name: export-media-library
   - name: intuitive-custom-post-order
   - name: redirection
@@ -30,11 +31,6 @@ github:
     type: branch
     arg: master
     repo: wp-api/basic-auth
-    full: true
-  - name: rest-filter
-    type: branch
-    arg: master
-    repo: WP-API/rest-filter
     full: true
   - name: wp-graphql
     type: prerelease_src

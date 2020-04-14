@@ -85,6 +85,18 @@
       "package": {
         "version": "dev-master",
         "type": "wordpress-plugin",
+        "name": "wordpress/code-snippets",
+        "dist": {
+          "type": "zip",
+          "url": "https://downloads.wordpress.org/plugin/code-snippets.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "version": "dev-master",
+        "type": "wordpress-plugin",
         "name": "wordpress/export-media-library",
         "dist": {
           "type": "zip",
@@ -289,18 +301,6 @@
       "package": {
         "version": "dev-master",
         "type": "wordpress-plugin",
-        "name": "WP-API/rest-filter",
-        "dist": {
-          "type": "zip",
-          "url": "https://github.com/WP-API/rest-filter/archive/master.zip"
-        }
-      }
-    },
-    {
-      "type": "package",
-      "package": {
-        "version": "dev-master",
-        "type": "wordpress-plugin",
         "name": "wp-graphql/wp-graphql",
         "dist": {
           "type": "tar",
@@ -388,6 +388,7 @@
     "wordpress/advanced-custom-fields": "dev-master",
     "wordpress/classic-editor": "dev-master",
     "wordpress/custom-post-type-ui": "dev-master",
+    "wordpress/code-snippets": "dev-master",
     "wordpress/export-media-library": "dev-master",
     "wordpress/intuitive-custom-post-order": "dev-master",
     "wordpress/redirection": "dev-master",
