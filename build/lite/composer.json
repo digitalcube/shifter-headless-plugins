@@ -205,6 +205,18 @@
       "package": {
         "version": "dev-master",
         "type": "wordpress-plugin",
+        "name": "wordpress/wp-jamstack-deployments",
+        "dist": {
+          "type": "zip",
+          "url": "https://downloads.wordpress.org/plugin/wp-jamstack-deployments.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "version": "dev-master",
+        "type": "wordpress-plugin",
         "name": "wordpress/login-lockdown",
         "dist": {
           "type": "zip",
@@ -374,6 +386,7 @@
     "wordpress/wp-rest-api-controller": "dev-master",
     "wordpress/wp-rest-cache": "dev-master",
     "wordpress/wpcat2tag-importer": "dev-master",
+    "wordpress/wp-jamstack-deployments": "dev-master",
     "wp-graphql/wp-graphql": "dev-master",
     "wp-graphql/wp-graphiql": "dev-master",
     "wp-graphql/wp-graphql-acf": "dev-master",
