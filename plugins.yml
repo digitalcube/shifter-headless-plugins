@@ -31,6 +31,11 @@ github:
     arg: master
     repo: wp-api/basic-auth
     full: true
+  - name: rest-filter
+    type: branch
+    arg: master
+    repo: WP-API/rest-filter
+    full: true
   - name: wp-graphql
     type: prerelease_src
     repo: wp-graphql/wp-graphql

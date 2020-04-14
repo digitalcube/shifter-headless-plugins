@@ -289,6 +289,18 @@
       "package": {
         "version": "dev-master",
         "type": "wordpress-plugin",
+        "name": "WP-API/rest-filter",
+        "dist": {
+          "type": "zip",
+          "url": "https://github.com/WP-API/rest-filter/archive/master.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "version": "dev-master",
+        "type": "wordpress-plugin",
         "name": "wp-graphql/wp-graphql",
         "dist": {
           "type": "tar",
