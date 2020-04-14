@@ -289,6 +289,18 @@
       "package": {
         "version": "dev-master",
         "type": "wordpress-plugin",
+        "name": "WP-API/rest-filter",
+        "dist": {
+          "type": "zip",
+          "url": "https://github.com/WP-API/rest-filter/archive/master.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "version": "dev-master",
+        "type": "wordpress-plugin",
         "name": "wp-graphql/wp-graphql",
         "dist": {
           "type": "tar",
@@ -397,6 +409,7 @@
     "wordpress/va-simple-basic-auth": "dev-master",
     "wordpress/woocommerce": "dev-master",
     "wp-api/basic-auth": "dev-master",
+    "WP-API/rest-filter": "dev-master",
     "wp-graphql/wp-graphql-jwt-authentication": "dev-master",
     "wp-graphql/wp-graphql-woocommerce": "dev-master",
     "valu-digital/wp-graphql-polylang": "dev-master"
