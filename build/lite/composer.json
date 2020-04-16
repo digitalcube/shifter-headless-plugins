@@ -157,6 +157,18 @@
       "package": {
         "version": "dev-master",
         "type": "wordpress-plugin",
+        "name": "wordpress/tablepress",
+        "dist": {
+          "type": "zip",
+          "url": "https://downloads.wordpress.org/plugin/tablepress.1.11.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "version": "dev-master",
+        "type": "wordpress-plugin",
         "name": "wordpress/user-role-editor",
         "dist": {
           "type": "zip",
@@ -394,6 +406,7 @@
     "wordpress/redirection": "dev-master",
     "wordpress/rss-importer": "dev-master",
     "wordpress/search-and-replace": "dev-master",
+    "wordpress/tablepress": "dev-master",
     "wordpress/user-role-editor": "dev-master",
     "wordpress/wordpress-importer": "dev-master",
     "wordpress/wp-rest-api-controller": "dev-master",

@@ -10,6 +10,7 @@ wordpress:
   - name: redirection
   - name: rss-importer
   - name: search-and-replace
+  - name: tablepress
   - name: user-role-editor
   - name: wordpress-importer
   - name: wp-rest-api-controller
