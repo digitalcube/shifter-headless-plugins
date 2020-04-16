@@ -14,6 +14,7 @@
 | [Redirection](https://wordpress.org/plugins/redirection/) | redirection | 4.7.1 |  | [https://redirection.me/](https://redirection.me/) |
 | [RSS Importer](https://wordpress.org/plugins/rss-importer/) | rss-importer | 0.2 |  | [http://wordpress.org/extend/plugins/rss-importer/](http://wordpress.org/extend/plugins/rss-importer/) |
 | [Search &amp; Replace](https://wordpress.org/plugins/search-and-replace/) | search-and-replace | 3.2.1 |  | [https://wordpress.org/plugins/search-and-replace/](https://wordpress.org/plugins/search-and-replace/) |
+| [TablePress](https://wordpress.org/plugins/tablepress/) | tablepress | 1.11 |  | [https://tablepress.org/](https://tablepress.org/) |
 | [User Role Editor](https://wordpress.org/plugins/user-role-editor/) | user-role-editor | 4.53.1 |  | [https://www.role-editor.com](https://www.role-editor.com) |
 | [WordPress Importer](https://wordpress.org/plugins/wordpress-importer/) | wordpress-importer | 0.7 |  | [https://wordpress.org/plugins/wordpress-importer/](https://wordpress.org/plugins/wordpress-importer/) |
 | [WP REST API Controller](https://wordpress.org/plugins/wp-rest-api-controller/) | wp-rest-api-controller | 2.0.3 |  | [https://www.yikesplugins.com](https://www.yikesplugins.com) |
