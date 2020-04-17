@@ -61,6 +61,18 @@
       "package": {
         "version": "dev-master",
         "type": "wordpress-plugin",
+        "name": "wordpress/all-in-one-wp-migration",
+        "dist": {
+          "type": "zip",
+          "url": "https://downloads.wordpress.org/plugin/all-in-one-wp-migration.7.20.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "version": "dev-master",
+        "type": "wordpress-plugin",
         "name": "wordpress/classic-editor",
         "dist": {
           "type": "zip",
@@ -398,6 +410,7 @@
     "composer/installers": "1.8.0",
     "wordpress/acf-to-rest-api": "dev-master",
     "wordpress/advanced-custom-fields": "dev-master",
+    "wordpress/all-in-one-wp-migration": "dev-master",
     "wordpress/classic-editor": "dev-master",
     "wordpress/custom-post-type-ui": "dev-master",
     "wordpress/code-snippets": "dev-master",
