@@ -9,7 +9,10 @@ Plugins are being added and removed through developer research and community fee
 
 We also refer to wordpress.com's [Incompatible Plugins](https://wordpress.com/support/incompatible-plugins/) criteria.
 
-You can also submit a bug report or additional requests.
+You can subscribe to the feed below to know ahead of time when the plugin is updated.
+
+- https://github.com/getshifter/headless-plugins/commits/develop/PLUGINS.md.atom
+- https://github.com/getshifter/headless-plugins/commits/master/PLUGINS.md.atom
 
 ## Usage example
 
