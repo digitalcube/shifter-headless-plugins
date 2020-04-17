@@ -4,6 +4,13 @@
 
 List of Plugins => [PLUGINS.md](./PLUGINS.md)
 
+This repository manages the plugins that Shifter Headless.
+Plugins are being added and removed through developer research and community feedback.
+
+We also refer to wordpress.com's [Incompatible Plugins](https://wordpress.com/support/incompatible-plugins/) criteria.
+
+You can also submit a bug report or additional requests.
+
 ## Usage example
 
 with docker-compose
@@ -20,6 +27,19 @@ services:
       - plugindata:/srv/plugins
 volumes:
   plugindata:
+```
+
+with multistage-build
+
+```
+FROM getshifter/headless-plugins:stable as plugins
+RUN /bin/true
+
+FROM wordpress:latest
+
+... do something ...
+
+COPY --from=plugins /srv/plugins /path/to/wp-content/plugins
 ```
 
 ## Contributing
