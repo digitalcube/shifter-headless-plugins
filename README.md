@@ -11,6 +11,11 @@ We also refer to wordpress.com's [Incompatible Plugins](https://wordpress.com/su
 
 You can also submit a bug report or additional requests.
 
+You can efficiently check the status of the plugin updates in the feed below.
+
+- https://github.com/getshifter/headless-plugins/commits/develop/PLUGINS.md.atom
+- https://github.com/getshifter/headless-plugins/commits/master/PLUGINS.md.atom
+
 ## Usage example
 
 with docker-compose
