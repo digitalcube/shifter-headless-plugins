@@ -109,6 +109,18 @@
       "package": {
         "version": "dev-master",
         "type": "wordpress-plugin",
+        "name": "wordpress/enable-media-replace",
+        "dist": {
+          "type": "zip",
+          "url": "https://downloads.wordpress.org/plugin/enable-media-replace.3.3.11.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "version": "dev-master",
+        "type": "wordpress-plugin",
         "name": "wordpress/export-media-library",
         "dist": {
           "type": "zip",
@@ -414,6 +426,7 @@
     "wordpress/classic-editor": "dev-master",
     "wordpress/custom-post-type-ui": "dev-master",
     "wordpress/code-snippets": "dev-master",
+    "wordpress/enable-media-replace": "dev-master",
     "wordpress/export-media-library": "dev-master",
     "wordpress/intuitive-custom-post-order": "dev-master",
     "wordpress/redirection": "dev-master",
