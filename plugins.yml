@@ -2,9 +2,11 @@
 wordpress:
   - name: acf-to-rest-api
   - name: advanced-custom-fields
+  - name: all-in-one-wp-migration
   - name: classic-editor
   - name: custom-post-type-ui
   - name: code-snippets
+  - name: enable-media-replace
   - name: export-media-library
   - name: intuitive-custom-post-order
   - name: redirection
