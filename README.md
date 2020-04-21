@@ -14,6 +14,8 @@ You can subscribe to the feed below to know ahead of time when the plugin is upd
 - https://github.com/getshifter/headless-plugins/commits/develop/PLUGINS.md.atom
 - https://github.com/getshifter/headless-plugins/commits/master/PLUGINS.md.atom
 
+[![headless-plugins](http://dockeri.co/image/getshifter/headless-plugins)](https://hub.docker.com/r/getshifter/headless-plugins/)
+
 ## Usage example
 
 with docker-compose
