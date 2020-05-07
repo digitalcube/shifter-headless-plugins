@@ -17,7 +17,7 @@
 | [RSS Importer](https://wordpress.org/plugins/rss-importer/) | rss-importer | 0.2 |  | [http://wordpress.org/extend/plugins/rss-importer/](http://wordpress.org/extend/plugins/rss-importer/) |
 | [Search &amp; Replace](https://wordpress.org/plugins/search-and-replace/) | search-and-replace | 3.2.1 |  | [https://wordpress.org/plugins/search-and-replace/](https://wordpress.org/plugins/search-and-replace/) |
 | [TablePress](https://wordpress.org/plugins/tablepress/) | tablepress | 1.11 |  | [https://tablepress.org/](https://tablepress.org/) |
-| [User Role Editor](https://wordpress.org/plugins/user-role-editor/) | user-role-editor | 4.53.1 |  | [https://www.role-editor.com](https://www.role-editor.com) |
+| [User Role Editor](https://wordpress.org/plugins/user-role-editor/) | user-role-editor | 4.54 |  | [https://www.role-editor.com](https://www.role-editor.com) |
 | [WordPress Importer](https://wordpress.org/plugins/wordpress-importer/) | wordpress-importer | 0.7 |  | [https://wordpress.org/plugins/wordpress-importer/](https://wordpress.org/plugins/wordpress-importer/) |
 | [WP REST API Controller](https://wordpress.org/plugins/wp-rest-api-controller/) | wp-rest-api-controller | 2.0.3 |  | [https://www.yikesplugins.com](https://www.yikesplugins.com) |
 | [WP REST Cache](https://wordpress.org/plugins/wp-rest-cache/) | wp-rest-cache | 2020.1.1 |  | [http://www.acato.nl](http://www.acato.nl) |
@@ -27,7 +27,7 @@
 | [Polylang](https://wordpress.org/plugins/polylang/) | polylang | 2.7.2 | True | [https://polylang.pro](https://polylang.pro) |
 | [Two Factor Authentication](https://wordpress.org/plugins/two-factor-authentication/) | two-factor-authentication | 1.7.2 | True | [https://www.simbahosting.co.uk/s3/product/two-factor-authentication/](https://www.simbahosting.co.uk/s3/product/two-factor-authentication/) |
 | [VA Simple Basic Auth](https://wordpress.org/plugins/va-simple-basic-auth/) | va-simple-basic-auth | 1.1.0 | True | [https://github.com/VisuAlive/va-simple-basic-auth](https://github.com/VisuAlive/va-simple-basic-auth) |
-| [WooCommerce](https://wordpress.org/plugins/woocommerce/) | woocommerce | 4.0.1 | True | [https://woocommerce.com/](https://woocommerce.com/) |
+| [WooCommerce](https://wordpress.org/plugins/woocommerce/) | woocommerce | 4.1.0 | True | [https://woocommerce.com/](https://woocommerce.com/) |
 
 ## From Github Repository
 
@@ -38,6 +38,6 @@
 | wp-graphiql | v1.0.1 |  | [https://github.com/wp-graphql/wp-graphiql](https://github.com/wp-graphql/wp-graphiql) |
 | wp-graphql-acf | v0.3.3 |  | [https://github.com/wp-graphql/wp-graphql-acf](https://github.com/wp-graphql/wp-graphql-acf) |
 | wp-graphql-custom-post-type-ui | v1.1 |  | [https://github.com/wp-graphql/wp-graphql-custom-post-type-ui](https://github.com/wp-graphql/wp-graphql-custom-post-type-ui) |
-| wp-graphql-jwt-authentication | v0.4.0 | True | [https://github.com/wp-graphql/wp-graphql-jwt-authentication](https://github.com/wp-graphql/wp-graphql-jwt-authentication) |
+| wp-graphql-jwt-authentication | v0.4.1 | True | [https://github.com/wp-graphql/wp-graphql-jwt-authentication](https://github.com/wp-graphql/wp-graphql-jwt-authentication) |
 | wp-graphql-woocommerce | Release v0.5.0 | True | [https://github.com/wp-graphql/wp-graphql-woocommerce](https://github.com/wp-graphql/wp-graphql-woocommerce) |
 | wp-graphql-polylang | v0.4.0 | True | [https://github.com/valu-digital/wp-graphql-polylang](https://github.com/valu-digital/wp-graphql-polylang) |
