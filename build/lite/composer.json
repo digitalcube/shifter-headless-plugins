@@ -52,7 +52,7 @@
         "name": "wordpress/advanced-custom-fields",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.5.8.10.zip"
+          "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.5.8.11.zip"
         }
       }
     },
