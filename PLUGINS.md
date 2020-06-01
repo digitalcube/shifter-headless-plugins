@@ -11,7 +11,7 @@
 | [Custom Post Type UI](https://wordpress.org/plugins/custom-post-type-ui/) | custom-post-type-ui | 1.7.4 |  | [https://github.com/WebDevStudios/custom-post-type-ui/](https://github.com/WebDevStudios/custom-post-type-ui/) |
 | [Code Snippets](https://wordpress.org/plugins/code-snippets/) | code-snippets | 2.14.0 |  | [https://github.com/sheabunge/code-snippets](https://github.com/sheabunge/code-snippets) |
 | [Enable Media Replace](https://wordpress.org/plugins/enable-media-replace/) | enable-media-replace | 3.3.12 |  | [https://wordpress.org/plugins/enable-media-replace/](https://wordpress.org/plugins/enable-media-replace/) |
-| [Export Media Library](https://wordpress.org/plugins/export-media-library/) | export-media-library | 3.0.0 |  | [https://github.com/massedge/wordpress-plugin-export-media-library](https://github.com/massedge/wordpress-plugin-export-media-library) |
+| [Export Media Library](https://wordpress.org/plugins/export-media-library/) | export-media-library | 3.0.1 |  | [https://github.com/massedge/wordpress-plugin-export-media-library](https://github.com/massedge/wordpress-plugin-export-media-library) |
 | [Intuitive Custom Post Order](https://wordpress.org/plugins/intuitive-custom-post-order/) | intuitive-custom-post-order | 3.1.2 |  | [http://hijiriworld.com/web/plugins/intuitive-custom-post-order/](http://hijiriworld.com/web/plugins/intuitive-custom-post-order/) |
 | [Redirection](https://wordpress.org/plugins/redirection/) | redirection | 4.8 |  | [https://redirection.me/](https://redirection.me/) |
 | [RSS Importer](https://wordpress.org/plugins/rss-importer/) | rss-importer | 0.2 |  | [http://wordpress.org/extend/plugins/rss-importer/](http://wordpress.org/extend/plugins/rss-importer/) |

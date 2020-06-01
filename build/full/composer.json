@@ -124,7 +124,7 @@
         "name": "wordpress/export-media-library",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/export-media-library.3.0.0.zip"
+          "url": "https://downloads.wordpress.org/plugin/export-media-library.3.0.1.zip"
         }
       }
     },
