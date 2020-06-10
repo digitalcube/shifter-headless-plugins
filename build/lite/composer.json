@@ -52,7 +52,7 @@
         "name": "wordpress/advanced-custom-fields",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.5.8.11.zip"
+          "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.5.8.12.zip"
         }
       }
     },
@@ -64,7 +64,7 @@
         "name": "wordpress/all-in-one-wp-migration",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/all-in-one-wp-migration.7.22.zip"
+          "url": "https://downloads.wordpress.org/plugin/all-in-one-wp-migration.7.23.zip"
         }
       }
     },
@@ -112,7 +112,7 @@
         "name": "wordpress/enable-media-replace",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/enable-media-replace.3.3.12.zip"
+          "url": "https://downloads.wordpress.org/plugin/enable-media-replace.zip"
         }
       }
     },
@@ -196,7 +196,7 @@
         "name": "wordpress/user-role-editor",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/user-role-editor.4.54.zip"
+          "url": "https://downloads.wordpress.org/plugin/user-role-editor.4.55.1.zip"
         }
       }
     },
