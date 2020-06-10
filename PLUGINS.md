@@ -5,19 +5,19 @@
 | Name | Slug | Version | Full only? | Homepage |
 | --- | --- | --- | --- | --- |
 | [ACF to REST API](https://wordpress.org/plugins/acf-to-rest-api/) | acf-to-rest-api | 3.2.0 |  | [http://github.com/airesvsg/acf-to-rest-api](http://github.com/airesvsg/acf-to-rest-api) |
-| [Advanced Custom Fields](https://wordpress.org/plugins/advanced-custom-fields/) | advanced-custom-fields | 5.8.11 |  | [https://www.advancedcustomfields.com](https://www.advancedcustomfields.com) |
-| [All-in-One WP Migration](https://wordpress.org/plugins/all-in-one-wp-migration/) | all-in-one-wp-migration | 7.22 |  | [https://servmask.com/](https://servmask.com/) |
+| [Advanced Custom Fields](https://wordpress.org/plugins/advanced-custom-fields/) | advanced-custom-fields | 5.8.12 |  | [https://www.advancedcustomfields.com](https://www.advancedcustomfields.com) |
+| [All-in-One WP Migration](https://wordpress.org/plugins/all-in-one-wp-migration/) | all-in-one-wp-migration | 7.23 |  | [https://servmask.com/](https://servmask.com/) |
 | [Classic Editor](https://wordpress.org/plugins/classic-editor/) | classic-editor | 1.5 |  | [https://wordpress.org/plugins/classic-editor/](https://wordpress.org/plugins/classic-editor/) |
 | [Custom Post Type UI](https://wordpress.org/plugins/custom-post-type-ui/) | custom-post-type-ui | 1.7.4 |  | [https://github.com/WebDevStudios/custom-post-type-ui/](https://github.com/WebDevStudios/custom-post-type-ui/) |
 | [Code Snippets](https://wordpress.org/plugins/code-snippets/) | code-snippets | 2.14.0 |  | [https://github.com/sheabunge/code-snippets](https://github.com/sheabunge/code-snippets) |
-| [Enable Media Replace](https://wordpress.org/plugins/enable-media-replace/) | enable-media-replace | 3.3.12 |  | [https://wordpress.org/plugins/enable-media-replace/](https://wordpress.org/plugins/enable-media-replace/) |
+| [Enable Media Replace](https://wordpress.org/plugins/enable-media-replace/) | enable-media-replace | 3.4.0 |  | [https://wordpress.org/plugins/enable-media-replace/](https://wordpress.org/plugins/enable-media-replace/) |
 | [Export Media Library](https://wordpress.org/plugins/export-media-library/) | export-media-library | 3.0.1 |  | [https://github.com/massedge/wordpress-plugin-export-media-library](https://github.com/massedge/wordpress-plugin-export-media-library) |
 | [Intuitive Custom Post Order](https://wordpress.org/plugins/intuitive-custom-post-order/) | intuitive-custom-post-order | 3.1.2 |  | [http://hijiriworld.com/web/plugins/intuitive-custom-post-order/](http://hijiriworld.com/web/plugins/intuitive-custom-post-order/) |
 | [Redirection](https://wordpress.org/plugins/redirection/) | redirection | 4.8 |  | [https://redirection.me/](https://redirection.me/) |
 | [RSS Importer](https://wordpress.org/plugins/rss-importer/) | rss-importer | 0.2 |  | [http://wordpress.org/extend/plugins/rss-importer/](http://wordpress.org/extend/plugins/rss-importer/) |
 | [Search &amp; Replace](https://wordpress.org/plugins/search-and-replace/) | search-and-replace | 3.2.1 |  | [https://wordpress.org/plugins/search-and-replace/](https://wordpress.org/plugins/search-and-replace/) |
 | [TablePress](https://wordpress.org/plugins/tablepress/) | tablepress | 1.11 |  | [https://tablepress.org/](https://tablepress.org/) |
-| [User Role Editor](https://wordpress.org/plugins/user-role-editor/) | user-role-editor | 4.54 |  | [https://www.role-editor.com](https://www.role-editor.com) |
+| [User Role Editor](https://wordpress.org/plugins/user-role-editor/) | user-role-editor | 4.55.1 |  | [https://www.role-editor.com](https://www.role-editor.com) |
 | [WordPress Importer](https://wordpress.org/plugins/wordpress-importer/) | wordpress-importer | 0.7 |  | [https://wordpress.org/plugins/wordpress-importer/](https://wordpress.org/plugins/wordpress-importer/) |
 | [WP REST API Controller](https://wordpress.org/plugins/wp-rest-api-controller/) | wp-rest-api-controller | 2.0.3 |  | [https://www.yikesplugins.com](https://www.yikesplugins.com) |
 | [WP REST Cache](https://wordpress.org/plugins/wp-rest-cache/) | wp-rest-cache | 2020.1.1 |  | [http://www.acato.nl](http://www.acato.nl) |
