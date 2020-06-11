@@ -112,7 +112,7 @@
         "name": "wordpress/enable-media-replace",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/enable-media-replace.zip"
+          "url": "https://downloads.wordpress.org/plugin/enable-media-replace.3.4.0.zip"
         }
       }
     },
