@@ -15,7 +15,6 @@ wordpress:
   - name: tablepress
   - name: user-role-editor
   - name: wordpress-importer
-  - name: movabletype-importer
   - name: wp-rest-api-controller
   - name: wp-rest-cache
   - name: wpcat2tag-importer

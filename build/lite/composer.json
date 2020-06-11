@@ -217,18 +217,6 @@
       "package": {
         "version": "dev-master",
         "type": "wordpress-plugin",
-        "name": "wordpress/movabletype-importer",
-        "dist": {
-          "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/movabletype-importer.0.4.zip"
-        }
-      }
-    },
-    {
-      "type": "package",
-      "package": {
-        "version": "dev-master",
-        "type": "wordpress-plugin",
         "name": "wordpress/wp-rest-api-controller",
         "dist": {
           "type": "zip",
@@ -447,7 +435,6 @@
     "wordpress/tablepress": "dev-master",
     "wordpress/user-role-editor": "dev-master",
     "wordpress/wordpress-importer": "dev-master",
-    "wordpress/movabletype-importer": "dev-master",
     "wordpress/wp-rest-api-controller": "dev-master",
     "wordpress/wp-rest-cache": "dev-master",
     "wordpress/wpcat2tag-importer": "dev-master",
