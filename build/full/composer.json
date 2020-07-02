@@ -40,7 +40,7 @@
         "name": "wordpress/acf-to-rest-api",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/acf-to-rest-api.3.2.0.zip"
+          "url": "https://downloads.wordpress.org/plugin/acf-to-rest-api.3.3.1.zip"
         }
       }
     },
@@ -280,7 +280,7 @@
         "name": "wordpress/polylang",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/polylang.2.7.3.zip"
+          "url": "https://downloads.wordpress.org/plugin/polylang.2.7.4.zip"
         }
       }
     },
@@ -316,7 +316,7 @@
         "name": "wordpress/woocommerce",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/woocommerce.4.2.1.zip"
+          "url": "https://downloads.wordpress.org/plugin/woocommerce.4.2.2.zip"
         }
       }
     },
@@ -340,7 +340,7 @@
         "name": "wp-graphql/wp-graphql",
         "dist": {
           "type": "tar",
-          "url": "https://api.github.com/repos/wp-graphql/wp-graphql/tarball/v0.9.1"
+          "url": "https://api.github.com/repos/wp-graphql/wp-graphql/tarball/v0.10.1"
         }
       }
     },
