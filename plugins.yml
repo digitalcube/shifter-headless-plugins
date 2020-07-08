@@ -19,6 +19,7 @@ wordpress:
   - name: wp-rest-cache
   - name: wpcat2tag-importer
   - name: wp-jamstack-deployments
+  - name: wp-gatsby
   - name: login-lockdown
     full: true
   - name: polylang
