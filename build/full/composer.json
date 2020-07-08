@@ -265,6 +265,18 @@
       "package": {
         "version": "dev-master",
         "type": "wordpress-plugin",
+        "name": "wordpress/wp-gatsby",
+        "dist": {
+          "type": "zip",
+          "url": "https://downloads.wordpress.org/plugin/wp-gatsby.0.4.8.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "version": "dev-master",
+        "type": "wordpress-plugin",
         "name": "wordpress/login-lockdown",
         "dist": {
           "type": "zip",
@@ -439,6 +451,7 @@
     "wordpress/wp-rest-cache": "dev-master",
     "wordpress/wpcat2tag-importer": "dev-master",
     "wordpress/wp-jamstack-deployments": "dev-master",
+    "wordpress/wp-gatsby": "dev-master",
     "wp-graphql/wp-graphql": "dev-master",
     "wp-graphql/wp-graphiql": "dev-master",
     "wp-graphql/wp-graphql-acf": "dev-master",
