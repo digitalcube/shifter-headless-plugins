@@ -268,7 +268,7 @@
         "name": "wordpress/wp-gatsby",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/wp-gatsby.0.4.14.zip"
+          "url": "https://downloads.wordpress.org/plugin/wp-gatsby.0.4.15.zip"
         }
       }
     },
