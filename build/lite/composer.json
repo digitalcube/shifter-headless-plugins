@@ -268,7 +268,7 @@
         "name": "wordpress/wp-gatsby",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/wp-gatsby.0.4.15.zip"
+          "url": "https://downloads.wordpress.org/plugin/wp-gatsby.0.4.16.zip"
         }
       }
     },
@@ -304,7 +304,7 @@
         "name": "wordpress/two-factor-authentication",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/two-factor-authentication.zip"
+          "url": "https://downloads.wordpress.org/plugin/two-factor-authentication.1.8.2.zip"
         }
       }
     },
