@@ -52,7 +52,7 @@
         "name": "wordpress/advanced-custom-fields",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.5.8.13.zip"
+          "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.5.8.14.zip"
         }
       }
     },
@@ -76,7 +76,7 @@
         "name": "wordpress/classic-editor",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/classic-editor.1.5.zip"
+          "url": "https://downloads.wordpress.org/plugin/classic-editor.1.6.zip"
         }
       }
     },
@@ -88,7 +88,7 @@
         "name": "wordpress/custom-post-type-ui",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/custom-post-type-ui.1.7.4.zip"
+          "url": "https://downloads.wordpress.org/plugin/custom-post-type-ui.1.8.0.zip"
         }
       }
     },
@@ -184,7 +184,7 @@
         "name": "wordpress/tablepress",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/tablepress.1.11.zip"
+          "url": "https://downloads.wordpress.org/plugin/tablepress.1.12.zip"
         }
       }
     },
@@ -328,7 +328,7 @@
         "name": "wordpress/woocommerce",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/woocommerce.4.3.2.zip"
+          "url": "https://downloads.wordpress.org/plugin/woocommerce.4.3.3.zip"
         }
       }
     },
