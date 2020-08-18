@@ -14,9 +14,9 @@ RUN php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" \
 
 COPY composer.json /srv/composer.json
 COPY php.ini /usr/local/etc/php/php.ini
-COPY entry.sh /srv/entry.sh
 
 WORKDIR /srv
 RUN composer install
+COPY entry.sh /srv/entry.sh
 
 CMD ["/srv/entry.sh"]
