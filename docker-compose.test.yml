@@ -8,6 +8,7 @@ services:
       - plugins
     volumes:
       - plugindata:/srv/plugins
+      - ./test/results:/srv/results
   plugins:
     image: getshifter/headless-plugins:stable
     volumes:

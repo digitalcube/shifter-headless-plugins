@@ -17,6 +17,7 @@ COPY php.ini /usr/local/etc/php/php.ini
 
 WORKDIR /srv
 RUN composer install
+COPY phpcs.xml /srv/phpcs.xml
 COPY entry.sh /srv/entry.sh
 
 CMD ["/srv/entry.sh"]

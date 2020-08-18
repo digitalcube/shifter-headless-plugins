@@ -1,4 +1,4 @@
-FROM php:7.3-cli-buster as composer
+FROM php:7.4-cli-buster as composer
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update  --allow-releaseinfo-change --allow-insecure-repositories \
