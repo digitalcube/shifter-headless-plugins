@@ -1,0 +1,14 @@
+---
+version: '3.8'
+services:
+  sut:
+    build:
+      context: ./test
+    volumes:
+      - plugindata:/srv/plugins
+  plugins:
+    image: getshifter/headless-plugins:stable
+    volumes:
+      - plugindata:/srv/plugins
+volumes:
+  plugindata:
