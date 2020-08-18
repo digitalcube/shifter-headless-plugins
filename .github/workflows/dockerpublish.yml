@@ -28,15 +28,10 @@ jobs:
         run: |
           if [ -f docker-compose.test.yml ]; then
             docker-compose --file docker-compose.test.yml build
-            docker-compose --file docker-compose.test.yml run -e REPORT=1 sut
+            docker-compose --file docker-compose.test.yml run sut
           else
             docker build . --file Dockerfile
           fi
-      - name: PHPCS Reports
-        uses: actions/upload-artifact@v2
-        with:
-          name: phpcs-report
-          path: test/results/
 
   # Push image to GitHub Packages.
   # See also https://docs.docker.com/docker-hub/builds/
