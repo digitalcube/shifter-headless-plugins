@@ -52,7 +52,7 @@
         "name": "wordpress/advanced-custom-fields",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.5.8.14.zip"
+          "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.5.9.0.zip"
         }
       }
     },
@@ -112,7 +112,7 @@
         "name": "wordpress/enable-media-replace",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/enable-media-replace.3.4.1.zip"
+          "url": "https://downloads.wordpress.org/plugin/enable-media-replace.3.4.2.zip"
         }
       }
     },
@@ -292,7 +292,7 @@
         "name": "wordpress/polylang",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/polylang.2.7.4.zip"
+          "url": "https://downloads.wordpress.org/plugin/polylang.2.8.zip"
         }
       }
     },
