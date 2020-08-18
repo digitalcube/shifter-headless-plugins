@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<ruleset name="Getshifter Plugins">
+    <description>Getshifter Plugins</description>
+
+    <file>./plugins</file>
+    <exclude-pattern>*/vendor/*</exclude-pattern>
+
+    <rule ref="WordPress">
+        <exclude name="Generic.WhiteSpace"/>
+        <exclude name="Squiz.Commenting"/>
+        <exclude name="Squiz.WhiteSpace"/>
+        <exclude name="WordPress.WhiteSpace"/>
+    </rule>
+    <arg value="p"/>
+    <arg value="n"/>
+    <arg value="v"/>
+    <ini name="memory_limit" value="-1"/>
+    <rule ref="WordPress"/>
+</ruleset>
