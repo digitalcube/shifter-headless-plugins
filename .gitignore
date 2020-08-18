@@ -56,3 +56,6 @@ build-iPhoneSimulator/
 
 /bin/
 /examples/
+/test/vendor/
+/test/results/
+/test/composer.lock
