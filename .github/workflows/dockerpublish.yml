@@ -32,6 +32,11 @@ jobs:
           else
             docker build . --file Dockerfile
           fi
+      - name: PHPCS Reports
+        uses: actions/upload-artifact@v2
+        with:
+          name: phpcs-report
+          path: test/results/
 
   # Push image to GitHub Packages.
   # See also https://docs.docker.com/docker-hub/builds/
