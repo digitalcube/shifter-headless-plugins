@@ -21,7 +21,6 @@ wordpress:
   - name: wp-jamstack-deployments
   - name: wp-gatsby
   - name: wp-search-with-algolia
-    full: true
   - name: login-lockdown
     full: true
   - name: polylang
