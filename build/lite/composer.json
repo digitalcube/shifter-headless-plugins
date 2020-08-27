@@ -464,6 +464,7 @@
     "wordpress/wpcat2tag-importer": "dev-master",
     "wordpress/wp-jamstack-deployments": "dev-master",
     "wordpress/wp-gatsby": "dev-master",
+    "wordpress/wp-search-with-algolia": "dev-master",
     "wp-graphql/wp-graphql": "dev-master",
     "wp-graphql/wp-graphiql": "dev-master",
     "wp-graphql/wp-graphql-acf": "dev-master",
