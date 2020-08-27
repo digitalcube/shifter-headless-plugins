@@ -277,6 +277,18 @@
       "package": {
         "version": "dev-master",
         "type": "wordpress-plugin",
+        "name": "wordpress/wp-search-with-algolia",
+        "dist": {
+          "type": "zip",
+          "url": "https://downloads.wordpress.org/plugin/wp-search-with-algolia.1.4.0.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "version": "dev-master",
+        "type": "wordpress-plugin",
         "name": "wordpress/login-lockdown",
         "dist": {
           "type": "zip",
@@ -292,7 +304,7 @@
         "name": "wordpress/polylang",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/polylang.2.8.zip"
+          "url": "https://downloads.wordpress.org/plugin/polylang.2.8.1.zip"
         }
       }
     },
@@ -456,6 +468,7 @@
     "wp-graphql/wp-graphiql": "dev-master",
     "wp-graphql/wp-graphql-acf": "dev-master",
     "wp-graphql/wp-graphql-custom-post-type-ui": "dev-master",
+    "wordpress/wp-search-with-algolia": "dev-master",
     "wordpress/login-lockdown": "dev-master",
     "wordpress/polylang": "dev-master",
     "wordpress/two-factor-authentication": "dev-master",
