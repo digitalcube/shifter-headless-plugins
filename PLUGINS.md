@@ -17,10 +17,10 @@
 | [RSS Importer](https://wordpress.org/plugins/rss-importer/) | rss-importer | 0.2 |  | [http://wordpress.org/extend/plugins/rss-importer/](http://wordpress.org/extend/plugins/rss-importer/) |
 | [Search &amp; Replace](https://wordpress.org/plugins/search-and-replace/) | search-and-replace | 3.2.1 |  | [https://wordpress.org/plugins/search-and-replace/](https://wordpress.org/plugins/search-and-replace/) |
 | [TablePress](https://wordpress.org/plugins/tablepress/) | tablepress | 1.12 |  | [https://tablepress.org/](https://tablepress.org/) |
-| [User Role Editor](https://wordpress.org/plugins/user-role-editor/) | user-role-editor | 4.56 |  | [https://www.role-editor.com](https://www.role-editor.com) |
+| [User Role Editor](https://wordpress.org/plugins/user-role-editor/) | user-role-editor | 4.56.1 |  | [https://www.role-editor.com](https://www.role-editor.com) |
 | [WordPress Importer](https://wordpress.org/plugins/wordpress-importer/) | wordpress-importer | 0.7 |  | [https://wordpress.org/plugins/wordpress-importer/](https://wordpress.org/plugins/wordpress-importer/) |
 | [WP REST API Controller](https://wordpress.org/plugins/wp-rest-api-controller/) | wp-rest-api-controller | 2.0.3 |  | [https://www.yikesplugins.com](https://www.yikesplugins.com) |
-| [WP REST Cache](https://wordpress.org/plugins/wp-rest-cache/) | wp-rest-cache | 2020.2.1 |  | [http://www.acato.nl](http://www.acato.nl) |
+| [WP REST Cache](https://wordpress.org/plugins/wp-rest-cache/) | wp-rest-cache | 2020.2.2 |  | [http://www.acato.nl](http://www.acato.nl) |
 | [Categories to Tags Converter](https://wordpress.org/plugins/wpcat2tag-importer/) | wpcat2tag-importer | 0.5 |  | [http://wordpress.org/extend/plugins/wpcat2tag-importer/](http://wordpress.org/extend/plugins/wpcat2tag-importer/) |
 | [JAMstack Deployments](https://wordpress.org/plugins/wp-jamstack-deployments/) | wp-jamstack-deployments | 1.1.0 |  | [https://github.com/crgeary/wp-jamstack-deployments](https://github.com/crgeary/wp-jamstack-deployments) |
 | [WPGatsby](https://wordpress.org/plugins/wp-gatsby/) | wp-gatsby | 0.4.16 |  | []() |
