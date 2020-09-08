@@ -5,7 +5,7 @@
 | Name | Slug | Version | Full only? | Homepage |
 | --- | --- | --- | --- | --- |
 | [ACF to REST API](https://wordpress.org/plugins/acf-to-rest-api/) | acf-to-rest-api | 3.3.1 |  | [http://github.com/airesvsg/acf-to-rest-api](http://github.com/airesvsg/acf-to-rest-api) |
-| [Advanced Custom Fields](https://wordpress.org/plugins/advanced-custom-fields/) | advanced-custom-fields | 5.9.0 |  | [https://www.advancedcustomfields.com](https://www.advancedcustomfields.com) |
+| [Advanced Custom Fields](https://wordpress.org/plugins/advanced-custom-fields/) | advanced-custom-fields | 5.9.1 |  | [https://www.advancedcustomfields.com](https://www.advancedcustomfields.com) |
 | [All-in-One WP Migration](https://wordpress.org/plugins/all-in-one-wp-migration/) | all-in-one-wp-migration | 7.27 |  | [https://servmask.com/](https://servmask.com/) |
 | [Classic Editor](https://wordpress.org/plugins/classic-editor/) | classic-editor | 1.6 |  | [https://wordpress.org/plugins/classic-editor/](https://wordpress.org/plugins/classic-editor/) |
 | [Custom Post Type UI](https://wordpress.org/plugins/custom-post-type-ui/) | custom-post-type-ui | 1.8.0 |  | [https://github.com/WebDevStudios/custom-post-type-ui/](https://github.com/WebDevStudios/custom-post-type-ui/) |
