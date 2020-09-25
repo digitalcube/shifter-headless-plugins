@@ -57,7 +57,7 @@ jobs:
 
       - name: Push image
         run: |
-          IMAGE_ID=docker.pkg.github.com/${{ github.repository }}/$IMAGE_NAME
+          IMAGE_ID=docker.pkg.github.com/digitalcube/shifter-headless-plugins/$IMAGE_NAME
 
           # Strip git ref prefix from version
           VERSION=$(echo "${{ github.ref }}" | sed -e 's,.*/\(.*\),\1,')
@@ -72,13 +72,13 @@ jobs:
           echo VERSION=$VERSION
 
           docker tag image-lite $IMAGE_ID:$VERSION-lite
-          docker tag image-lite ${{ github.repository }}:$VERSION-lite
+          docker tag image-lite getshifter/headless-plugins:$VERSION-lite
           docker tag image $IMAGE_ID:$VERSION
-          docker tag image ${{ github.repository }}:$VERSION
+          docker tag image getshifter/headless-plugins:$VERSION
           docker push $IMAGE_ID:$VERSION-lite
           docker push $IMAGE_ID:$VERSION
-          docker push ${{ github.repository }}:$VERSION-lite
-          docker push ${{ github.repository }}:$VERSION
+          docker push getshifter/headless-plugins:$VERSION-lite
+          docker push getshifter/headless-plugins:$VERSION
       # - name: Create Pull Request
       #   if: endsWith(github.ref, '/develop')
       #   uses: peter-evans/create-pull-request@v2
