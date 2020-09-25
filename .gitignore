@@ -59,3 +59,4 @@ build-iPhoneSimulator/
 /test/vendor/
 /test/results/
 /test/composer.lock
+Makefile
