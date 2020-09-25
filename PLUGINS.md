@@ -8,7 +8,7 @@
 | [Advanced Custom Fields](https://wordpress.org/plugins/advanced-custom-fields/) | advanced-custom-fields | 5.9.1 |  | [https://www.advancedcustomfields.com](https://www.advancedcustomfields.com) |
 | [All-in-One WP Migration](https://wordpress.org/plugins/all-in-one-wp-migration/) | all-in-one-wp-migration | 7.27 |  | [https://servmask.com/](https://servmask.com/) |
 | [Classic Editor](https://wordpress.org/plugins/classic-editor/) | classic-editor | 1.6 |  | [https://wordpress.org/plugins/classic-editor/](https://wordpress.org/plugins/classic-editor/) |
-| [Custom Post Type UI](https://wordpress.org/plugins/custom-post-type-ui/) | custom-post-type-ui | 1.8.0 |  | [https://github.com/WebDevStudios/custom-post-type-ui/](https://github.com/WebDevStudios/custom-post-type-ui/) |
+| [Custom Post Type UI](https://wordpress.org/plugins/custom-post-type-ui/) | custom-post-type-ui | 1.8.1 |  | [https://github.com/WebDevStudios/custom-post-type-ui/](https://github.com/WebDevStudios/custom-post-type-ui/) |
 | [Code Snippets](https://wordpress.org/plugins/code-snippets/) | code-snippets | 2.14.0 |  | [https://github.com/sheabunge/code-snippets](https://github.com/sheabunge/code-snippets) |
 | [Enable Media Replace](https://wordpress.org/plugins/enable-media-replace/) | enable-media-replace | 3.4.2 |  | [https://wordpress.org/plugins/enable-media-replace/](https://wordpress.org/plugins/enable-media-replace/) |
 | [Export Media Library](https://wordpress.org/plugins/export-media-library/) | export-media-library | 3.0.1 |  | [https://github.com/massedge/wordpress-plugin-export-media-library](https://github.com/massedge/wordpress-plugin-export-media-library) |
@@ -36,7 +36,7 @@
 | Name | Version/Tag | Full only? | Repo |
 | --- | --- | --- | --- |
 | basic-auth | master | True | [https://github.com/wp-api/basic-auth](https://github.com/wp-api/basic-auth) |
-| wp-graphql | v0.12.3 |  | [https://github.com/wp-graphql/wp-graphql](https://github.com/wp-graphql/wp-graphql) |
+| wp-graphql | v0.13.0 |  | [https://github.com/wp-graphql/wp-graphql](https://github.com/wp-graphql/wp-graphql) |
 | wp-graphiql | v1.0.1 |  | [https://github.com/wp-graphql/wp-graphiql](https://github.com/wp-graphql/wp-graphiql) |
 | wp-graphql-acf | v0.3.5 |  | [https://github.com/wp-graphql/wp-graphql-acf](https://github.com/wp-graphql/wp-graphql-acf) |
 | wp-graphql-custom-post-type-ui | v1.1 |  | [https://github.com/wp-graphql/wp-graphql-custom-post-type-ui](https://github.com/wp-graphql/wp-graphql-custom-post-type-ui) |

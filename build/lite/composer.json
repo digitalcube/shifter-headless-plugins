@@ -88,7 +88,7 @@
         "name": "wordpress/custom-post-type-ui",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/custom-post-type-ui.1.8.0.zip"
+          "url": "https://downloads.wordpress.org/plugin/custom-post-type-ui.1.8.1.zip"
         }
       }
     },
@@ -364,7 +364,7 @@
         "name": "wp-graphql/wp-graphql",
         "dist": {
           "type": "tar",
-          "url": "https://api.github.com/repos/wp-graphql/wp-graphql/tarball/v0.12.3"
+          "url": "https://api.github.com/repos/wp-graphql/wp-graphql/tarball/v0.13.0"
         }
       }
     },
