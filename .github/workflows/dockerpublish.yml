@@ -2,9 +2,9 @@ name: Docker
 
 on:
   push:
-    # Publish `master` as Docker `latest` image.
+    # Publish `main` as Docker `latest` image.
     branches:
-      - master
+      - main
       - develop
 
     # Publish `v1.2.3` tags as releases.
@@ -66,7 +66,7 @@ jobs:
           [[ "${{ github.ref }}" == "refs/tags/"* ]] && VERSION=$(echo $VERSION | sed -e 's/^v//')
 
           # Use Docker `stable` tag convention
-          [ "$VERSION" == "master" ] && VERSION=stable
+          [ "$VERSION" == "main" ] && VERSION=stable
 
           echo IMAGE_ID=$IMAGE_ID
           echo VERSION=$VERSION
