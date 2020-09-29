@@ -4,6 +4,7 @@ wordpress:
   - name: advanced-custom-fields
   - name: all-in-one-wp-migration
   - name: classic-editor
+  - name: codepress-admin-columns
   - name: custom-post-type-ui
   - name: code-snippets
   - name: enable-media-replace

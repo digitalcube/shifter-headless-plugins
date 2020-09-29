@@ -85,6 +85,18 @@
       "package": {
         "version": "dev-master",
         "type": "wordpress-plugin",
+        "name": "wordpress/codepress-admin-columns",
+        "dist": {
+          "type": "zip",
+          "url": "https://downloads.wordpress.org/plugin/codepress-admin-columns.4.2.2.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "version": "dev-master",
+        "type": "wordpress-plugin",
         "name": "wordpress/custom-post-type-ui",
         "dist": {
           "type": "zip",
@@ -448,6 +460,7 @@
     "wordpress/advanced-custom-fields": "dev-master",
     "wordpress/all-in-one-wp-migration": "dev-master",
     "wordpress/classic-editor": "dev-master",
+    "wordpress/codepress-admin-columns": "dev-master",
     "wordpress/custom-post-type-ui": "dev-master",
     "wordpress/code-snippets": "dev-master",
     "wordpress/enable-media-replace": "dev-master",
