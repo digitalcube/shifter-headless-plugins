@@ -79,6 +79,12 @@ jobs:
           docker push $IMAGE_ID:$VERSION
           docker push getshifter/headless-plugins:$VERSION-lite
           docker push getshifter/headless-plugins:$VERSION
+      - name: Slack Notification
+        uses: rtCamp/action-slack-notify@master
+        env:
+          SLACK_CHANNEL: ${{ secrets.SLACK_CHANNEL }}
+          SLACK_USERNAME: GA_headless-plugins
+          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
       # - name: Create Pull Request
       #   if: endsWith(github.ref, '/develop')
       #   uses: peter-evans/create-pull-request@v2
