@@ -43,4 +43,4 @@
 | wp-graphql-custom-post-type-ui | v1.1 |  | [https://github.com/wp-graphql/wp-graphql-custom-post-type-ui](https://github.com/wp-graphql/wp-graphql-custom-post-type-ui) |
 | wp-graphql-jwt-authentication | v0.4.1 | True | [https://github.com/wp-graphql/wp-graphql-jwt-authentication](https://github.com/wp-graphql/wp-graphql-jwt-authentication) |
 | wp-graphql-woocommerce | Release v0.5.1 | True | [https://github.com/wp-graphql/wp-graphql-woocommerce](https://github.com/wp-graphql/wp-graphql-woocommerce) |
-| wp-graphql-polylang | v0.4.0 | True | [https://github.com/valu-digital/wp-graphql-polylang](https://github.com/valu-digital/wp-graphql-polylang) |
+| wp-graphql-polylang | v0.5.0 | True | [https://github.com/valu-digital/wp-graphql-polylang](https://github.com/valu-digital/wp-graphql-polylang) |
