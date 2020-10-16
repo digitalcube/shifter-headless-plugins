@@ -30,7 +30,7 @@
 | [Polylang](https://wordpress.org/plugins/polylang/) | polylang | 2.8.3 | True | [https://polylang.pro](https://polylang.pro) |
 | [Two Factor Authentication](https://wordpress.org/plugins/two-factor-authentication/) | two-factor-authentication | 1.8.6 | True | [https://www.simbahosting.co.uk/s3/product/two-factor-authentication/](https://www.simbahosting.co.uk/s3/product/two-factor-authentication/) |
 | [VA Simple Basic Auth](https://wordpress.org/plugins/va-simple-basic-auth/) | va-simple-basic-auth | 1.1.0 | True | [https://github.com/VisuAlive/va-simple-basic-auth](https://github.com/VisuAlive/va-simple-basic-auth) |
-| [WooCommerce](https://wordpress.org/plugins/woocommerce/) | woocommerce | 4.5.2 | True | [https://woocommerce.com/](https://woocommerce.com/) |
+| [WooCommerce](https://wordpress.org/plugins/woocommerce/) | woocommerce | 4.6.0 | True | [https://woocommerce.com/](https://woocommerce.com/) |
 
 ## From Github Repository
 
@@ -42,5 +42,5 @@
 | wp-graphql-acf | v0.3.5 |  | [https://github.com/wp-graphql/wp-graphql-acf](https://github.com/wp-graphql/wp-graphql-acf) |
 | wp-graphql-custom-post-type-ui | v1.1 |  | [https://github.com/wp-graphql/wp-graphql-custom-post-type-ui](https://github.com/wp-graphql/wp-graphql-custom-post-type-ui) |
 | wp-graphql-jwt-authentication | v0.4.1 | True | [https://github.com/wp-graphql/wp-graphql-jwt-authentication](https://github.com/wp-graphql/wp-graphql-jwt-authentication) |
-| wp-graphql-woocommerce | Release v0.6.0 | True | [https://github.com/wp-graphql/wp-graphql-woocommerce](https://github.com/wp-graphql/wp-graphql-woocommerce) |
+| wp-graphql-woocommerce | Release v0.6.1 | True | [https://github.com/wp-graphql/wp-graphql-woocommerce](https://github.com/wp-graphql/wp-graphql-woocommerce) |
 | wp-graphql-polylang | v0.5.0 | True | [https://github.com/valu-digital/wp-graphql-polylang](https://github.com/valu-digital/wp-graphql-polylang) |
