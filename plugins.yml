@@ -62,3 +62,7 @@ github:
     type: prerelease_src
     repo: valu-digital/wp-graphql-polylang
     full: true
+  - name: wp-graphql-content-blocks
+    type: branch
+    arg: master
+    repo: Quartz/wp-graphql-content-blocks
