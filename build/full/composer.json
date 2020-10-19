@@ -451,18 +451,6 @@
           "url": "https://api.github.com/repos/valu-digital/wp-graphql-polylang/tarball/v0.5.0"
         }
       }
-    },
-    {
-      "type": "package",
-      "package": {
-        "version": "dev-master",
-        "type": "wordpress-plugin",
-        "name": "Quartz/wp-graphql-content-blocks",
-        "dist": {
-          "type": "zip",
-          "url": "https://github.com/Quartz/wp-graphql-content-blocks/archive/master.zip"
-        }
-      }
     }
   ],
   "require": {
@@ -494,7 +482,6 @@
     "wp-graphql/wp-graphiql": "dev-master",
     "wp-graphql/wp-graphql-acf": "dev-master",
     "wp-graphql/wp-graphql-custom-post-type-ui": "dev-master",
-    "Quartz/wp-graphql-content-blocks": "dev-master",
     "wordpress/login-lockdown": "dev-master",
     "wordpress/polylang": "dev-master",
     "wordpress/two-factor-authentication": "dev-master",
