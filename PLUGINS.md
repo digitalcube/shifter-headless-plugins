@@ -44,3 +44,5 @@
 | wp-graphql-jwt-authentication | v0.4.1 | True | [https://github.com/wp-graphql/wp-graphql-jwt-authentication](https://github.com/wp-graphql/wp-graphql-jwt-authentication) |
 | wp-graphql-woocommerce | Release v0.6.1 | True | [https://github.com/wp-graphql/wp-graphql-woocommerce](https://github.com/wp-graphql/wp-graphql-woocommerce) |
 | wp-graphql-polylang | v0.5.0 | True | [https://github.com/valu-digital/wp-graphql-polylang](https://github.com/valu-digital/wp-graphql-polylang) |
+| wp-graphql-gutenberg | v0.3.4 |  | [https://github.com/pristas-peter/wp-graphql-gutenberg](https://github.com/pristas-peter/wp-graphql-gutenberg) |
+| wp-graphql-gutenberg-acf | v0.3.0 |  | [https://github.com/pristas-peter/wp-graphql-gutenberg-acf](https://github.com/pristas-peter/wp-graphql-gutenberg-acf) |

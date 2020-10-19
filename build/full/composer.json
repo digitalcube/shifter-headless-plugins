@@ -451,6 +451,30 @@
           "url": "https://api.github.com/repos/valu-digital/wp-graphql-polylang/tarball/v0.5.0"
         }
       }
+    },
+    {
+      "type": "package",
+      "package": {
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "name": "pristas-peter/wp-graphql-gutenberg",
+        "dist": {
+          "type": "tar",
+          "url": "https://api.github.com/repos/pristas-peter/wp-graphql-gutenberg/tarball/v0.3.4"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "name": "pristas-peter/wp-graphql-gutenberg-acf",
+        "dist": {
+          "type": "tar",
+          "url": "https://api.github.com/repos/pristas-peter/wp-graphql-gutenberg-acf/tarball/v0.3.0"
+        }
+      }
     }
   ],
   "require": {
@@ -482,6 +506,8 @@
     "wp-graphql/wp-graphiql": "dev-master",
     "wp-graphql/wp-graphql-acf": "dev-master",
     "wp-graphql/wp-graphql-custom-post-type-ui": "dev-master",
+    "pristas-peter/wp-graphql-gutenberg": "dev-master",
+    "pristas-peter/wp-graphql-gutenberg-acf": "dev-master",
     "wordpress/login-lockdown": "dev-master",
     "wordpress/polylang": "dev-master",
     "wordpress/two-factor-authentication": "dev-master",
