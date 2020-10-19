@@ -62,3 +62,9 @@ github:
     type: prerelease_src
     repo: valu-digital/wp-graphql-polylang
     full: true
+  - name: wp-graphql-gutenberg
+    type: release_src
+    repo: pristas-peter/wp-graphql-gutenberg
+  - name: wp-graphql-gutenberg-acf
+    type: release_src
+    repo: pristas-peter/wp-graphql-gutenberg-acf

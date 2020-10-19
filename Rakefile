@@ -84,6 +84,12 @@ namespace :composer do
           puts(plugin['name'], body[0]['name'] )
           obj_repo[:package][:dist][:url] = body[0]['tarball_url']
           plugin['version'] = body[0]['name']
+        when 'release_src'
+          obj_repo[:package][:dist][:type] = 'tar'
+          body = JSON.load URI.open(GITHUB_RELEASE_API % plugin['repo']).read
+          puts(plugin['name'], body[0]['name'] )
+          obj_repo[:package][:dist][:url] = body[0]['tarball_url']
+          plugin['version'] = body[0]['name']
         end
         composer_base['repositories'].append(obj_repo)
         md.puts(
