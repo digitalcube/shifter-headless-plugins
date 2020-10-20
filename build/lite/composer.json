@@ -244,7 +244,7 @@
         "name": "wordpress/wp-rest-cache",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/wp-rest-cache.2020.3.0.zip"
+          "url": "https://downloads.wordpress.org/plugin/wp-rest-cache.2020.3.1.zip"
         }
       }
     },
@@ -280,7 +280,7 @@
         "name": "wordpress/wp-gatsby",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/wp-gatsby.0.5.2.zip"
+          "url": "https://downloads.wordpress.org/plugin/wp-gatsby.0.5.3.zip"
         }
       }
     },
