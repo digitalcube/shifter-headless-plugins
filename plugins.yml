@@ -22,6 +22,7 @@ wordpress:
   - name: wp-jamstack-deployments
   - name: wp-gatsby
   - name: wp-search-with-algolia
+  - name: wordpress-seo
   - name: login-lockdown
     full: true
   - name: polylang
@@ -68,3 +69,6 @@ github:
   - name: wp-graphql-gutenberg-acf
     type: release_src
     repo: pristas-peter/wp-graphql-gutenberg-acf
+  - name: wp-graphql-yoast-seo
+    type: release_src
+    repo: ashhitch/wp-graphql-yoast-seo
