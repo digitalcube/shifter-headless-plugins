@@ -39,7 +39,7 @@
 | basic-auth | master | True | [https://github.com/wp-api/basic-auth](https://github.com/wp-api/basic-auth) |
 | wp-graphql | v0.13.3 |  | [https://github.com/wp-graphql/wp-graphql](https://github.com/wp-graphql/wp-graphql) |
 | wp-graphiql | v1.0.1 |  | [https://github.com/wp-graphql/wp-graphiql](https://github.com/wp-graphql/wp-graphiql) |
-| wp-graphql-acf | v0.3.5 |  | [https://github.com/wp-graphql/wp-graphql-acf](https://github.com/wp-graphql/wp-graphql-acf) |
+| wp-graphql-acf | v0.4.0 |  | [https://github.com/wp-graphql/wp-graphql-acf](https://github.com/wp-graphql/wp-graphql-acf) |
 | wp-graphql-custom-post-type-ui | v1.1 |  | [https://github.com/wp-graphql/wp-graphql-custom-post-type-ui](https://github.com/wp-graphql/wp-graphql-custom-post-type-ui) |
 | wp-graphql-jwt-authentication | v0.4.1 | True | [https://github.com/wp-graphql/wp-graphql-jwt-authentication](https://github.com/wp-graphql/wp-graphql-jwt-authentication) |
 | wp-graphql-woocommerce | Release v0.6.1 | True | [https://github.com/wp-graphql/wp-graphql-woocommerce](https://github.com/wp-graphql/wp-graphql-woocommerce) |
