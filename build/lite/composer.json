@@ -40,7 +40,7 @@
         "name": "wordpress/acf-to-rest-api",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/acf-to-rest-api.3.3.1.zip"
+          "url": "https://downloads.wordpress.org/plugin/acf-to-rest-api.3.3.2.zip"
         }
       }
     },
@@ -160,7 +160,7 @@
         "name": "wordpress/redirection",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/redirection.zip"
+          "url": "https://downloads.wordpress.org/plugin/redirection.4.9.zip"
         }
       }
     },
@@ -293,6 +293,18 @@
         "dist": {
           "type": "zip",
           "url": "https://downloads.wordpress.org/plugin/wp-search-with-algolia.1.5.0.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "name": "wordpress/wordpress-seo",
+        "dist": {
+          "type": "zip",
+          "url": "https://downloads.wordpress.org/plugin/wordpress-seo.15.1.1.zip"
         }
       }
     },
@@ -475,6 +487,18 @@
           "url": "https://api.github.com/repos/pristas-peter/wp-graphql-gutenberg-acf/tarball/v0.3.0"
         }
       }
+    },
+    {
+      "type": "package",
+      "package": {
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "name": "ashhitch/wp-graphql-yoast-seo",
+        "dist": {
+          "type": "tar",
+          "url": "https://api.github.com/repos/ashhitch/wp-graphql-yoast-seo/tarball/v4.8.0"
+        }
+      }
     }
   ],
   "require": {
@@ -502,12 +526,14 @@
     "wordpress/wp-jamstack-deployments": "dev-master",
     "wordpress/wp-gatsby": "dev-master",
     "wordpress/wp-search-with-algolia": "dev-master",
+    "wordpress/wordpress-seo": "dev-master",
     "wp-graphql/wp-graphql": "dev-master",
     "wp-graphql/wp-graphiql": "dev-master",
     "wp-graphql/wp-graphql-acf": "dev-master",
     "wp-graphql/wp-graphql-custom-post-type-ui": "dev-master",
     "pristas-peter/wp-graphql-gutenberg": "dev-master",
-    "pristas-peter/wp-graphql-gutenberg-acf": "dev-master"
+    "pristas-peter/wp-graphql-gutenberg-acf": "dev-master",
+    "ashhitch/wp-graphql-yoast-seo": "dev-master"
   },
   "extra": {
     "installer-paths": {
