@@ -40,7 +40,7 @@
         "name": "wordpress/acf-to-rest-api",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/acf-to-rest-api.3.3.1.zip"
+          "url": "https://downloads.wordpress.org/plugin/acf-to-rest-api.3.3.2.zip"
         }
       }
     },
@@ -160,7 +160,7 @@
         "name": "wordpress/redirection",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/redirection.zip"
+          "url": "https://downloads.wordpress.org/plugin/redirection.4.9.zip"
         }
       }
     },
