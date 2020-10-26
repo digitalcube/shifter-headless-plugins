@@ -8,7 +8,7 @@ WORKDIR /tmp
 # Note: pinning install > php composer-setup.php --version=1.5.6
 
 RUN php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');" \
-  && php composer-setup.php \
+  && php composer-setup.php --version=1.10.16 \
   && php -r "unlink('composer-setup.php');" \
   && install -m 0755 ./composer.phar /usr/local/bin/composer
 
