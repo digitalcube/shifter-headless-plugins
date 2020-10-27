@@ -304,7 +304,7 @@
         "name": "wordpress/wordpress-seo",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/wordpress-seo.15.1.1.zip"
+          "url": "https://downloads.wordpress.org/plugin/wordpress-seo.15.2.zip"
         }
       }
     },
