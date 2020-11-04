@@ -124,7 +124,7 @@
         "name": "wordpress/enable-media-replace",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/enable-media-replace.3.4.2.zip"
+          "url": "https://downloads.wordpress.org/plugin/enable-media-replace.3.5.0.zip"
         }
       }
     },
@@ -160,7 +160,7 @@
         "name": "wordpress/redirection",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/redirection.4.9.1.zip"
+          "url": "https://downloads.wordpress.org/plugin/redirection.4.9.2.zip"
         }
       }
     },
@@ -304,7 +304,7 @@
         "name": "wordpress/wordpress-seo",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/wordpress-seo.15.2.zip"
+          "url": "https://downloads.wordpress.org/plugin/wordpress-seo.15.2.1.zip"
         }
       }
     },
