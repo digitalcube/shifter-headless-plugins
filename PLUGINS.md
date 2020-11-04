@@ -11,10 +11,10 @@
 | [Admin Columns](https://wordpress.org/plugins/codepress-admin-columns/) | codepress-admin-columns | 4.2.2 |  | [https://www.admincolumns.com](https://www.admincolumns.com) |
 | [Custom Post Type UI](https://wordpress.org/plugins/custom-post-type-ui/) | custom-post-type-ui | 1.8.1 |  | [https://github.com/WebDevStudios/custom-post-type-ui/](https://github.com/WebDevStudios/custom-post-type-ui/) |
 | [Code Snippets](https://wordpress.org/plugins/code-snippets/) | code-snippets | 2.14.0 |  | [https://github.com/sheabunge/code-snippets](https://github.com/sheabunge/code-snippets) |
-| [Enable Media Replace](https://wordpress.org/plugins/enable-media-replace/) | enable-media-replace | 3.4.2 |  | [https://wordpress.org/plugins/enable-media-replace/](https://wordpress.org/plugins/enable-media-replace/) |
+| [Enable Media Replace](https://wordpress.org/plugins/enable-media-replace/) | enable-media-replace | 3.5.0 |  | [https://wordpress.org/plugins/enable-media-replace/](https://wordpress.org/plugins/enable-media-replace/) |
 | [Export Media Library](https://wordpress.org/plugins/export-media-library/) | export-media-library | 3.0.1 |  | [https://github.com/massedge/wordpress-plugin-export-media-library](https://github.com/massedge/wordpress-plugin-export-media-library) |
 | [Intuitive Custom Post Order](https://wordpress.org/plugins/intuitive-custom-post-order/) | intuitive-custom-post-order | 3.1.2 |  | [http://hijiriworld.com/web/plugins/intuitive-custom-post-order/](http://hijiriworld.com/web/plugins/intuitive-custom-post-order/) |
-| [Redirection](https://wordpress.org/plugins/redirection/) | redirection | 4.9.1 |  | [https://redirection.me/](https://redirection.me/) |
+| [Redirection](https://wordpress.org/plugins/redirection/) | redirection | 4.9.2 |  | [https://redirection.me/](https://redirection.me/) |
 | [RSS Importer](https://wordpress.org/plugins/rss-importer/) | rss-importer | 0.2 |  | [http://wordpress.org/extend/plugins/rss-importer/](http://wordpress.org/extend/plugins/rss-importer/) |
 | [Search &amp; Replace](https://wordpress.org/plugins/search-and-replace/) | search-and-replace | 3.2.1 |  | [https://wordpress.org/plugins/search-and-replace/](https://wordpress.org/plugins/search-and-replace/) |
 | [TablePress](https://wordpress.org/plugins/tablepress/) | tablepress | 1.12 |  | [https://tablepress.org/](https://tablepress.org/) |
@@ -26,7 +26,7 @@
 | [JAMstack Deployments](https://wordpress.org/plugins/wp-jamstack-deployments/) | wp-jamstack-deployments | 1.1.0 |  | [https://github.com/crgeary/wp-jamstack-deployments](https://github.com/crgeary/wp-jamstack-deployments) |
 | [WPGatsby](https://wordpress.org/plugins/wp-gatsby/) | wp-gatsby | 0.5.4 |  | []() |
 | [WP Search with Algolia](https://wordpress.org/plugins/wp-search-with-algolia/) | wp-search-with-algolia | 1.5.0 |  | [https://github.com/WebDevStudios/wp-search-with-algolia](https://github.com/WebDevStudios/wp-search-with-algolia) |
-| [Yoast SEO](https://wordpress.org/plugins/wordpress-seo/) | wordpress-seo | 15.2 |  | [https://yoa.st/1uj](https://yoa.st/1uj) |
+| [Yoast SEO](https://wordpress.org/plugins/wordpress-seo/) | wordpress-seo | 15.2.1 |  | [https://yoa.st/1uj](https://yoa.st/1uj) |
 | [Login LockDown](https://wordpress.org/plugins/login-lockdown/) | login-lockdown | v1.8.1 | True | [http://www.bad-neighborhood.com/](http://www.bad-neighborhood.com/) |
 | [Polylang](https://wordpress.org/plugins/polylang/) | polylang | 2.8.3 | True | [https://polylang.pro](https://polylang.pro) |
 | [Two Factor Authentication](https://wordpress.org/plugins/two-factor-authentication/) | two-factor-authentication | 1.8.6 | True | [https://www.simbahosting.co.uk/s3/product/two-factor-authentication/](https://www.simbahosting.co.uk/s3/product/two-factor-authentication/) |
