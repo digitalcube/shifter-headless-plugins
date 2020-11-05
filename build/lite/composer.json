@@ -52,7 +52,7 @@
         "name": "wordpress/advanced-custom-fields",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.5.9.1.zip"
+          "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.5.9.3.zip"
         }
       }
     },
@@ -328,7 +328,7 @@
         "name": "wordpress/polylang",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/polylang.2.8.3.zip"
+          "url": "https://downloads.wordpress.org/plugin/polylang.2.8.4.zip"
         }
       }
     },

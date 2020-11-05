@@ -5,7 +5,7 @@
 | Name | Slug | Version | Full only? | Homepage |
 | --- | --- | --- | --- | --- |
 | [ACF to REST API](https://wordpress.org/plugins/acf-to-rest-api/) | acf-to-rest-api | 3.3.2 |  | [http://github.com/airesvsg/acf-to-rest-api](http://github.com/airesvsg/acf-to-rest-api) |
-| [Advanced Custom Fields](https://wordpress.org/plugins/advanced-custom-fields/) | advanced-custom-fields | 5.9.1 |  | [https://www.advancedcustomfields.com](https://www.advancedcustomfields.com) |
+| [Advanced Custom Fields](https://wordpress.org/plugins/advanced-custom-fields/) | advanced-custom-fields | 5.9.3 |  | [https://www.advancedcustomfields.com](https://www.advancedcustomfields.com) |
 | [All-in-One WP Migration](https://wordpress.org/plugins/all-in-one-wp-migration/) | all-in-one-wp-migration | 7.29 |  | [https://servmask.com/](https://servmask.com/) |
 | [Classic Editor](https://wordpress.org/plugins/classic-editor/) | classic-editor | 1.6 |  | [https://wordpress.org/plugins/classic-editor/](https://wordpress.org/plugins/classic-editor/) |
 | [Admin Columns](https://wordpress.org/plugins/codepress-admin-columns/) | codepress-admin-columns | 4.2.2 |  | [https://www.admincolumns.com](https://www.admincolumns.com) |
@@ -28,7 +28,7 @@
 | [WP Search with Algolia](https://wordpress.org/plugins/wp-search-with-algolia/) | wp-search-with-algolia | 1.5.0 |  | [https://github.com/WebDevStudios/wp-search-with-algolia](https://github.com/WebDevStudios/wp-search-with-algolia) |
 | [Yoast SEO](https://wordpress.org/plugins/wordpress-seo/) | wordpress-seo | 15.2.1 |  | [https://yoa.st/1uj](https://yoa.st/1uj) |
 | [Login LockDown](https://wordpress.org/plugins/login-lockdown/) | login-lockdown | v1.8.1 | True | [http://www.bad-neighborhood.com/](http://www.bad-neighborhood.com/) |
-| [Polylang](https://wordpress.org/plugins/polylang/) | polylang | 2.8.3 | True | [https://polylang.pro](https://polylang.pro) |
+| [Polylang](https://wordpress.org/plugins/polylang/) | polylang | 2.8.4 | True | [https://polylang.pro](https://polylang.pro) |
 | [Two Factor Authentication](https://wordpress.org/plugins/two-factor-authentication/) | two-factor-authentication | 1.8.6 | True | [https://www.simbahosting.co.uk/s3/product/two-factor-authentication/](https://www.simbahosting.co.uk/s3/product/two-factor-authentication/) |
 | [VA Simple Basic Auth](https://wordpress.org/plugins/va-simple-basic-auth/) | va-simple-basic-auth | 1.1.0 | True | [https://github.com/VisuAlive/va-simple-basic-auth](https://github.com/VisuAlive/va-simple-basic-auth) |
 | [WooCommerce](https://wordpress.org/plugins/woocommerce/) | woocommerce | 4.6.1 | True | [https://woocommerce.com/](https://woocommerce.com/) |
