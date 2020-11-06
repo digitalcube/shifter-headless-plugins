@@ -364,7 +364,7 @@
         "name": "wordpress/woocommerce",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/woocommerce.4.6.1.zip"
+          "url": "https://downloads.wordpress.org/plugin/woocommerce.4.6.2.zip"
         }
       }
     },
