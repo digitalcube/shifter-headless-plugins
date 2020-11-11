@@ -208,7 +208,7 @@
         "name": "wordpress/user-role-editor",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/user-role-editor.4.56.1.zip"
+          "url": "https://downloads.wordpress.org/plugin/user-role-editor.4.57.zip"
         }
       }
     },
@@ -244,7 +244,7 @@
         "name": "wordpress/wp-rest-cache",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/wp-rest-cache.2020.3.1.zip"
+          "url": "https://downloads.wordpress.org/plugin/wp-rest-cache.2020.3.2.zip"
         }
       }
     },
@@ -364,7 +364,7 @@
         "name": "wordpress/woocommerce",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/woocommerce.4.6.2.zip"
+          "url": "https://downloads.wordpress.org/plugin/woocommerce.4.7.0.zip"
         }
       }
     },
@@ -388,7 +388,7 @@
         "name": "wp-graphql/wp-graphql",
         "dist": {
           "type": "tar",
-          "url": "https://api.github.com/repos/wp-graphql/wp-graphql/tarball/v0.14.0"
+          "url": "https://api.github.com/repos/wp-graphql/wp-graphql/tarball/v0.15.0"
         }
       }
     },
