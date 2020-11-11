@@ -18,10 +18,10 @@
 | [RSS Importer](https://wordpress.org/plugins/rss-importer/) | rss-importer | 0.2 |  | [http://wordpress.org/extend/plugins/rss-importer/](http://wordpress.org/extend/plugins/rss-importer/) |
 | [Search &amp; Replace](https://wordpress.org/plugins/search-and-replace/) | search-and-replace | 3.2.1 |  | [https://wordpress.org/plugins/search-and-replace/](https://wordpress.org/plugins/search-and-replace/) |
 | [TablePress](https://wordpress.org/plugins/tablepress/) | tablepress | 1.12 |  | [https://tablepress.org/](https://tablepress.org/) |
-| [User Role Editor](https://wordpress.org/plugins/user-role-editor/) | user-role-editor | 4.56.1 |  | [https://www.role-editor.com](https://www.role-editor.com) |
+| [User Role Editor](https://wordpress.org/plugins/user-role-editor/) | user-role-editor | 4.57 |  | [https://www.role-editor.com](https://www.role-editor.com) |
 | [WordPress Importer](https://wordpress.org/plugins/wordpress-importer/) | wordpress-importer | 0.7 |  | [https://wordpress.org/plugins/wordpress-importer/](https://wordpress.org/plugins/wordpress-importer/) |
 | [WP REST API Controller](https://wordpress.org/plugins/wp-rest-api-controller/) | wp-rest-api-controller | 2.0.3 |  | [https://www.yikesplugins.com](https://www.yikesplugins.com) |
-| [WP REST Cache](https://wordpress.org/plugins/wp-rest-cache/) | wp-rest-cache | 2020.3.1 |  | [http://www.acato.nl](http://www.acato.nl) |
+| [WP REST Cache](https://wordpress.org/plugins/wp-rest-cache/) | wp-rest-cache | 2020.3.2 |  | [http://www.acato.nl](http://www.acato.nl) |
 | [Categories to Tags Converter](https://wordpress.org/plugins/wpcat2tag-importer/) | wpcat2tag-importer | 0.5 |  | [http://wordpress.org/extend/plugins/wpcat2tag-importer/](http://wordpress.org/extend/plugins/wpcat2tag-importer/) |
 | [JAMstack Deployments](https://wordpress.org/plugins/wp-jamstack-deployments/) | wp-jamstack-deployments | 1.1.0 |  | [https://github.com/crgeary/wp-jamstack-deployments](https://github.com/crgeary/wp-jamstack-deployments) |
 | [WPGatsby](https://wordpress.org/plugins/wp-gatsby/) | wp-gatsby | 0.5.4 |  | []() |
@@ -31,14 +31,14 @@
 | [Polylang](https://wordpress.org/plugins/polylang/) | polylang | 2.8.4 | True | [https://polylang.pro](https://polylang.pro) |
 | [Two Factor Authentication](https://wordpress.org/plugins/two-factor-authentication/) | two-factor-authentication | 1.8.6 | True | [https://www.simbahosting.co.uk/s3/product/two-factor-authentication/](https://www.simbahosting.co.uk/s3/product/two-factor-authentication/) |
 | [VA Simple Basic Auth](https://wordpress.org/plugins/va-simple-basic-auth/) | va-simple-basic-auth | 1.1.0 | True | [https://github.com/VisuAlive/va-simple-basic-auth](https://github.com/VisuAlive/va-simple-basic-auth) |
-| [WooCommerce](https://wordpress.org/plugins/woocommerce/) | woocommerce | 4.6.2 | True | [https://woocommerce.com/](https://woocommerce.com/) |
+| [WooCommerce](https://wordpress.org/plugins/woocommerce/) | woocommerce | 4.7.0 | True | [https://woocommerce.com/](https://woocommerce.com/) |
 
 ## From Github Repository
 
 | Name | Version/Tag | Full only? | Repo |
 | --- | --- | --- | --- |
 | basic-auth | master | True | [https://github.com/wp-api/basic-auth](https://github.com/wp-api/basic-auth) |
-| wp-graphql | v0.14.0 |  | [https://github.com/wp-graphql/wp-graphql](https://github.com/wp-graphql/wp-graphql) |
+| wp-graphql | v0.15.0 |  | [https://github.com/wp-graphql/wp-graphql](https://github.com/wp-graphql/wp-graphql) |
 | wp-graphiql | v1.0.1 |  | [https://github.com/wp-graphql/wp-graphiql](https://github.com/wp-graphql/wp-graphiql) |
 | wp-graphql-acf | v0.4.0 |  | [https://github.com/wp-graphql/wp-graphql-acf](https://github.com/wp-graphql/wp-graphql-acf) |
 | wp-graphql-custom-post-type-ui | v1.1 |  | [https://github.com/wp-graphql/wp-graphql-custom-post-type-ui](https://github.com/wp-graphql/wp-graphql-custom-post-type-ui) |
