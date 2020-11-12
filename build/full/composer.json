@@ -64,7 +64,7 @@
         "name": "wordpress/all-in-one-wp-migration",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/all-in-one-wp-migration.7.29.zip"
+          "url": "https://downloads.wordpress.org/plugin/all-in-one-wp-migration.7.30.zip"
         }
       }
     },
