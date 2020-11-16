@@ -289,18 +289,6 @@
       "package": {
         "version": "dev-master",
         "type": "wordpress-plugin",
-        "name": "wordpress/wp-graphql",
-        "dist": {
-          "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/wp-graphql.1.0.zip"
-        }
-      }
-    },
-    {
-      "type": "package",
-      "package": {
-        "version": "dev-master",
-        "type": "wordpress-plugin",
         "name": "wordpress/wp-search-with-algolia",
         "dist": {
           "type": "zip",
@@ -389,6 +377,18 @@
         "dist": {
           "type": "zip",
           "url": "https://github.com/wp-api/basic-auth/archive/master.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "name": "wp-graphql/wp-graphql",
+        "dist": {
+          "type": "tar",
+          "url": "https://api.github.com/repos/wp-graphql/wp-graphql/tarball/v0.15.5"
         }
       }
     },
@@ -525,9 +525,9 @@
     "wordpress/wpcat2tag-importer": "dev-master",
     "wordpress/wp-jamstack-deployments": "dev-master",
     "wordpress/wp-gatsby": "dev-master",
-    "wordpress/wp-graphql": "dev-master",
     "wordpress/wp-search-with-algolia": "dev-master",
     "wordpress/wordpress-seo": "dev-master",
+    "wp-graphql/wp-graphql": "dev-master",
     "wp-graphql/wp-graphiql": "dev-master",
     "wp-graphql/wp-graphql-acf": "dev-master",
     "wp-graphql/wp-graphql-custom-post-type-ui": "dev-master",

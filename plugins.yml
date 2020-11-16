@@ -21,7 +21,6 @@ wordpress:
   - name: wpcat2tag-importer
   - name: wp-jamstack-deployments
   - name: wp-gatsby
-  - name: wp-graphql
   - name: wp-search-with-algolia
   - name: wordpress-seo
   - name: login-lockdown
@@ -40,6 +39,9 @@ github:
     arg: master
     repo: wp-api/basic-auth
     full: true
+  - name: wp-graphql
+    type: prerelease_src
+    repo: wp-graphql/wp-graphql
   - name: wp-graphiql
     type: prerelease_src
     repo: wp-graphql/wp-graphiql
