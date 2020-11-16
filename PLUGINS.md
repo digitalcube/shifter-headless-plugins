@@ -25,6 +25,7 @@
 | [Categories to Tags Converter](https://wordpress.org/plugins/wpcat2tag-importer/) | wpcat2tag-importer | 0.5 |  | [http://wordpress.org/extend/plugins/wpcat2tag-importer/](http://wordpress.org/extend/plugins/wpcat2tag-importer/) |
 | [JAMstack Deployments](https://wordpress.org/plugins/wp-jamstack-deployments/) | wp-jamstack-deployments | 1.1.0 |  | [https://github.com/crgeary/wp-jamstack-deployments](https://github.com/crgeary/wp-jamstack-deployments) |
 | [WPGatsby](https://wordpress.org/plugins/wp-gatsby/) | wp-gatsby | 0.5.4 |  | []() |
+| [WPGraphQL](https://wordpress.org/plugins/wp-graphql/) | wp-graphql | 1.0 |  | [https://github.com/wp-graphql/wp-graphql](https://github.com/wp-graphql/wp-graphql) |
 | [WP Search with Algolia](https://wordpress.org/plugins/wp-search-with-algolia/) | wp-search-with-algolia | 1.6.0 |  | [https://github.com/WebDevStudios/wp-search-with-algolia](https://github.com/WebDevStudios/wp-search-with-algolia) |
 | [Yoast SEO](https://wordpress.org/plugins/wordpress-seo/) | wordpress-seo | 15.2.1 |  | [https://yoa.st/1uj](https://yoa.st/1uj) |
 | [Login LockDown](https://wordpress.org/plugins/login-lockdown/) | login-lockdown | v1.8.1 | True | [http://www.bad-neighborhood.com/](http://www.bad-neighborhood.com/) |
@@ -38,7 +39,6 @@
 | Name | Version/Tag | Full only? | Repo |
 | --- | --- | --- | --- |
 | basic-auth | master | True | [https://github.com/wp-api/basic-auth](https://github.com/wp-api/basic-auth) |
-| wp-graphql | v0.15.5 |  | [https://github.com/wp-graphql/wp-graphql](https://github.com/wp-graphql/wp-graphql) |
 | wp-graphiql | v1.0.1 |  | [https://github.com/wp-graphql/wp-graphiql](https://github.com/wp-graphql/wp-graphiql) |
 | wp-graphql-acf | v0.4.0 |  | [https://github.com/wp-graphql/wp-graphql-acf](https://github.com/wp-graphql/wp-graphql-acf) |
 | wp-graphql-custom-post-type-ui | v1.1 |  | [https://github.com/wp-graphql/wp-graphql-custom-post-type-ui](https://github.com/wp-graphql/wp-graphql-custom-post-type-ui) |
