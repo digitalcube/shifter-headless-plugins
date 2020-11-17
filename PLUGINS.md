@@ -24,9 +24,9 @@
 | [WP REST Cache](https://wordpress.org/plugins/wp-rest-cache/) | wp-rest-cache | 2020.3.2 |  | [http://www.acato.nl](http://www.acato.nl) |
 | [Categories to Tags Converter](https://wordpress.org/plugins/wpcat2tag-importer/) | wpcat2tag-importer | 0.5 |  | [http://wordpress.org/extend/plugins/wpcat2tag-importer/](http://wordpress.org/extend/plugins/wpcat2tag-importer/) |
 | [JAMstack Deployments](https://wordpress.org/plugins/wp-jamstack-deployments/) | wp-jamstack-deployments | 1.1.0 |  | [https://github.com/crgeary/wp-jamstack-deployments](https://github.com/crgeary/wp-jamstack-deployments) |
-| [WPGatsby](https://wordpress.org/plugins/wp-gatsby/) | wp-gatsby | 0.5.4 |  | []() |
+| [WPGatsby](https://wordpress.org/plugins/wp-gatsby/) | wp-gatsby | 0.6.0 |  | []() |
 | [WP Search with Algolia](https://wordpress.org/plugins/wp-search-with-algolia/) | wp-search-with-algolia | 1.6.0 |  | [https://github.com/WebDevStudios/wp-search-with-algolia](https://github.com/WebDevStudios/wp-search-with-algolia) |
-| [Yoast SEO](https://wordpress.org/plugins/wordpress-seo/) | wordpress-seo | 15.2.1 |  | [https://yoa.st/1uj](https://yoa.st/1uj) |
+| [Yoast SEO](https://wordpress.org/plugins/wordpress-seo/) | wordpress-seo | 15.3 |  | [https://yoa.st/1uj](https://yoa.st/1uj) |
 | [Login LockDown](https://wordpress.org/plugins/login-lockdown/) | login-lockdown | v1.8.1 | True | [http://www.bad-neighborhood.com/](http://www.bad-neighborhood.com/) |
 | [Polylang](https://wordpress.org/plugins/polylang/) | polylang | 2.8.4 | True | [https://polylang.pro](https://polylang.pro) |
 | [Two Factor Authentication](https://wordpress.org/plugins/two-factor-authentication/) | two-factor-authentication | 1.8.6 | True | [https://www.simbahosting.co.uk/s3/product/two-factor-authentication/](https://www.simbahosting.co.uk/s3/product/two-factor-authentication/) |

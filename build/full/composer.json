@@ -280,7 +280,7 @@
         "name": "wordpress/wp-gatsby",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/wp-gatsby.0.5.4.zip"
+          "url": "https://downloads.wordpress.org/plugin/wp-gatsby.0.6.0.zip"
         }
       }
     },
@@ -304,7 +304,7 @@
         "name": "wordpress/wordpress-seo",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/wordpress-seo.15.2.1.zip"
+          "url": "https://downloads.wordpress.org/plugin/wordpress-seo.15.3.zip"
         }
       }
     },
