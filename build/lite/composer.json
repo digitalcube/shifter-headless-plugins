@@ -280,7 +280,7 @@
         "name": "wordpress/wp-gatsby",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/wp-gatsby.0.6.0.zip"
+          "url": "https://downloads.wordpress.org/plugin/wp-gatsby.0.6.2.zip"
         }
       }
     },
@@ -472,7 +472,7 @@
         "name": "pristas-peter/wp-graphql-gutenberg",
         "dist": {
           "type": "tar",
-          "url": "https://api.github.com/repos/pristas-peter/wp-graphql-gutenberg/tarball/v0.3.4"
+          "url": "https://api.github.com/repos/pristas-peter/wp-graphql-gutenberg/tarball/v0.3.5"
         }
       }
     },
