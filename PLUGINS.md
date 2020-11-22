@@ -24,7 +24,7 @@
 | [WP REST Cache](https://wordpress.org/plugins/wp-rest-cache/) | wp-rest-cache | 2020.3.2 |  | [http://www.acato.nl](http://www.acato.nl) |
 | [Categories to Tags Converter](https://wordpress.org/plugins/wpcat2tag-importer/) | wpcat2tag-importer | 0.5 |  | [http://wordpress.org/extend/plugins/wpcat2tag-importer/](http://wordpress.org/extend/plugins/wpcat2tag-importer/) |
 | [JAMstack Deployments](https://wordpress.org/plugins/wp-jamstack-deployments/) | wp-jamstack-deployments | 1.1.0 |  | [https://github.com/crgeary/wp-jamstack-deployments](https://github.com/crgeary/wp-jamstack-deployments) |
-| [WPGatsby](https://wordpress.org/plugins/wp-gatsby/) | wp-gatsby | 0.6.0 |  | []() |
+| [WPGatsby](https://wordpress.org/plugins/wp-gatsby/) | wp-gatsby | 0.6.2 |  | []() |
 | [WP Search with Algolia](https://wordpress.org/plugins/wp-search-with-algolia/) | wp-search-with-algolia | 1.6.0 |  | [https://github.com/WebDevStudios/wp-search-with-algolia](https://github.com/WebDevStudios/wp-search-with-algolia) |
 | [Yoast SEO](https://wordpress.org/plugins/wordpress-seo/) | wordpress-seo | 15.3 |  | [https://yoa.st/1uj](https://yoa.st/1uj) |
 | [Login LockDown](https://wordpress.org/plugins/login-lockdown/) | login-lockdown | v1.8.1 | True | [http://www.bad-neighborhood.com/](http://www.bad-neighborhood.com/) |
@@ -45,6 +45,6 @@
 | wp-graphql-jwt-authentication | v0.4.1 | True | [https://github.com/wp-graphql/wp-graphql-jwt-authentication](https://github.com/wp-graphql/wp-graphql-jwt-authentication) |
 | wp-graphql-woocommerce | v0.6.1 | True | [https://github.com/wp-graphql/wp-graphql-woocommerce](https://github.com/wp-graphql/wp-graphql-woocommerce) |
 | wp-graphql-polylang | v0.5.0 | True | [https://github.com/valu-digital/wp-graphql-polylang](https://github.com/valu-digital/wp-graphql-polylang) |
-| wp-graphql-gutenberg | v0.3.4 |  | [https://github.com/pristas-peter/wp-graphql-gutenberg](https://github.com/pristas-peter/wp-graphql-gutenberg) |
+| wp-graphql-gutenberg | v0.3.5 |  | [https://github.com/pristas-peter/wp-graphql-gutenberg](https://github.com/pristas-peter/wp-graphql-gutenberg) |
 | wp-graphql-gutenberg-acf | v0.3.0 |  | [https://github.com/pristas-peter/wp-graphql-gutenberg-acf](https://github.com/pristas-peter/wp-graphql-gutenberg-acf) |
 | wp-graphql-yoast-seo | v4.8.0 |  | [https://github.com/ashhitch/wp-graphql-yoast-seo](https://github.com/ashhitch/wp-graphql-yoast-seo) |
