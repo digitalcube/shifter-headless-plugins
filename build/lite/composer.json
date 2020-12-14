@@ -208,7 +208,7 @@
         "name": "wordpress/user-role-editor",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/user-role-editor.4.57.zip"
+          "url": "https://downloads.wordpress.org/plugin/user-role-editor.4.57.1.zip"
         }
       }
     },
@@ -280,7 +280,19 @@
         "name": "wordpress/wp-gatsby",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/wp-gatsby.0.6.8.zip"
+          "url": "https://downloads.wordpress.org/plugin/wp-gatsby.0.7.3.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "name": "wordpress/wp-graphql",
+        "dist": {
+          "type": "zip",
+          "url": "https://downloads.wordpress.org/plugin/wp-graphql.1.0.1.zip"
         }
       }
     },
@@ -304,7 +316,7 @@
         "name": "wordpress/wordpress-seo",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/wordpress-seo.15.3.zip"
+          "url": "https://downloads.wordpress.org/plugin/wordpress-seo.15.4.zip"
         }
       }
     },
@@ -328,7 +340,7 @@
         "name": "wordpress/polylang",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/polylang.2.8.4.zip"
+          "url": "https://downloads.wordpress.org/plugin/polylang.2.9.zip"
         }
       }
     },
@@ -364,7 +376,7 @@
         "name": "wordpress/woocommerce",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/woocommerce.4.7.1.zip"
+          "url": "https://downloads.wordpress.org/plugin/woocommerce.4.8.0.zip"
         }
       }
     },
@@ -377,30 +389,6 @@
         "dist": {
           "type": "zip",
           "url": "https://github.com/wp-api/basic-auth/archive/master.zip"
-        }
-      }
-    },
-    {
-      "type": "package",
-      "package": {
-        "version": "dev-master",
-        "type": "wordpress-plugin",
-        "name": "wp-graphql/wp-graphql",
-        "dist": {
-          "type": "tar",
-          "url": "https://api.github.com/repos/wp-graphql/wp-graphql/tarball/v0.15.5"
-        }
-      }
-    },
-    {
-      "type": "package",
-      "package": {
-        "version": "dev-master",
-        "type": "wordpress-plugin",
-        "name": "wp-graphql/wp-graphiql",
-        "dist": {
-          "type": "tar",
-          "url": "https://api.github.com/repos/wp-graphql/wp-graphiql/tarball/v1.0.1"
         }
       }
     },
@@ -472,7 +460,7 @@
         "name": "pristas-peter/wp-graphql-gutenberg",
         "dist": {
           "type": "tar",
-          "url": "https://api.github.com/repos/pristas-peter/wp-graphql-gutenberg/tarball/v0.3.5"
+          "url": "https://api.github.com/repos/pristas-peter/wp-graphql-gutenberg/tarball/v0.3.6"
         }
       }
     },
@@ -496,7 +484,7 @@
         "name": "ashhitch/wp-graphql-yoast-seo",
         "dist": {
           "type": "tar",
-          "url": "https://api.github.com/repos/ashhitch/wp-graphql-yoast-seo/tarball/v4.9.0"
+          "url": "https://api.github.com/repos/ashhitch/wp-graphql-yoast-seo/tarball/v4.10.0"
         }
       }
     }
@@ -525,10 +513,9 @@
     "wordpress/wpcat2tag-importer": "dev-master",
     "wordpress/wp-jamstack-deployments": "dev-master",
     "wordpress/wp-gatsby": "dev-master",
+    "wordpress/wp-graphql": "dev-master",
     "wordpress/wp-search-with-algolia": "dev-master",
     "wordpress/wordpress-seo": "dev-master",
-    "wp-graphql/wp-graphql": "dev-master",
-    "wp-graphql/wp-graphiql": "dev-master",
     "wp-graphql/wp-graphql-acf": "dev-master",
     "wp-graphql/wp-graphql-custom-post-type-ui": "dev-master",
     "pristas-peter/wp-graphql-gutenberg": "dev-master",
