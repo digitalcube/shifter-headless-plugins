@@ -64,7 +64,7 @@
         "name": "wordpress/all-in-one-wp-migration",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/all-in-one-wp-migration.7.31.zip"
+          "url": "https://downloads.wordpress.org/plugin/all-in-one-wp-migration.7.32.zip"
         }
       }
     },
@@ -88,7 +88,7 @@
         "name": "wordpress/codepress-admin-columns",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/codepress-admin-columns.4.2.2.zip"
+          "url": "https://downloads.wordpress.org/plugin/codepress-admin-columns.4.2.5.zip"
         }
       }
     },
@@ -280,7 +280,7 @@
         "name": "wordpress/wp-gatsby",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/wp-gatsby.0.7.3.zip"
+          "url": "https://downloads.wordpress.org/plugin/wp-gatsby.0.8.0.zip"
         }
       }
     },
@@ -292,7 +292,7 @@
         "name": "wordpress/wp-graphql",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/wp-graphql.1.0.1.zip"
+          "url": "https://downloads.wordpress.org/plugin/wp-graphql.1.0.2.zip"
         }
       }
     },
@@ -316,7 +316,7 @@
         "name": "wordpress/wordpress-seo",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/wordpress-seo.15.4.zip"
+          "url": "https://downloads.wordpress.org/plugin/wordpress-seo.15.5.zip"
         }
       }
     },
@@ -340,7 +340,7 @@
         "name": "wordpress/polylang",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/polylang.2.9.zip"
+          "url": "https://downloads.wordpress.org/plugin/polylang.2.9.1.zip"
         }
       }
     },
