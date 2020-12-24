@@ -280,7 +280,7 @@
         "name": "wordpress/wp-gatsby",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/wp-gatsby.0.8.0.zip"
+          "url": "https://downloads.wordpress.org/plugin/wp-gatsby.0.9.1.zip"
         }
       }
     },
@@ -292,7 +292,7 @@
         "name": "wordpress/wp-graphql",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/wp-graphql.1.0.2.zip"
+          "url": "https://downloads.wordpress.org/plugin/wp-graphql.1.0.3.zip"
         }
       }
     },
@@ -484,7 +484,7 @@
         "name": "ashhitch/wp-graphql-yoast-seo",
         "dist": {
           "type": "tar",
-          "url": "https://api.github.com/repos/ashhitch/wp-graphql-yoast-seo/tarball/v4.10.0"
+          "url": "https://api.github.com/repos/ashhitch/wp-graphql-yoast-seo/tarball/v4.10.2"
         }
       }
     }
