@@ -52,7 +52,7 @@
         "name": "wordpress/advanced-custom-fields",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.5.9.3.zip"
+          "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.5.9.4.zip"
         }
       }
     },
@@ -100,7 +100,7 @@
         "name": "wordpress/custom-post-type-ui",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/custom-post-type-ui.1.8.1.zip"
+          "url": "https://downloads.wordpress.org/plugin/custom-post-type-ui.1.8.2.zip"
         }
       }
     },
@@ -148,7 +148,7 @@
         "name": "wordpress/intuitive-custom-post-order",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/intuitive-custom-post-order.3.1.2.zip"
+          "url": "https://downloads.wordpress.org/plugin/intuitive-custom-post-order.3.1.2.1.zip"
         }
       }
     },
@@ -160,7 +160,7 @@
         "name": "wordpress/redirection",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/redirection.4.9.2.zip"
+          "url": "https://downloads.wordpress.org/plugin/redirection.zip"
         }
       }
     },
@@ -208,7 +208,7 @@
         "name": "wordpress/user-role-editor",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/user-role-editor.4.57.1.zip"
+          "url": "https://downloads.wordpress.org/plugin/user-role-editor.4.58.1.zip"
         }
       }
     },
@@ -292,7 +292,7 @@
         "name": "wordpress/wp-graphql",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/wp-graphql.1.0.3.zip"
+          "url": "https://downloads.wordpress.org/plugin/wp-graphql.1.1.2.zip"
         }
       }
     },
@@ -316,7 +316,7 @@
         "name": "wordpress/wordpress-seo",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/wordpress-seo.15.5.zip"
+          "url": "https://downloads.wordpress.org/plugin/wordpress-seo.15.6.2.zip"
         }
       }
     },
@@ -352,7 +352,7 @@
         "name": "wordpress/two-factor-authentication",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/two-factor-authentication.1.8.6.zip"
+          "url": "https://downloads.wordpress.org/plugin/two-factor-authentication.1.8.7.zip"
         }
       }
     },
@@ -376,7 +376,7 @@
         "name": "wordpress/woocommerce",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/woocommerce.4.8.0.zip"
+          "url": "https://downloads.wordpress.org/plugin/woocommerce.4.9.0.zip"
         }
       }
     },
@@ -484,7 +484,7 @@
         "name": "ashhitch/wp-graphql-yoast-seo",
         "dist": {
           "type": "tar",
-          "url": "https://api.github.com/repos/ashhitch/wp-graphql-yoast-seo/tarball/v4.10.2"
+          "url": "https://api.github.com/repos/ashhitch/wp-graphql-yoast-seo/tarball/v4.11.0"
         }
       }
     }
