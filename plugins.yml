@@ -23,7 +23,6 @@ wordpress:
   - name: wp-gatsby
   - name: wp-graphql
   - name: wp-search-with-algolia
-  - name: wordpress-seo
   - name: login-lockdown
     full: true
   - name: polylang
