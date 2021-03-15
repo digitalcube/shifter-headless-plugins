@@ -64,7 +64,7 @@
         "name": "wordpress/all-in-one-wp-migration",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/all-in-one-wp-migration.7.37.zip"
+          "url": "https://downloads.wordpress.org/plugin/all-in-one-wp-migration.7.39.zip"
         }
       }
     },
@@ -196,7 +196,7 @@
         "name": "wordpress/tablepress",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/tablepress.1.12.zip"
+          "url": "https://downloads.wordpress.org/plugin/tablepress.1.13.zip"
         }
       }
     },
@@ -232,7 +232,7 @@
         "name": "wordpress/wp-rest-api-controller",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/wp-rest-api-controller.2.0.3.zip"
+          "url": "https://downloads.wordpress.org/plugin/wp-rest-api-controller.2.0.5.zip"
         }
       }
     },
@@ -280,7 +280,7 @@
         "name": "wordpress/wp-gatsby",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/wp-gatsby.1.0.2.zip"
+          "url": "https://downloads.wordpress.org/plugin/wp-gatsby.1.0.6.zip"
         }
       }
     },
@@ -292,7 +292,7 @@
         "name": "wordpress/wp-graphql",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/wp-graphql.1.2.5.zip"
+          "url": "https://downloads.wordpress.org/plugin/wp-graphql.1.2.6.zip"
         }
       }
     },
@@ -328,7 +328,7 @@
         "name": "wordpress/polylang",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/polylang.2.9.2.zip"
+          "url": "https://downloads.wordpress.org/plugin/polylang.3.0.1.zip"
         }
       }
     },
@@ -364,7 +364,7 @@
         "name": "wordpress/woocommerce",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/woocommerce.5.0.0.zip"
+          "url": "https://downloads.wordpress.org/plugin/woocommerce.5.1.0.zip"
         }
       }
     },
@@ -448,7 +448,7 @@
         "name": "pristas-peter/wp-graphql-gutenberg",
         "dist": {
           "type": "tar",
-          "url": "https://api.github.com/repos/pristas-peter/wp-graphql-gutenberg/tarball/v0.3.7"
+          "url": "https://api.github.com/repos/pristas-peter/wp-graphql-gutenberg/tarball/v0.3.8"
         }
       }
     },
