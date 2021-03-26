@@ -63,6 +63,3 @@ github:
   - name: wp-graphql-gutenberg-acf
     type: release_src
     repo: pristas-peter/wp-graphql-gutenberg-acf
-  - name: wp-graphql-yoast-seo
-    type: release_src
-    repo: ashhitch/wp-graphql-yoast-seo

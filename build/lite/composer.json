@@ -463,18 +463,6 @@
           "url": "https://api.github.com/repos/pristas-peter/wp-graphql-gutenberg-acf/tarball/v0.3.0"
         }
       }
-    },
-    {
-      "type": "package",
-      "package": {
-        "version": "dev-master",
-        "type": "wordpress-plugin",
-        "name": "ashhitch/wp-graphql-yoast-seo",
-        "dist": {
-          "type": "tar",
-          "url": "https://api.github.com/repos/ashhitch/wp-graphql-yoast-seo/tarball/v4.12.0"
-        }
-      }
     }
   ],
   "require": {
@@ -506,8 +494,7 @@
     "wp-graphql/wp-graphql-acf": "dev-master",
     "wp-graphql/wp-graphql-custom-post-type-ui": "dev-master",
     "pristas-peter/wp-graphql-gutenberg": "dev-master",
-    "pristas-peter/wp-graphql-gutenberg-acf": "dev-master",
-    "ashhitch/wp-graphql-yoast-seo": "dev-master"
+    "pristas-peter/wp-graphql-gutenberg-acf": "dev-master"
   },
   "extra": {
     "installer-paths": {

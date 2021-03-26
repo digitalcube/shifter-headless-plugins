@@ -45,4 +45,3 @@
 | wp-graphql-polylang | v0.5.0 | True | [https://github.com/valu-digital/wp-graphql-polylang](https://github.com/valu-digital/wp-graphql-polylang) |
 | wp-graphql-gutenberg | v0.3.8 |  | [https://github.com/pristas-peter/wp-graphql-gutenberg](https://github.com/pristas-peter/wp-graphql-gutenberg) |
 | wp-graphql-gutenberg-acf | v0.3.0 |  | [https://github.com/pristas-peter/wp-graphql-gutenberg-acf](https://github.com/pristas-peter/wp-graphql-gutenberg-acf) |
-| wp-graphql-yoast-seo | v4.12.0 |  | [https://github.com/ashhitch/wp-graphql-yoast-seo](https://github.com/ashhitch/wp-graphql-yoast-seo) |
