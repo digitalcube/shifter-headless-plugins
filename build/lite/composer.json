@@ -340,7 +340,7 @@
         "name": "wordpress/two-factor-authentication",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/two-factor-authentication.1.10.0.zip"
+          "url": "https://downloads.wordpress.org/plugin/two-factor-authentication.1.10.2.zip"
         }
       }
     },
