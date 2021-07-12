@@ -52,7 +52,7 @@
         "name": "wordpress/advanced-custom-fields",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.5.9.7.zip"
+          "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.5.9.8.zip"
         }
       }
     },
@@ -280,7 +280,7 @@
         "name": "wordpress/wp-gatsby",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/wp-gatsby.1.0.10.zip"
+          "url": "https://downloads.wordpress.org/plugin/wp-gatsby.1.0.11.zip"
         }
       }
     },
@@ -292,7 +292,7 @@
         "name": "wordpress/wp-graphql",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/wp-graphql.1.4.3.zip"
+          "url": "https://downloads.wordpress.org/plugin/wp-graphql.1.5.1.zip"
         }
       }
     },
@@ -340,7 +340,7 @@
         "name": "wordpress/two-factor-authentication",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/two-factor-authentication.1.10.2.zip"
+          "url": "https://downloads.wordpress.org/plugin/two-factor-authentication.1.10.3.zip"
         }
       }
     },
@@ -424,7 +424,7 @@
         "name": "wp-graphql/wp-graphql-woocommerce",
         "dist": {
           "type": "tar",
-          "url": "https://api.github.com/repos/wp-graphql/wp-graphql-woocommerce/tarball/v0.10.0"
+          "url": "https://api.github.com/repos/wp-graphql/wp-graphql-woocommerce/tarball/v0.10.2"
         }
       }
     },
