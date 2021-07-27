@@ -304,7 +304,7 @@
         "name": "wordpress/wp-search-with-algolia",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/wp-search-with-algolia.2.0.0.zip"
+          "url": "https://downloads.wordpress.org/plugin/wp-search-with-algolia.2.0.1.zip"
         }
       }
     },
