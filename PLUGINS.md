@@ -26,7 +26,7 @@
 | [JAMstack Deployments](https://wordpress.org/plugins/wp-jamstack-deployments/) | wp-jamstack-deployments | 1.1.1 |  | [https://github.com/crgeary/wp-jamstack-deployments](https://github.com/crgeary/wp-jamstack-deployments) |
 | [WPGatsby](https://wordpress.org/plugins/wp-gatsby/) | wp-gatsby | 1.0.11 |  | []() |
 | [WPGraphQL](https://wordpress.org/plugins/wp-graphql/) | wp-graphql | 1.5.5 |  | [https://github.com/wp-graphql/wp-graphql](https://github.com/wp-graphql/wp-graphql) |
-| [WP Search with Algolia](https://wordpress.org/plugins/wp-search-with-algolia/) | wp-search-with-algolia | 2.0.0 |  | [https://github.com/WebDevStudios/wp-search-with-algolia](https://github.com/WebDevStudios/wp-search-with-algolia) |
+| [WP Search with Algolia](https://wordpress.org/plugins/wp-search-with-algolia/) | wp-search-with-algolia | 2.0.1 |  | [https://github.com/WebDevStudios/wp-search-with-algolia](https://github.com/WebDevStudios/wp-search-with-algolia) |
 | [Login LockDown](https://wordpress.org/plugins/login-lockdown/) | login-lockdown | v1.8.1 | True | [http://www.bad-neighborhood.com/](http://www.bad-neighborhood.com/) |
 | [Polylang](https://wordpress.org/plugins/polylang/) | polylang | 3.0.6 | True | [https://polylang.pro](https://polylang.pro) |
 | [Two Factor Authentication](https://wordpress.org/plugins/two-factor-authentication/) | two-factor-authentication | 1.10.3 | True | [https://www.simbahosting.co.uk/s3/product/two-factor-authentication/](https://www.simbahosting.co.uk/s3/product/two-factor-authentication/) |
