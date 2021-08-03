@@ -292,7 +292,7 @@
         "name": "wordpress/wp-graphql",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/wp-graphql.1.5.5.zip"
+          "url": "https://downloads.wordpress.org/plugin/wp-graphql.1.6.1.zip"
         }
       }
     },
@@ -328,7 +328,7 @@
         "name": "wordpress/polylang",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/polylang.3.0.6.zip"
+          "url": "https://downloads.wordpress.org/plugin/polylang.3.1.zip"
         }
       }
     },
@@ -340,7 +340,7 @@
         "name": "wordpress/two-factor-authentication",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/two-factor-authentication.1.10.3.zip"
+          "url": "https://downloads.wordpress.org/plugin/two-factor-authentication.1.10.4.zip"
         }
       }
     },
