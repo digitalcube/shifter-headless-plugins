@@ -25,7 +25,7 @@
 | [Categories to Tags Converter](https://wordpress.org/plugins/wpcat2tag-importer/) | wpcat2tag-importer | 0.5 |  | [http://wordpress.org/extend/plugins/wpcat2tag-importer/](http://wordpress.org/extend/plugins/wpcat2tag-importer/) |
 | [JAMstack Deployments](https://wordpress.org/plugins/wp-jamstack-deployments/) | wp-jamstack-deployments | 1.1.1 |  | [https://github.com/crgeary/wp-jamstack-deployments](https://github.com/crgeary/wp-jamstack-deployments) |
 | [WPGatsby](https://wordpress.org/plugins/wp-gatsby/) | wp-gatsby | 1.0.11 |  | []() |
-| [WPGraphQL](https://wordpress.org/plugins/wp-graphql/) | wp-graphql | 1.6.1 |  | [https://github.com/wp-graphql/wp-graphql](https://github.com/wp-graphql/wp-graphql) |
+| [WPGraphQL](https://wordpress.org/plugins/wp-graphql/) | wp-graphql | 1.6.2 |  | [https://github.com/wp-graphql/wp-graphql](https://github.com/wp-graphql/wp-graphql) |
 | [WP Search with Algolia](https://wordpress.org/plugins/wp-search-with-algolia/) | wp-search-with-algolia | 2.0.1 |  | [https://github.com/WebDevStudios/wp-search-with-algolia](https://github.com/WebDevStudios/wp-search-with-algolia) |
 | [Login LockDown](https://wordpress.org/plugins/login-lockdown/) | login-lockdown | v1.8.1 | True | [http://www.bad-neighborhood.com/](http://www.bad-neighborhood.com/) |
 | [Polylang](https://wordpress.org/plugins/polylang/) | polylang | 3.1 | True | [https://polylang.pro](https://polylang.pro) |
@@ -43,5 +43,5 @@
 | wp-graphql-jwt-authentication | v0.4.1 | True | [https://github.com/wp-graphql/wp-graphql-jwt-authentication](https://github.com/wp-graphql/wp-graphql-jwt-authentication) |
 | wp-graphql-woocommerce | v0.10.2 | True | [https://github.com/wp-graphql/wp-graphql-woocommerce](https://github.com/wp-graphql/wp-graphql-woocommerce) |
 | wp-graphql-polylang | v0.5.0 | True | [https://github.com/valu-digital/wp-graphql-polylang](https://github.com/valu-digital/wp-graphql-polylang) |
-| wp-graphql-gutenberg | v0.3.8 |  | [https://github.com/pristas-peter/wp-graphql-gutenberg](https://github.com/pristas-peter/wp-graphql-gutenberg) |
+| wp-graphql-gutenberg | v0.3.10 |  | [https://github.com/pristas-peter/wp-graphql-gutenberg](https://github.com/pristas-peter/wp-graphql-gutenberg) |
 | wp-graphql-gutenberg-acf | v0.3.0 |  | [https://github.com/pristas-peter/wp-graphql-gutenberg-acf](https://github.com/pristas-peter/wp-graphql-gutenberg-acf) |
