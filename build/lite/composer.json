@@ -64,7 +64,7 @@
         "name": "wordpress/all-in-one-wp-migration",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/all-in-one-wp-migration.7.45.zip"
+          "url": "https://downloads.wordpress.org/plugin/all-in-one-wp-migration.7.46.zip"
         }
       }
     },
@@ -292,7 +292,7 @@
         "name": "wordpress/wp-graphql",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/wp-graphql.1.6.2.zip"
+          "url": "https://downloads.wordpress.org/plugin/wp-graphql.1.6.3.zip"
         }
       }
     },
@@ -328,7 +328,7 @@
         "name": "wordpress/polylang",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/polylang.3.1.zip"
+          "url": "https://downloads.wordpress.org/plugin/polylang.3.1.1.zip"
         }
       }
     },
@@ -424,7 +424,7 @@
         "name": "wp-graphql/wp-graphql-woocommerce",
         "dist": {
           "type": "tar",
-          "url": "https://api.github.com/repos/wp-graphql/wp-graphql-woocommerce/tarball/v0.10.2"
+          "url": "https://api.github.com/repos/wp-graphql/wp-graphql-woocommerce/tarball/v0.10.3"
         }
       }
     },
@@ -448,7 +448,7 @@
         "name": "pristas-peter/wp-graphql-gutenberg",
         "dist": {
           "type": "tar",
-          "url": "https://api.github.com/repos/pristas-peter/wp-graphql-gutenberg/tarball/v0.3.10"
+          "url": "https://api.github.com/repos/pristas-peter/wp-graphql-gutenberg/tarball/v0.3.11"
         }
       }
     },
