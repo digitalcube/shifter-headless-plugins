@@ -280,7 +280,7 @@
         "name": "wordpress/wp-gatsby",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/wp-gatsby.1.0.11.zip"
+          "url": "https://downloads.wordpress.org/plugin/wp-gatsby.1.0.12.zip"
         }
       }
     },
@@ -292,7 +292,7 @@
         "name": "wordpress/wp-graphql",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/wp-graphql.1.6.3.zip"
+          "url": "https://downloads.wordpress.org/plugin/wp-graphql.1.6.4.zip"
         }
       }
     },
@@ -364,7 +364,7 @@
         "name": "wordpress/woocommerce",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/woocommerce.5.5.2.zip"
+          "url": "https://downloads.wordpress.org/plugin/woocommerce.5.6.0.zip"
         }
       }
     },

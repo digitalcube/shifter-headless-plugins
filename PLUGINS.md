@@ -24,14 +24,14 @@
 | [WP REST Cache](https://wordpress.org/plugins/wp-rest-cache/) | wp-rest-cache | 2021.3.0 |  | [http://www.acato.nl](http://www.acato.nl) |
 | [Categories to Tags Converter](https://wordpress.org/plugins/wpcat2tag-importer/) | wpcat2tag-importer | 0.5 |  | [http://wordpress.org/extend/plugins/wpcat2tag-importer/](http://wordpress.org/extend/plugins/wpcat2tag-importer/) |
 | [JAMstack Deployments](https://wordpress.org/plugins/wp-jamstack-deployments/) | wp-jamstack-deployments | 1.1.1 |  | [https://github.com/crgeary/wp-jamstack-deployments](https://github.com/crgeary/wp-jamstack-deployments) |
-| [WPGatsby](https://wordpress.org/plugins/wp-gatsby/) | wp-gatsby | 1.0.11 |  | []() |
-| [WPGraphQL](https://wordpress.org/plugins/wp-graphql/) | wp-graphql | 1.6.3 |  | [https://github.com/wp-graphql/wp-graphql](https://github.com/wp-graphql/wp-graphql) |
+| [WPGatsby](https://wordpress.org/plugins/wp-gatsby/) | wp-gatsby | 1.0.12 |  | []() |
+| [WPGraphQL](https://wordpress.org/plugins/wp-graphql/) | wp-graphql | 1.6.4 |  | [https://github.com/wp-graphql/wp-graphql](https://github.com/wp-graphql/wp-graphql) |
 | [WP Search with Algolia](https://wordpress.org/plugins/wp-search-with-algolia/) | wp-search-with-algolia | 2.0.1 |  | [https://github.com/WebDevStudios/wp-search-with-algolia](https://github.com/WebDevStudios/wp-search-with-algolia) |
 | [Login LockDown](https://wordpress.org/plugins/login-lockdown/) | login-lockdown | v1.8.1 | True | [http://www.bad-neighborhood.com/](http://www.bad-neighborhood.com/) |
 | [Polylang](https://wordpress.org/plugins/polylang/) | polylang | 3.1.1 | True | [https://polylang.pro](https://polylang.pro) |
 | [Two Factor Authentication](https://wordpress.org/plugins/two-factor-authentication/) | two-factor-authentication | 1.10.4 | True | [https://www.simbahosting.co.uk/s3/product/two-factor-authentication/](https://www.simbahosting.co.uk/s3/product/two-factor-authentication/) |
 | [VA Simple Basic Auth](https://wordpress.org/plugins/va-simple-basic-auth/) | va-simple-basic-auth | 1.1.0 | True | [https://github.com/VisuAlive/va-simple-basic-auth](https://github.com/VisuAlive/va-simple-basic-auth) |
-| [WooCommerce](https://wordpress.org/plugins/woocommerce/) | woocommerce | 5.5.2 | True | [https://woocommerce.com/](https://woocommerce.com/) |
+| [WooCommerce](https://wordpress.org/plugins/woocommerce/) | woocommerce | 5.6.0 | True | [https://woocommerce.com/](https://woocommerce.com/) |
 
 ## From Github Repository
 
