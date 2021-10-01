@@ -463,6 +463,18 @@
           "url": "https://api.github.com/repos/pristas-peter/wp-graphql-gutenberg-acf/tarball/v0.3.0"
         }
       }
+    },
+    {
+      "type": "package",
+      "package": {
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "name": "wpe-headless",
+        "dist": {
+          "type": "zip",
+          "url": "https://s3.amazonaws.com/update.atomicblocks.com/wpe-headless/wpe-headless.0.6.1.zip?AWSAccessKeyId=AKIA3GV7FXEAJZVJ3NHH&Signature=SQWzqFyhzvFnFVSM%2B5z9UBMTzLQ%3D&Expires=1633116146"
+        }
+      }
     }
   ],
   "require": {
@@ -494,7 +506,8 @@
     "wp-graphql/wp-graphql-acf": "dev-master",
     "wp-graphql/wp-graphql-custom-post-type-ui": "dev-master",
     "pristas-peter/wp-graphql-gutenberg": "dev-master",
-    "pristas-peter/wp-graphql-gutenberg-acf": "dev-master"
+    "pristas-peter/wp-graphql-gutenberg-acf": "dev-master",
+    "wpe-headless": "dev-master"
   },
   "extra": {
     "installer-paths": {

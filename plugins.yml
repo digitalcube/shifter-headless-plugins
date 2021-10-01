@@ -63,3 +63,7 @@ github:
   - name: wp-graphql-gutenberg-acf
     type: release_src
     repo: pristas-peter/wp-graphql-gutenberg-acf
+custom:
+  - name: wpe-headless
+    website_name: "Faust.js"
+    website_url: "https://faustjs.org/docs/tutorial/setup-faustjs#installing-plugins-on-wordpress"

@@ -45,3 +45,9 @@
 | wp-graphql-polylang | v0.6.0 | True | [https://github.com/valu-digital/wp-graphql-polylang](https://github.com/valu-digital/wp-graphql-polylang) |
 | wp-graphql-gutenberg | v0.3.11 |  | [https://github.com/pristas-peter/wp-graphql-gutenberg](https://github.com/pristas-peter/wp-graphql-gutenberg) |
 | wp-graphql-gutenberg-acf | v0.3.0 |  | [https://github.com/pristas-peter/wp-graphql-gutenberg-acf](https://github.com/pristas-peter/wp-graphql-gutenberg-acf) |
+
+## Others
+
+| Name | Version/Tag | Full only? | Website |
+| --- | --- | --- | --- |
+| wpe-headless | 0.6.1 |  | [Faust.js](https://faustjs.org/docs/tutorial/setup-faustjs#installing-plugins-on-wordpress) |
