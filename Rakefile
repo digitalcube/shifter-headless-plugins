@@ -98,12 +98,57 @@ namespace :composer do
         )
       end
 
+      # custom install
+      md.puts <<~EOL
+
+      ## Others
+
+      | Name | Version/Tag | Full only? | Website |
+      | --- | --- | --- | --- |
+      EOL
+      plugins['custom'].each do |plugin|
+        obj_repo = {
+          type: 'package',
+          package: {
+            version: 'dev-master',
+            type: 'wordpress-plugin',
+            name: plugin['name'],
+            dist: {
+              type: 'zip'
+            }
+          }
+        }
+        case plugin['name']
+        when 'wpe-headless'
+          metadata_url = 'https://wp-product-info.wpesvc.net/v1/plugins/wpe-headless'
+          metadata = JSON.parse(URI.open(metadata_url).read)
+          obj_repo[:package][:dist][:url] = metadata['download_link']
+          puts(plugin['name'], metadata['stable_tag'] )
+          plugin['version'] = metadata['stable_tag']
+        else
+          raise
+        end
+        composer_base['repositories'].append(obj_repo)
+        md.puts(
+          "| %s | %s | %s | [%s](%s) |" %
+          [ plugin['name'],
+            plugin['version'],
+            plugin['full'] ? "True" : "",
+            plugin['website_name'],
+            plugin['website_url']
+          ]
+        )
+      end
+
       File.open('build/lite/composer.json', 'w') do |f|
         composer_lite = composer_base.dup
         plugins['wordpress'].map{|x| x['name'] unless x['full']}.compact.each do |name|
           composer_lite['require']['wordpress/' + name] = 'dev-master'
         end
         plugins['github'].map{|x| x['repo'] unless x['full']}.compact.each do |repo|
+          composer_lite['require'][repo] = 'dev-master'
+        end
+        plugins['custom'].map{|x| x['name'] unless x['full']}.compact.each do |repo|
           composer_lite['require'][repo] = 'dev-master'
         end
         f.puts(JSON.pretty_generate(composer_lite))
@@ -115,6 +160,9 @@ namespace :composer do
           composer_full['require']['wordpress/' + name] = 'dev-master'
         end
         plugins['github'].map{|x| x['repo']}.compact.each do |repo|
+          composer_full['require'][repo] = 'dev-master'
+        end
+        plugins['custom'].map{|x| x['name']}.compact.each do |repo|
           composer_full['require'][repo] = 'dev-master'
         end
         f.puts(JSON.pretty_generate(composer_full))
