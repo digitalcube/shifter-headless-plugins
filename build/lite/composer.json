@@ -100,7 +100,7 @@
         "name": "wordpress/custom-post-type-ui",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/custom-post-type-ui.1.9.2.zip"
+          "url": "https://downloads.wordpress.org/plugin/custom-post-type-ui.1.10.0.zip"
         }
       }
     },
@@ -124,7 +124,7 @@
         "name": "wordpress/enable-media-replace",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/enable-media-replace.3.5.0.zip"
+          "url": "https://downloads.wordpress.org/plugin/enable-media-replace.3.6.0.zip"
         }
       }
     },
@@ -292,7 +292,7 @@
         "name": "wordpress/wp-graphql",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/wp-graphql.1.6.5.zip"
+          "url": "https://downloads.wordpress.org/plugin/wp-graphql.1.6.6.zip"
         }
       }
     },
@@ -304,7 +304,7 @@
         "name": "wordpress/wp-search-with-algolia",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/wp-search-with-algolia.2.0.1.zip"
+          "url": "https://downloads.wordpress.org/plugin/wp-search-with-algolia.2.1.0.zip"
         }
       }
     },
@@ -328,7 +328,7 @@
         "name": "wordpress/polylang",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/polylang.3.1.1.zip"
+          "url": "https://downloads.wordpress.org/plugin/polylang.3.1.2.zip"
         }
       }
     },
@@ -364,7 +364,7 @@
         "name": "wordpress/woocommerce",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/woocommerce.5.7.1.zip"
+          "url": "https://downloads.wordpress.org/plugin/woocommerce.5.8.0.zip"
         }
       }
     },
@@ -472,7 +472,7 @@
         "name": "wpe-headless",
         "dist": {
           "type": "zip",
-          "url": "https://s3.amazonaws.com/update.atomicblocks.com/wpe-headless/wpe-headless.0.6.1.zip?AWSAccessKeyId=AKIA3GV7FXEAJZVJ3NHH&Signature=SQWzqFyhzvFnFVSM%2B5z9UBMTzLQ%3D&Expires=1633116146"
+          "url": "https://s3.amazonaws.com/update.atomicblocks.com/wpe-headless/wpe-headless.0.6.1.zip?AWSAccessKeyId=AKIA3GV7FXEAJZVJ3NHH&Signature=hzXudzsAPw4v1SamKvaz4dmrhP0%3D&Expires=1634571868"
         }
       }
     }
