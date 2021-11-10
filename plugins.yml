@@ -3,6 +3,7 @@ wordpress:
   - name: acf-to-rest-api
   - name: advanced-custom-fields
   - name: all-in-one-wp-migration
+  - name: atlas-content-modeler
   - name: classic-editor
   - name: codepress-admin-columns
   - name: custom-post-type-ui
