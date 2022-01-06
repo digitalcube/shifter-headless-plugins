@@ -52,7 +52,7 @@
         "name": "wordpress/advanced-custom-fields",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.5.10.2.zip"
+          "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.5.11.4.zip"
         }
       }
     },
@@ -64,7 +64,7 @@
         "name": "wordpress/all-in-one-wp-migration",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/all-in-one-wp-migration.7.50.zip"
+          "url": "https://downloads.wordpress.org/plugin/all-in-one-wp-migration.7.52.zip"
         }
       }
     },
@@ -76,7 +76,7 @@
         "name": "wordpress/atlas-content-modeler",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/atlas-content-modeler.0.9.0.zip"
+          "url": "https://downloads.wordpress.org/plugin/atlas-content-modeler.0.12.0.zip"
         }
       }
     },
@@ -100,7 +100,7 @@
         "name": "wordpress/codepress-admin-columns",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/codepress-admin-columns.4.4.1.zip"
+          "url": "https://downloads.wordpress.org/plugin/codepress-admin-columns.4.4.4.zip"
         }
       }
     },
@@ -112,7 +112,7 @@
         "name": "wordpress/custom-post-type-ui",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/custom-post-type-ui.1.10.0.zip"
+          "url": "https://downloads.wordpress.org/plugin/custom-post-type-ui.1.10.1.zip"
         }
       }
     },
@@ -124,7 +124,7 @@
         "name": "wordpress/code-snippets",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/code-snippets.2.14.2.zip"
+          "url": "https://downloads.wordpress.org/plugin/code-snippets.zip"
         }
       }
     },
@@ -136,7 +136,7 @@
         "name": "wordpress/enable-media-replace",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/enable-media-replace.3.6.2.zip"
+          "url": "https://downloads.wordpress.org/plugin/enable-media-replace.3.6.3.zip"
         }
       }
     },
@@ -220,7 +220,7 @@
         "name": "wordpress/user-role-editor",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/user-role-editor.4.60.2.zip"
+          "url": "https://downloads.wordpress.org/plugin/user-role-editor.4.61.zip"
         }
       }
     },
@@ -244,7 +244,7 @@
         "name": "wordpress/wp-rest-api-controller",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/wp-rest-api-controller.2.0.6.zip"
+          "url": "https://downloads.wordpress.org/plugin/wp-rest-api-controller.2.0.7.zip"
         }
       }
     },
@@ -292,7 +292,7 @@
         "name": "wordpress/wp-gatsby",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/wp-gatsby.2.0.2.zip"
+          "url": "https://downloads.wordpress.org/plugin/wp-gatsby.2.1.1.zip"
         }
       }
     },
@@ -304,7 +304,7 @@
         "name": "wordpress/wp-graphql",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/wp-graphql.1.6.7.zip"
+          "url": "https://downloads.wordpress.org/plugin/wp-graphql.1.6.10.zip"
         }
       }
     },
@@ -340,7 +340,7 @@
         "name": "wordpress/polylang",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/polylang.3.1.2.zip"
+          "url": "https://downloads.wordpress.org/plugin/polylang.3.1.3.zip"
         }
       }
     },
@@ -376,7 +376,7 @@
         "name": "wordpress/woocommerce",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/woocommerce.5.9.0.zip"
+          "url": "https://downloads.wordpress.org/plugin/woocommerce.6.0.0.zip"
         }
       }
     },
@@ -484,7 +484,7 @@
         "name": "wpe-headless",
         "dist": {
           "type": "zip",
-          "url": "https://s3.amazonaws.com/update.atomicblocks.com/wpe-headless/wpe-headless.0.6.1.zip?AWSAccessKeyId=AKIA3GV7FXEAJZVJ3NHH&Signature=zYTZget5qSpoDey4VInAq6CCjGQ%3D&Expires=1636568425"
+          "url": "https://s3.amazonaws.com/update.atomicblocks.com/wpe-headless/wpe-headless.0.6.1.zip?AWSAccessKeyId=AKIA3GV7FXEAJZVJ3NHH&Signature=ZSdIQqvF7LGt4fDSNs6x6LLkhdk%3D&Expires=1641483817"
         }
       }
     }
