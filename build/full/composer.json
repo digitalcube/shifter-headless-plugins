@@ -76,7 +76,7 @@
         "name": "wordpress/atlas-content-modeler",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/atlas-content-modeler.0.12.0.zip"
+          "url": "https://downloads.wordpress.org/plugin/atlas-content-modeler.0.12.1.zip"
         }
       }
     },
@@ -149,6 +149,18 @@
         "dist": {
           "type": "zip",
           "url": "https://downloads.wordpress.org/plugin/export-media-library.3.0.1.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "name": "wordpress/faustwp",
+        "dist": {
+          "type": "zip",
+          "url": "https://downloads.wordpress.org/plugin/faustwp.0.7.1.zip"
         }
       }
     },
@@ -304,7 +316,7 @@
         "name": "wordpress/wp-graphql",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/wp-graphql.1.6.10.zip"
+          "url": "https://downloads.wordpress.org/plugin/wp-graphql.1.6.11.zip"
         }
       }
     },
@@ -376,7 +388,7 @@
         "name": "wordpress/woocommerce",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/woocommerce.6.0.0.zip"
+          "url": "https://downloads.wordpress.org/plugin/woocommerce.6.1.0.zip"
         }
       }
     },
@@ -484,7 +496,7 @@
         "name": "wpe-headless",
         "dist": {
           "type": "zip",
-          "url": "https://s3.amazonaws.com/update.atomicblocks.com/wpe-headless/wpe-headless.0.6.1.zip?AWSAccessKeyId=AKIA3GV7FXEAJZVJ3NHH&Signature=ZSdIQqvF7LGt4fDSNs6x6LLkhdk%3D&Expires=1641483817"
+          "url": "https://s3.amazonaws.com/update.atomicblocks.com/wpe-headless/wpe-headless.0.6.1.zip?AWSAccessKeyId=AKIA3GV7FXEAJZVJ3NHH&Signature=dtYb4FaUCUskBGLEXgN06qxSvV4%3D&Expires=1642446603"
         }
       }
     }
@@ -502,6 +514,7 @@
     "wordpress/code-snippets": "dev-master",
     "wordpress/enable-media-replace": "dev-master",
     "wordpress/export-media-library": "dev-master",
+    "wordpress/faustwp": "dev-master",
     "wordpress/intuitive-custom-post-order": "dev-master",
     "wordpress/redirection": "dev-master",
     "wordpress/rss-importer": "dev-master",
