@@ -496,7 +496,7 @@
         "name": "wpe-headless",
         "dist": {
           "type": "zip",
-          "url": "https://s3.amazonaws.com/update.atomicblocks.com/wpe-headless/wpe-headless.0.6.1.zip?AWSAccessKeyId=AKIA3GV7FXEAJZVJ3NHH&Signature=dtYb4FaUCUskBGLEXgN06qxSvV4%3D&Expires=1642446603"
+          "url": "https://github.com/digitalcube/shifter-headless-plugins/releases/download/tmp-wpe-headpess/wpe-0.6.1.zip"
         }
       }
     }

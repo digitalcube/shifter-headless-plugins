@@ -122,7 +122,8 @@ namespace :composer do
         when 'wpe-headless'
           metadata_url = 'https://wp-product-info.wpesvc.net/v1/plugins/wpe-headless'
           metadata = JSON.parse(URI.open(metadata_url).read)
-          obj_repo[:package][:dist][:url] = metadata['download_link']
+          # obj_repo[:package][:dist][:url] = metadata['download_link']
+          obj_repo[:package][:dist][:url] = "https://github.com/digitalcube/shifter-headless-plugins/releases/download/tmp-wpe-headpess/wpe-0.6.1.zip"
           puts(plugin['name'], metadata['stable_tag'] )
           plugin['version'] = metadata['stable_tag']
         else
