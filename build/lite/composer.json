@@ -64,7 +64,7 @@
         "name": "wordpress/all-in-one-wp-migration",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/all-in-one-wp-migration.7.52.zip"
+          "url": "https://downloads.wordpress.org/plugin/all-in-one-wp-migration.7.53.zip"
         }
       }
     },
@@ -100,7 +100,7 @@
         "name": "wordpress/codepress-admin-columns",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/codepress-admin-columns.4.4.4.zip"
+          "url": "https://downloads.wordpress.org/plugin/codepress-admin-columns.4.4.5.zip"
         }
       }
     },
@@ -232,7 +232,7 @@
         "name": "wordpress/user-role-editor",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/user-role-editor.4.61.zip"
+          "url": "https://downloads.wordpress.org/plugin/user-role-editor.4.61.1.zip"
         }
       }
     },
@@ -316,7 +316,7 @@
         "name": "wordpress/wp-graphql",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/wp-graphql.1.6.11.zip"
+          "url": "https://downloads.wordpress.org/plugin/wp-graphql.1.6.12.zip"
         }
       }
     },
@@ -388,7 +388,7 @@
         "name": "wordpress/woocommerce",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/woocommerce.6.1.0.zip"
+          "url": "https://downloads.wordpress.org/plugin/woocommerce.6.1.1.zip"
         }
       }
     },
@@ -448,7 +448,7 @@
         "name": "wp-graphql/wp-graphql-woocommerce",
         "dist": {
           "type": "tar",
-          "url": "https://api.github.com/repos/wp-graphql/wp-graphql-woocommerce/tarball/v0.10.6"
+          "url": "https://api.github.com/repos/wp-graphql/wp-graphql-woocommerce/tarball/v0.10.7"
         }
       }
     },
