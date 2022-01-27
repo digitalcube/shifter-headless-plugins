@@ -14,7 +14,7 @@
 | [Code Snippets](https://wordpress.org/plugins/code-snippets/) | code-snippets | 2.14.3 |  | [https://github.com/sheabunge/code-snippets](https://github.com/sheabunge/code-snippets) |
 | [Enable Media Replace](https://wordpress.org/plugins/enable-media-replace/) | enable-media-replace | 3.6.3 |  | [https://wordpress.org/plugins/enable-media-replace/](https://wordpress.org/plugins/enable-media-replace/) |
 | [Export Media Library](https://wordpress.org/plugins/export-media-library/) | export-media-library | 3.0.1 |  | [https://github.com/massedge/wordpress-plugin-export-media-library](https://github.com/massedge/wordpress-plugin-export-media-library) |
-| [FaustWP](https://wordpress.org/plugins/faustwp/) | faustwp | 0.7.1 |  | [https://faustjs.org/](https://faustjs.org/) |
+| [FaustWP](https://wordpress.org/plugins/faustwp/) | faustwp | 0.7.3 |  | [https://faustjs.org/](https://faustjs.org/) |
 | [Intuitive Custom Post Order](https://wordpress.org/plugins/intuitive-custom-post-order/) | intuitive-custom-post-order | 3.1.3 |  | [http://hijiriworld.com/web/plugins/intuitive-custom-post-order/](http://hijiriworld.com/web/plugins/intuitive-custom-post-order/) |
 | [Redirection](https://wordpress.org/plugins/redirection/) | redirection | 5.2.2 |  | [https://redirection.me/](https://redirection.me/) |
 | [RSS Importer](https://wordpress.org/plugins/rss-importer/) | rss-importer | 0.2 |  | [http://wordpress.org/extend/plugins/rss-importer/](http://wordpress.org/extend/plugins/rss-importer/) |
@@ -26,12 +26,12 @@
 | [WP REST Cache](https://wordpress.org/plugins/wp-rest-cache/) | wp-rest-cache | 2021.4.1 |  | [https://www.acato.nl](https://www.acato.nl) |
 | [Categories to Tags Converter](https://wordpress.org/plugins/wpcat2tag-importer/) | wpcat2tag-importer | 0.5 |  | [http://wordpress.org/extend/plugins/wpcat2tag-importer/](http://wordpress.org/extend/plugins/wpcat2tag-importer/) |
 | [JAMstack Deployments](https://wordpress.org/plugins/wp-jamstack-deployments/) | wp-jamstack-deployments | 1.1.1 |  | [https://github.com/crgeary/wp-jamstack-deployments](https://github.com/crgeary/wp-jamstack-deployments) |
-| [WPGatsby](https://wordpress.org/plugins/wp-gatsby/) | wp-gatsby | 2.1.1 |  | []() |
+| [WPGatsby](https://wordpress.org/plugins/wp-gatsby/) | wp-gatsby | 2.2.0 |  | []() |
 | [WPGraphQL](https://wordpress.org/plugins/wp-graphql/) | wp-graphql | 1.6.12 |  | [https://github.com/wp-graphql/wp-graphql](https://github.com/wp-graphql/wp-graphql) |
 | [WP Search with Algolia](https://wordpress.org/plugins/wp-search-with-algolia/) | wp-search-with-algolia | 2.1.0 |  | [https://github.com/WebDevStudios/wp-search-with-algolia](https://github.com/WebDevStudios/wp-search-with-algolia) |
 | [Login LockDown](https://wordpress.org/plugins/login-lockdown/) | login-lockdown | v1.8.1 | True | [http://www.bad-neighborhood.com/](http://www.bad-neighborhood.com/) |
 | [Polylang](https://wordpress.org/plugins/polylang/) | polylang | 3.1.3 | True | [https://polylang.pro](https://polylang.pro) |
-| [Two Factor Authentication](https://wordpress.org/plugins/two-factor-authentication/) | two-factor-authentication | 1.13.0 | True | [https://www.simbahosting.co.uk/s3/product/two-factor-authentication/](https://www.simbahosting.co.uk/s3/product/two-factor-authentication/) |
+| [Two Factor Authentication](https://wordpress.org/plugins/two-factor-authentication/) | two-factor-authentication | 1.14.3 | True | [https://www.simbahosting.co.uk/s3/product/two-factor-authentication/](https://www.simbahosting.co.uk/s3/product/two-factor-authentication/) |
 | [VA Simple Basic Auth](https://wordpress.org/plugins/va-simple-basic-auth/) | va-simple-basic-auth | 1.1.0 | True | [https://github.com/VisuAlive/va-simple-basic-auth](https://github.com/VisuAlive/va-simple-basic-auth) |
 | [WooCommerce](https://wordpress.org/plugins/woocommerce/) | woocommerce | 6.1.1 | True | [https://woocommerce.com/](https://woocommerce.com/) |
 
