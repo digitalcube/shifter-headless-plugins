@@ -160,7 +160,7 @@
         "name": "wordpress/faustwp",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/faustwp.0.7.1.zip"
+          "url": "https://downloads.wordpress.org/plugin/faustwp.0.7.3.zip"
         }
       }
     },
@@ -304,7 +304,7 @@
         "name": "wordpress/wp-gatsby",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/wp-gatsby.2.1.1.zip"
+          "url": "https://downloads.wordpress.org/plugin/wp-gatsby.2.2.0.zip"
         }
       }
     },
@@ -364,7 +364,7 @@
         "name": "wordpress/two-factor-authentication",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/two-factor-authentication.1.13.0.zip"
+          "url": "https://downloads.wordpress.org/plugin/two-factor-authentication.1.14.3.zip"
         }
       }
     },
