@@ -44,6 +44,7 @@ namespace :composer do
         body = JSON.load(URI.open(WP_PLUGIN_API % plugin['name']).read)
         if plugin['version_pin']
           download_link = body['versions'].find{|b| b[0] == plugin['version_pin']}.last
+          rakse unless download_link
           obj_repo[:package][:dist][:url] = download_link
           puts(plugin['name'], plugin['version_pin'] + '(pinned)' )
         else
