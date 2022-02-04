@@ -42,14 +42,27 @@ namespace :composer do
           }
         }
         body = JSON.load(URI.open(WP_PLUGIN_API % plugin['name']).read)
-        obj_repo[:package][:dist][:url] = body['download_link']
-        puts(plugin['name'], body['version'] )
+        if plugin['version_pin']
+          download_link = body['versions'].find{|b| b[0] == plugin['version_pin']}.last
+          obj_repo[:package][:dist][:url] = download_link
+          puts(plugin['name'], plugin['version_pin'] + '(pinned)' )
+        else
+          obj_repo[:package][:dist][:url] = body['download_link']
+          puts(plugin['name'], body['version'] )
+        end
         composer_base['repositories'].append(obj_repo)
         body = JSON.load(URI.open(WP_PLUGIN_API % plugin['name']).read)
-        md.puts(
-          "| [%s](https://wordpress.org/plugins/%s/) | %s | %s | %s | [%s](%s) |" %
-          [body['name'], body['slug'], body['slug'], body['version'].to_s, plugin['full'] ? "True" : "", body['homepage'], body['homepage']]
-        )
+        if plugin['version_pin']
+          md.puts(
+            "| [%s](https://wordpress.org/plugins/%s/) | %s | %s | %s | [%s](%s) |" %
+            [body['name'], body['slug'], body['slug'], plugin['version_pin'].to_s + '(pinned)' , plugin['full'] ? "True" : "", body['homepage'], body['homepage']]
+          )
+        else
+          md.puts(
+            "| [%s](https://wordpress.org/plugins/%s/) | %s | %s | %s | [%s](%s) |" %
+            [body['name'], body['slug'], body['slug'], body['version'].to_s, plugin['full'] ? "True" : "", body['homepage'], body['homepage']]
+          )
+        end
       end
 
       # github
