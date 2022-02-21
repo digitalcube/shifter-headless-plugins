@@ -64,7 +64,7 @@
         "name": "wordpress/all-in-one-wp-migration",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/all-in-one-wp-migration.7.53.zip"
+          "url": "https://downloads.wordpress.org/plugin/all-in-one-wp-migration.7.55.zip"
         }
       }
     },
@@ -76,7 +76,7 @@
         "name": "wordpress/atlas-content-modeler",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/atlas-content-modeler.0.13.0.zip"
+          "url": "https://downloads.wordpress.org/plugin/atlas-content-modeler.0.14.0.zip"
         }
       }
     },
@@ -133,6 +133,18 @@
       "package": {
         "version": "dev-master",
         "type": "wordpress-plugin",
+        "name": "wordpress/duplicate-post",
+        "dist": {
+          "type": "zip",
+          "url": "https://downloads.wordpress.org/plugin/duplicate-post.4.4.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "version": "dev-master",
+        "type": "wordpress-plugin",
         "name": "wordpress/enable-media-replace",
         "dist": {
           "type": "zip",
@@ -160,7 +172,7 @@
         "name": "wordpress/faustwp",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/faustwp.0.7.3.zip"
+          "url": "https://downloads.wordpress.org/plugin/faustwp.0.7.4.zip"
         }
       }
     },
@@ -304,7 +316,7 @@
         "name": "wordpress/wp-gatsby",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/wp-gatsby.2.2.1.zip"
+          "url": "https://downloads.wordpress.org/plugin/wp-gatsby.2.3.2.zip"
         }
       }
     },
@@ -388,7 +400,7 @@
         "name": "wordpress/woocommerce",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/woocommerce.6.1.1.zip"
+          "url": "https://downloads.wordpress.org/plugin/woocommerce.6.2.0.zip"
         }
       }
     },
@@ -512,6 +524,7 @@
     "wordpress/codepress-admin-columns": "dev-master",
     "wordpress/custom-post-type-ui": "dev-master",
     "wordpress/code-snippets": "dev-master",
+    "wordpress/duplicate-post": "dev-master",
     "wordpress/enable-media-replace": "dev-master",
     "wordpress/export-media-library": "dev-master",
     "wordpress/faustwp": "dev-master",

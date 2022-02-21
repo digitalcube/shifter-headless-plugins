@@ -2,6 +2,7 @@
 version: '3.8'
 services:
   sut:
+    platform: linux/amd64
     build:
       context: ./test
     depends_on:
@@ -10,6 +11,7 @@ services:
       - plugindata:/srv/plugins
       - ./test/results:/srv/results
   plugins:
+    platform: linux/amd64
     image: getshifter/headless-plugins:stable
     volumes:
       - plugindata:/srv/plugins

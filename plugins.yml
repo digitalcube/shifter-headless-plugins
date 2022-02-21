@@ -8,6 +8,7 @@ wordpress:
   - name: codepress-admin-columns
   - name: custom-post-type-ui
   - name: code-snippets
+  - name: duplicate-post
   - name: enable-media-replace
   - name: export-media-library
   - name: faustwp
