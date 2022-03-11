@@ -40,7 +40,7 @@
         "name": "wordpress/acf-to-rest-api",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/acf-to-rest-api.3.3.2.zip"
+          "url": "https://downloads.wordpress.org/plugin/acf-to-rest-api.3.3.3.zip"
         }
       }
     },
@@ -52,7 +52,7 @@
         "name": "wordpress/advanced-custom-fields",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.5.11.4.zip"
+          "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.5.12.zip"
         }
       }
     },
@@ -64,7 +64,7 @@
         "name": "wordpress/all-in-one-wp-migration",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/all-in-one-wp-migration.7.55.zip"
+          "url": "https://downloads.wordpress.org/plugin/all-in-one-wp-migration.7.56.zip"
         }
       }
     },
@@ -172,7 +172,7 @@
         "name": "wordpress/faustwp",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/faustwp.0.7.4.zip"
+          "url": "https://downloads.wordpress.org/plugin/faustwp.0.7.5.zip"
         }
       }
     },
@@ -244,7 +244,7 @@
         "name": "wordpress/user-role-editor",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/user-role-editor.4.61.1.zip"
+          "url": "https://downloads.wordpress.org/plugin/user-role-editor.4.61.2.zip"
         }
       }
     },
@@ -400,7 +400,7 @@
         "name": "wordpress/woocommerce",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/woocommerce.6.2.0.zip"
+          "url": "https://downloads.wordpress.org/plugin/woocommerce.6.3.1.zip"
         }
       }
     },
