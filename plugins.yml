@@ -13,6 +13,7 @@ wordpress:
   - name: export-media-library
   - name: faustwp
   - name: intuitive-custom-post-order
+  - name: post-type-switcher
   - name: redirection
   - name: rss-importer
   - name: search-and-replace

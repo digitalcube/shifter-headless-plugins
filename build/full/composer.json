@@ -52,7 +52,7 @@
         "name": "wordpress/advanced-custom-fields",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.5.12.zip"
+          "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.5.12.1.zip"
         }
       }
     },
@@ -64,7 +64,7 @@
         "name": "wordpress/all-in-one-wp-migration",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/all-in-one-wp-migration.7.56.zip"
+          "url": "https://downloads.wordpress.org/plugin/all-in-one-wp-migration.7.57.zip"
         }
       }
     },
@@ -76,7 +76,7 @@
         "name": "wordpress/atlas-content-modeler",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/atlas-content-modeler.0.14.0.zip"
+          "url": "https://downloads.wordpress.org/plugin/atlas-content-modeler.0.15.0.zip"
         }
       }
     },
@@ -112,7 +112,7 @@
         "name": "wordpress/custom-post-type-ui",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/custom-post-type-ui.1.10.2.zip"
+          "url": "https://downloads.wordpress.org/plugin/custom-post-type-ui.1.11.2.zip"
         }
       }
     },
@@ -172,7 +172,7 @@
         "name": "wordpress/faustwp",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/faustwp.0.7.5.zip"
+          "url": "https://downloads.wordpress.org/plugin/faustwp.0.7.6.zip"
         }
       }
     },
@@ -185,6 +185,18 @@
         "dist": {
           "type": "zip",
           "url": "https://downloads.wordpress.org/plugin/intuitive-custom-post-order.3.1.3.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "name": "wordpress/post-type-switcher",
+        "dist": {
+          "type": "zip",
+          "url": "https://downloads.wordpress.org/plugin/post-type-switcher.zip"
         }
       }
     },
@@ -460,7 +472,7 @@
         "name": "wp-graphql/wp-graphql-woocommerce",
         "dist": {
           "type": "tar",
-          "url": "https://api.github.com/repos/wp-graphql/wp-graphql-woocommerce/tarball/v0.10.7"
+          "url": "https://api.github.com/repos/wp-graphql/wp-graphql-woocommerce/tarball/v0.11.0"
         }
       }
     },
@@ -529,6 +541,7 @@
     "wordpress/export-media-library": "dev-master",
     "wordpress/faustwp": "dev-master",
     "wordpress/intuitive-custom-post-order": "dev-master",
+    "wordpress/post-type-switcher": "dev-master",
     "wordpress/redirection": "dev-master",
     "wordpress/rss-importer": "dev-master",
     "wordpress/search-and-replace": "dev-master",
