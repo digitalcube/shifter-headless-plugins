@@ -16,6 +16,7 @@ wordpress:
   - name: post-type-switcher
   - name: redirection
   - name: rss-importer
+  - name: safe-svg
   - name: search-and-replace
   - name: tablepress
   - name: user-role-editor

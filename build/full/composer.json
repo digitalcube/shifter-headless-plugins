@@ -52,7 +52,7 @@
         "name": "wordpress/advanced-custom-fields",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.5.12.1.zip"
+          "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.5.12.2.zip"
         }
       }
     },
@@ -76,7 +76,7 @@
         "name": "wordpress/atlas-content-modeler",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/atlas-content-modeler.0.15.0.zip"
+          "url": "https://downloads.wordpress.org/plugin/atlas-content-modeler.0.16.0.zip"
         }
       }
     },
@@ -172,7 +172,7 @@
         "name": "wordpress/faustwp",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/faustwp.0.7.6.zip"
+          "url": "https://downloads.wordpress.org/plugin/faustwp.0.7.7.zip"
         }
       }
     },
@@ -221,6 +221,18 @@
         "dist": {
           "type": "zip",
           "url": "https://downloads.wordpress.org/plugin/rss-importer.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "name": "wordpress/safe-svg",
+        "dist": {
+          "type": "zip",
+          "url": "https://downloads.wordpress.org/plugin/safe-svg.2.0.0.zip"
         }
       }
     },
@@ -544,6 +556,7 @@
     "wordpress/post-type-switcher": "dev-master",
     "wordpress/redirection": "dev-master",
     "wordpress/rss-importer": "dev-master",
+    "wordpress/safe-svg": "dev-master",
     "wordpress/search-and-replace": "dev-master",
     "wordpress/tablepress": "dev-master",
     "wordpress/user-role-editor": "dev-master",
