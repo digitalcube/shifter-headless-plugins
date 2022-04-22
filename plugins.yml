@@ -20,6 +20,7 @@ wordpress:
   - name: search-and-replace
   - name: tablepress
   - name: user-role-editor
+  - name: user-switching
   - name: wordpress-importer
   - name: wp-rest-api-controller
   - name: wp-rest-cache
