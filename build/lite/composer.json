@@ -64,7 +64,7 @@
         "name": "wordpress/all-in-one-wp-migration",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/all-in-one-wp-migration.7.57.zip"
+          "url": "https://downloads.wordpress.org/plugin/all-in-one-wp-migration.7.58.zip"
         }
       }
     },
@@ -232,7 +232,7 @@
         "name": "wordpress/safe-svg",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/safe-svg.2.0.0.zip"
+          "url": "https://downloads.wordpress.org/plugin/safe-svg.2.0.1.zip"
         }
       }
     },
@@ -269,6 +269,18 @@
         "dist": {
           "type": "zip",
           "url": "https://downloads.wordpress.org/plugin/user-role-editor.4.61.2.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "version": "dev-master",
+        "type": "wordpress-plugin",
+        "name": "wordpress/user-switching",
+        "dist": {
+          "type": "zip",
+          "url": "https://downloads.wordpress.org/plugin/user-switching.1.5.8.zip"
         }
       }
     },
@@ -388,7 +400,7 @@
         "name": "wordpress/polylang",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/polylang.3.1.4.zip"
+          "url": "https://downloads.wordpress.org/plugin/polylang.3.2.1.zip"
         }
       }
     },
@@ -424,7 +436,7 @@
         "name": "wordpress/woocommerce",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/woocommerce.6.3.1.zip"
+          "url": "https://downloads.wordpress.org/plugin/woocommerce.6.4.1.zip"
         }
       }
     },
@@ -472,7 +484,7 @@
         "name": "wp-graphql/wp-graphql-jwt-authentication",
         "dist": {
           "type": "tar",
-          "url": "https://api.github.com/repos/wp-graphql/wp-graphql-jwt-authentication/tarball/v0.4.1"
+          "url": "https://api.github.com/repos/wp-graphql/wp-graphql-jwt-authentication/tarball/v0.5.0"
         }
       }
     },
@@ -560,6 +572,7 @@
     "wordpress/search-and-replace": "dev-master",
     "wordpress/tablepress": "dev-master",
     "wordpress/user-role-editor": "dev-master",
+    "wordpress/user-switching": "dev-master",
     "wordpress/wordpress-importer": "dev-master",
     "wordpress/wp-rest-api-controller": "dev-master",
     "wordpress/wp-rest-cache": "dev-master",
