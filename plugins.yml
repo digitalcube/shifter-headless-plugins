@@ -19,6 +19,7 @@ wordpress:
   - name: safe-svg
   - name: search-and-replace
   - name: tablepress
+  - name: the-events-calendar
   - name: user-role-editor
   - name: user-switching
   - name: wordpress-importer
