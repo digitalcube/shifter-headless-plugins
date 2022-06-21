@@ -64,7 +64,7 @@
         "name": "wordpress/all-in-one-wp-migration",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/all-in-one-wp-migration.7.58.zip"
+          "url": "https://downloads.wordpress.org/plugin/all-in-one-wp-migration.7.61.zip"
         }
       }
     },
@@ -76,7 +76,7 @@
         "name": "wordpress/atlas-content-modeler",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/atlas-content-modeler.0.16.0.zip"
+          "url": "https://downloads.wordpress.org/plugin/atlas-content-modeler.0.18.0.zip"
         }
       }
     },
@@ -112,7 +112,7 @@
         "name": "wordpress/custom-post-type-ui",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/custom-post-type-ui.1.11.2.zip"
+          "url": "https://downloads.wordpress.org/plugin/custom-post-type-ui.1.12.1.zip"
         }
       }
     },
@@ -172,7 +172,7 @@
         "name": "wordpress/faustwp",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/faustwp.0.7.7.zip"
+          "url": "https://downloads.wordpress.org/plugin/faustwp.0.7.9.zip"
         }
       }
     },
@@ -265,10 +265,22 @@
       "package": {
         "version": "dev-master",
         "type": "wordpress-plugin",
+        "name": "wordpress/the-events-calendar",
+        "dist": {
+          "type": "zip",
+          "url": "https://downloads.wordpress.org/plugin/the-events-calendar.5.16.1.1.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "version": "dev-master",
+        "type": "wordpress-plugin",
         "name": "wordpress/user-role-editor",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/user-role-editor.4.61.2.zip"
+          "url": "https://downloads.wordpress.org/plugin/user-role-editor.4.62.zip"
         }
       }
     },
@@ -352,7 +364,7 @@
         "name": "wordpress/wp-gatsby",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/wp-gatsby.2.3.2.zip"
+          "url": "https://downloads.wordpress.org/plugin/wp-gatsby.2.3.3.zip"
         }
       }
     },
@@ -376,7 +388,7 @@
         "name": "wordpress/wp-search-with-algolia",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/wp-search-with-algolia.2.1.0.zip"
+          "url": "https://downloads.wordpress.org/plugin/wp-search-with-algolia.2.2.0.zip"
         }
       }
     },
@@ -400,7 +412,7 @@
         "name": "wordpress/polylang",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/polylang.3.2.1.zip"
+          "url": "https://downloads.wordpress.org/plugin/polylang.3.2.4.zip"
         }
       }
     },
@@ -436,7 +448,7 @@
         "name": "wordpress/woocommerce",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/woocommerce.6.4.1.zip"
+          "url": "https://downloads.wordpress.org/plugin/woocommerce.6.6.0.zip"
         }
       }
     },
@@ -484,7 +496,7 @@
         "name": "wp-graphql/wp-graphql-jwt-authentication",
         "dist": {
           "type": "tar",
-          "url": "https://api.github.com/repos/wp-graphql/wp-graphql-jwt-authentication/tarball/v0.5.0"
+          "url": "https://api.github.com/repos/wp-graphql/wp-graphql-jwt-authentication/tarball/v0.5.2"
         }
       }
     },
@@ -520,7 +532,7 @@
         "name": "pristas-peter/wp-graphql-gutenberg",
         "dist": {
           "type": "tar",
-          "url": "https://api.github.com/repos/pristas-peter/wp-graphql-gutenberg/tarball/v0.3.11"
+          "url": "https://api.github.com/repos/pristas-peter/wp-graphql-gutenberg/tarball/v0.3.12"
         }
       }
     },
@@ -571,6 +583,7 @@
     "wordpress/safe-svg": "dev-master",
     "wordpress/search-and-replace": "dev-master",
     "wordpress/tablepress": "dev-master",
+    "wordpress/the-events-calendar": "dev-master",
     "wordpress/user-role-editor": "dev-master",
     "wordpress/user-switching": "dev-master",
     "wordpress/wordpress-importer": "dev-master",
