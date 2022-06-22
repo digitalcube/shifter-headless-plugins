@@ -38,7 +38,7 @@
 | [Polylang](https://wordpress.org/plugins/polylang/) | polylang | 3.2.4 | True | [https://polylang.pro](https://polylang.pro) |
 | [Two Factor Authentication](https://wordpress.org/plugins/two-factor-authentication/) | two-factor-authentication | 1.14.3 | True | [https://www.simbahosting.co.uk/s3/product/two-factor-authentication/](https://www.simbahosting.co.uk/s3/product/two-factor-authentication/) |
 | [VA Simple Basic Auth](https://wordpress.org/plugins/va-simple-basic-auth/) | va-simple-basic-auth | 1.1.0 | True | [https://github.com/VisuAlive/va-simple-basic-auth](https://github.com/VisuAlive/va-simple-basic-auth) |
-| [WooCommerce](https://wordpress.org/plugins/woocommerce/) | woocommerce | 6.6.0 | True | [https://woocommerce.com/](https://woocommerce.com/) |
+| [WooCommerce](https://wordpress.org/plugins/woocommerce/) | woocommerce | 6.6.1 | True | [https://woocommerce.com/](https://woocommerce.com/) |
 
 ## From Github Repository
 
@@ -50,7 +50,7 @@
 | wp-graphql-jwt-authentication | v0.5.2 | True | [https://github.com/wp-graphql/wp-graphql-jwt-authentication](https://github.com/wp-graphql/wp-graphql-jwt-authentication) |
 | wp-graphql-woocommerce | v0.11.0 | True | [https://github.com/wp-graphql/wp-graphql-woocommerce](https://github.com/wp-graphql/wp-graphql-woocommerce) |
 | wp-graphql-polylang | v0.6.0 | True | [https://github.com/valu-digital/wp-graphql-polylang](https://github.com/valu-digital/wp-graphql-polylang) |
-| wp-graphql-gutenberg | v0.3.12 |  | [https://github.com/pristas-peter/wp-graphql-gutenberg](https://github.com/pristas-peter/wp-graphql-gutenberg) |
+| wp-graphql-gutenberg | v0.3.11(pinned) |  | [https://github.com/pristas-peter/wp-graphql-gutenberg](https://github.com/pristas-peter/wp-graphql-gutenberg) |
 | wp-graphql-gutenberg-acf | v0.3.0 |  | [https://github.com/pristas-peter/wp-graphql-gutenberg-acf](https://github.com/pristas-peter/wp-graphql-gutenberg-acf) |
 
 ## Others
