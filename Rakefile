@@ -101,15 +101,29 @@ namespace :composer do
         when 'release_src'
           obj_repo[:package][:dist][:type] = 'tar'
           body = JSON.load URI.open(GITHUB_RELEASE_API % plugin['repo']).read
-          puts(plugin['name'], body[0]['name'] )
-          obj_repo[:package][:dist][:url] = body[0]['tarball_url']
-          plugin['version'] = body[0]['tag_name']
+          if plugin['release_pin']
+            target = body.find{|b| b['name'] == plugin['release_pin']}
+            puts(plugin['name'], target['name'] )
+            obj_repo[:package][:dist][:url] = target['tarball_url']
+            plugin['version'] = target['tag_name']
+          else
+            puts(plugin['name'], body[0]['name'] )
+            obj_repo[:package][:dist][:url] = body[0]['tarball_url']
+            plugin['version'] = body[0]['tag_name']
+          end
         end
         composer_base['repositories'].append(obj_repo)
-        md.puts(
-          "| %s | %s | %s | [https://github.com/%s](https://github.com/%s) |" %
-          [plugin['name'], plugin['version'], plugin['full'] ? "True" : "", plugin['repo'], plugin['repo']]
-        )
+        if plugin['release_pin']
+          md.puts(
+            "| %s | %s | %s | [https://github.com/%s](https://github.com/%s) |" %
+            [plugin['name'], plugin['release_pin'].to_s + '(pinned)', plugin['full'] ? "True" : "", plugin['repo'], plugin['repo']]
+          )
+        else
+          md.puts(
+            "| %s | %s | %s | [https://github.com/%s](https://github.com/%s) |" %
+            [plugin['name'], plugin['version'], plugin['full'] ? "True" : "", plugin['repo'], plugin['repo']]
+          )
+        end
       end
 
       # custom install

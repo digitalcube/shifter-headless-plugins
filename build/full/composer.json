@@ -448,7 +448,7 @@
         "name": "wordpress/woocommerce",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/woocommerce.6.6.0.zip"
+          "url": "https://downloads.wordpress.org/plugin/woocommerce.6.6.1.zip"
         }
       }
     },
@@ -532,7 +532,7 @@
         "name": "pristas-peter/wp-graphql-gutenberg",
         "dist": {
           "type": "tar",
-          "url": "https://api.github.com/repos/pristas-peter/wp-graphql-gutenberg/tarball/v0.3.12"
+          "url": "https://api.github.com/repos/pristas-peter/wp-graphql-gutenberg/tarball/v0.3.11"
         }
       }
     },
