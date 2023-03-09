@@ -29,7 +29,6 @@ wordpress:
   - name: wp-jamstack-deployments
   - name: wp-gatsby
   - name: wp-graphql
-    version_pin: "1.6.11"
   - name: wp-search-with-algolia
   - name: login-lockdown
     full: true
