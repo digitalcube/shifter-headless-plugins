@@ -67,7 +67,6 @@ github:
   - name: wp-graphql-gutenberg
     type: release_src
     repo: pristas-peter/wp-graphql-gutenberg
-    release_pin: "v0.3.11"
   - name: wp-graphql-gutenberg-acf
     type: release_src
     repo: pristas-peter/wp-graphql-gutenberg-acf
