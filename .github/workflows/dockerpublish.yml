@@ -73,8 +73,8 @@ jobs:
           IMAGE_ID=docker.pkg.github.com/digitalcube/shifter-headless-plugins/$IMAGE_NAME
           DH_IMAGE_ID=getshifter/headless-plugins
 
-          # Strip "v" prefix from tag name
-          [[ "${{ github.ref }}" == "refs/tags/"* ]] && VERSION=$(echo $VERSION | sed -e 's/^v//')
+          # Strip git ref prefix from version
+          VERSION=$(echo "${{ github.ref }}" | sed -e 's,.*/\(.*\),\1,')
 
           # Use Docker `stable` tag convention
           [ "$VERSION" == "main" ] && VERSION=stable
@@ -113,6 +113,36 @@ jobs:
           docker push $DH_IMAGE_ID:$VERSION
           docker push $DH_IMAGE_ID:$VERSION-amd64
           docker push $DH_IMAGE_ID:$VERSION-arm64
+
+          # push to github
+          docker manifest create \
+            $IMAGE_ID:$VERSION-manifest \
+            $IMAGE_ID:$VERSION-amd64 \
+            -a $IMAGE_ID:$VERSION-arm64
+          docker manifest create \
+            $IMAGE_ID:$VERSION-lite-manifest \
+            $IMAGE_ID:$VERSION-lite-amd64 \
+            -a $IMAGE_ID:$VERSION-lite-arm64
+
+          docker manifest push $IMAGE_ID:$VERSION-manifest
+          docker manifest push $IMAGE_ID:$VERSION-lite-manifest
+          docker manifest inspect $IMAGE_ID:$VERSION-manifest
+          docker manifest inspect $IMAGE_ID:$VERSION-lite-manifest
+
+          # push to dockerhub
+          docker manifest create \
+            $DH_IMAGE_ID:$VERSION-manifest \
+            $DH_IMAGE_ID:$VERSION-amd64 \
+            -a $DH_IMAGE_ID:$VERSION-arm64
+          docker manifest create \
+            $DH_IMAGE_ID:$VERSION-lite-manifest \
+            $DH_IMAGE_ID:$VERSION-lite-amd64 \
+            -a $DH_IMAGE_ID:$VERSION-lite-arm64
+
+          docker manifest push $DH_IMAGE_ID:$VERSION-manifest
+          docker manifest push $DH_IMAGE_ID:$VERSION-lite-manifest
+          docker manifest inspect $DH_IMAGE_ID:$VERSION-manifest
+          docker manifest inspect $DH_IMAGE_ID:$VERSION-lite-manifest
 
       - name: Slack Notification
         uses: rtCamp/action-slack-notify@master
