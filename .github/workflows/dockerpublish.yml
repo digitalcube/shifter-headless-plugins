@@ -55,8 +55,15 @@ jobs:
 
       - name: Build image
         run: |
+          # Strip git ref prefix from version
+          VERSION=$(echo "${{ github.ref }}" | sed -e 's,.*/\(.*\),\1,')
+
+          # Strip "v" prefix from tag name
           [[ "${{ github.ref }}" == "refs/tags/"* ]] && VERSION=$(echo $VERSION | sed -e 's/^v//')
+
+          # Use Docker `stable` tag convention
           [ "$VERSION" == "main" ] && VERSION=stable
+
           docker buildx bake --load ${VERSION}
 
       - name: Log into registry
