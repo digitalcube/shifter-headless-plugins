@@ -61,7 +61,7 @@ jobs:
           # Use Docker `stable` tag convention
           [ "$VERSION" == "main" ] && VERSION=stable
 
-          docker buildx bake --load ${VERSION}
+          docker buildx bake ${VERSION} --load
 
       - name: Log into registry
         run: |
@@ -82,23 +82,23 @@ jobs:
           echo IMAGE_ID=$IMAGE_ID
           echo VERSION=$VERSION
 
-          docker tag $VERSION $IMAGE_ID:$VERSION
-          docker tag $VERSION $DH_IMAGE_ID:$VERSION
+          docker tag headless-plugins:$VERSION $IMAGE_ID:$VERSION
+          docker tag headless-plugins:$VERSION $DH_IMAGE_ID:$VERSION
 
-          docker tag $VERSION-amd64 $IMAGE_ID:$VERSION-amd64
-          docker tag $VERSION-amd64 $DH_IMAGE_ID:$VERSION-amd64
+          docker tag headless-plugins:$VERSION-amd64 $IMAGE_ID:$VERSION-amd64
+          docker tag headless-plugins:$VERSION-amd64 $DH_IMAGE_ID:$VERSION-amd64
 
-          docker tag $VERSION-arm64 $IMAGE_ID:$VERSION-arm64
-          docker tag $VERSION-arm64 $DH_IMAGE_ID:$VERSION-arm64
+          docker tag headless-plugins:$VERSION-arm64 $IMAGE_ID:$VERSION-arm64
+          docker tag headless-plugins:$VERSION-arm64 $DH_IMAGE_ID:$VERSION-arm64
 
-          docker tag $VERSION-lite $IMAGE_ID:$VERSION-lite
-          docker tag $VERSION-lite $DH_IMAGE_ID:$VERSION-lite
+          docker tag headless-plugins:$VERSION-lite $IMAGE_ID:$VERSION-lite
+          docker tag headless-plugins:$VERSION-lite $DH_IMAGE_ID:$VERSION-lite
 
-          docker tag $VERSION-lite-amd64 $IMAGE_ID:$VERSION-lite-amd64
-          docker tag $VERSION-lite-amd64 $DH_IMAGE_ID:$VERSION-lite-amd64
+          docker tag headless-plugins:$VERSION-lite-amd64 $IMAGE_ID:$VERSION-lite-amd64
+          docker tag headless-plugins:$VERSION-lite-amd64 $DH_IMAGE_ID:$VERSION-lite-amd64
 
-          docker tag $VERSION-lite-arm64 $IMAGE_ID:$VERSION-lite-arm64
-          docker tag $VERSION-lite-arm64 $DH_IMAGE_ID:$VERSION-lite-arm64
+          docker tag headless-plugins:$VERSION-lite-arm64 $IMAGE_ID:$VERSION-lite-arm64
+          docker tag headless-plugins:$VERSION-lite-arm64 $DH_IMAGE_ID:$VERSION-lite-arm64
 
           docker push $IMAGE_ID:$VERSION-lite
           docker push $IMAGE_ID:$VERSION-lite-amd64
