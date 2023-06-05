@@ -1,4 +1,4 @@
-FROM php:7.4-cli-buster as composer
+FROM --platform=${TARGETPLATFORM} php:7.4-cli-buster as composer
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update  --allow-releaseinfo-change --allow-insecure-repositories \
@@ -23,7 +23,7 @@ WORKDIR /srv/build/full
 RUN composer install
 
 
-FROM busybox:latest
+FROM --platform=${TARGETPLATFORM} busybox:latest
 ARG STAGE=full
 COPY --from=composer /srv/build/${STAGE}/plugins /srv/plugins
 VOLUME /srv/plugins
