@@ -26,9 +26,6 @@ target "headless-plugins-dev-full-amd64" {
 
 target "headless-plugins-dev-full-arm64" {
   dockerfile = "Dockerfile"
-  args = {
-    STAGE = "lite",
-  }
   platforms = ["linux/arm64"]
   tags = [
     "headless-plugins:develop-arm64",

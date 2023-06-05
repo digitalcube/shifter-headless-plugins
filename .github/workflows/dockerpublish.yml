@@ -69,6 +69,7 @@ jobs:
       - name: Log into registry
         run: |
           echo "${{ secrets.GITHUB_TOKEN }}" | docker login docker.pkg.github.com -u ${{ github.actor }} --password-stdin
+          echo "${{ secrets.DHUB_TOKEN }}" | docker login -u ${{ secrets.DHUB_USER }} --password-stdin
 
       - name: Push image
         run: |
@@ -112,7 +113,6 @@ jobs:
           docker push $IMAGE_ID:$VERSION-amd64
           docker push $IMAGE_ID:$VERSION-arm64
 
-          echo "${{ secrets.DHUB_TOKEN }}" | docker login -u ${{ secrets.DHUB_USER }} --password-stdin
           docker push $DH_IMAGE_ID:$VERSION
           docker push $DH_IMAGE_ID:$VERSION-amd64
           docker push $DH_IMAGE_ID:$VERSION-arm64
