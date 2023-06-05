@@ -56,7 +56,10 @@ jobs:
       - name: Build image
         run: |
           # Strip git ref prefix from version
-          VERSION=${{ github.ref_name }}
+          VERSION=$(echo "${{ github.ref }}" | sed -e 's,.*/\(.*\),\1,')
+
+          # Strip "v" prefix from tag name
+          [[ "${{ github.ref }}" == "refs/tags/"* ]] && VERSION=$(echo $VERSION | sed -e 's/^v//')
 
           # Use Docker `stable` tag convention
           [ "$VERSION" == "main" ] && VERSION=stable
@@ -74,7 +77,10 @@ jobs:
           DH_IMAGE_ID=getshifter/headless-plugins
 
           # Strip git ref prefix from version
-          VERSION=${{ github.ref_name }}
+          VERSION=$(echo "${{ github.ref }}" | sed -e 's,.*/\(.*\),\1,')
+
+          # Strip "v" prefix from tag name
+          [[ "${{ github.ref }}" == "refs/tags/"* ]] && VERSION=$(echo $VERSION | sed -e 's/^v//')
 
           # Use Docker `stable` tag convention
           [ "$VERSION" == "main" ] && VERSION=stable
