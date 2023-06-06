@@ -113,11 +113,11 @@ jobs:
           docker push $IMAGE_ID:$VERSION-amd64
           docker push $IMAGE_ID:$VERSION-arm64
 
-          docker push $DH_IMAGE_ID:$VERSION
+          # docker push $DH_IMAGE_ID:$VERSION
           # docker push $DH_IMAGE_ID:$VERSION-amd64
           # docker push $DH_IMAGE_ID:$VERSION-arm64
           # docker push $DH_IMAGE_ID:$VERSION-lite-arm64
-          docker push $DH_IMAGE_ID:$VERSION-lite
+          # docker push $DH_IMAGE_ID:$VERSION-lite
           # docker push $DH_IMAGE_ID:$VERSION-lite-amd64
 
           # push to github
