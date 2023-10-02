@@ -52,7 +52,7 @@
         "name": "wordpress/advanced-custom-fields",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.6.2.0.zip"
+          "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.6.2.1.zip"
         }
       }
     },
@@ -124,7 +124,7 @@
         "name": "wordpress/code-snippets",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/code-snippets.3.4.2.zip"
+          "url": "https://downloads.wordpress.org/plugin/code-snippets.3.5.0.zip"
         }
       }
     },
@@ -148,7 +148,7 @@
         "name": "wordpress/enable-media-replace",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/enable-media-replace.4.1.2.zip"
+          "url": "https://downloads.wordpress.org/plugin/enable-media-replace.4.1.4.zip"
         }
       }
     },
@@ -172,7 +172,7 @@
         "name": "wordpress/faustwp",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/faustwp.1.0.3.zip"
+          "url": "https://downloads.wordpress.org/plugin/faustwp.1.0.4.zip"
         }
       }
     },
@@ -268,7 +268,7 @@
         "name": "wordpress/the-events-calendar",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/the-events-calendar.6.2.0.1.zip"
+          "url": "https://downloads.wordpress.org/plugin/the-events-calendar.6.2.2.1.zip"
         }
       }
     },
@@ -388,7 +388,7 @@
         "name": "wordpress/wp-search-with-algolia",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/wp-search-with-algolia.2.6.0.zip"
+          "url": "https://downloads.wordpress.org/plugin/wp-search-with-algolia.2.6.1.zip"
         }
       }
     },
@@ -448,7 +448,7 @@
         "name": "wordpress/woocommerce",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/woocommerce.8.0.3.zip"
+          "url": "https://downloads.wordpress.org/plugin/woocommerce.8.1.1.zip"
         }
       }
     },
@@ -508,7 +508,7 @@
         "name": "wp-graphql/wp-graphql-woocommerce",
         "dist": {
           "type": "tar",
-          "url": "https://api.github.com/repos/wp-graphql/wp-graphql-woocommerce/tarball/v0.16.0"
+          "url": "https://api.github.com/repos/wp-graphql/wp-graphql-woocommerce/tarball/v0.18.0"
         }
       }
     },
