@@ -52,7 +52,7 @@
         "name": "wordpress/advanced-custom-fields",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.6.2.1.zip"
+          "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.6.2.5.zip"
         }
       }
     },
@@ -64,7 +64,7 @@
         "name": "wordpress/all-in-one-wp-migration",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/all-in-one-wp-migration.7.78.zip"
+          "url": "https://downloads.wordpress.org/plugin/all-in-one-wp-migration.7.79.zip"
         }
       }
     },
@@ -76,7 +76,7 @@
         "name": "wordpress/atlas-content-modeler",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/atlas-content-modeler.0.24.0.zip"
+          "url": "https://downloads.wordpress.org/plugin/atlas-content-modeler.0.26.1.zip"
         }
       }
     },
@@ -112,7 +112,7 @@
         "name": "wordpress/custom-post-type-ui",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/custom-post-type-ui.1.14.0.zip"
+          "url": "https://downloads.wordpress.org/plugin/custom-post-type-ui.1.15.1.zip"
         }
       }
     },
@@ -124,7 +124,7 @@
         "name": "wordpress/code-snippets",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/code-snippets.3.5.0.zip"
+          "url": "https://downloads.wordpress.org/plugin/code-snippets.3.6.2.zip"
         }
       }
     },
@@ -148,7 +148,7 @@
         "name": "wordpress/enable-media-replace",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/enable-media-replace.4.1.4.zip"
+          "url": "https://downloads.wordpress.org/plugin/enable-media-replace.4.1.5.zip"
         }
       }
     },
@@ -172,7 +172,7 @@
         "name": "wordpress/faustwp",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/faustwp.1.0.4.zip"
+          "url": "https://downloads.wordpress.org/plugin/faustwp.zip"
         }
       }
     },
@@ -184,7 +184,7 @@
         "name": "wordpress/intuitive-custom-post-order",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/intuitive-custom-post-order.3.1.4.1.zip"
+          "url": "https://downloads.wordpress.org/plugin/intuitive-custom-post-order.3.1.5.zip"
         }
       }
     },
@@ -208,7 +208,7 @@
         "name": "wordpress/redirection",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/redirection.5.3.10.zip"
+          "url": "https://downloads.wordpress.org/plugin/redirection.5.4.2.zip"
         }
       }
     },
@@ -220,7 +220,7 @@
         "name": "wordpress/rss-importer",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/rss-importer.0.3.1.zip"
+          "url": "https://downloads.wordpress.org/plugin/rss-importer.0.3.2.zip"
         }
       }
     },
@@ -232,7 +232,7 @@
         "name": "wordpress/safe-svg",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/safe-svg.2.2.0.zip"
+          "url": "https://downloads.wordpress.org/plugin/safe-svg.2.2.2.zip"
         }
       }
     },
@@ -256,7 +256,7 @@
         "name": "wordpress/tablepress",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/tablepress.2.1.7.zip"
+          "url": "https://downloads.wordpress.org/plugin/tablepress.2.2.5.zip"
         }
       }
     },
@@ -268,7 +268,7 @@
         "name": "wordpress/the-events-calendar",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/the-events-calendar.6.2.2.1.zip"
+          "url": "https://downloads.wordpress.org/plugin/the-events-calendar.6.3.1.zip"
         }
       }
     },
@@ -280,7 +280,7 @@
         "name": "wordpress/user-role-editor",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/user-role-editor.4.64.zip"
+          "url": "https://downloads.wordpress.org/plugin/user-role-editor.4.64.1.zip"
         }
       }
     },
@@ -292,7 +292,7 @@
         "name": "wordpress/user-switching",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/user-switching.1.7.0.zip"
+          "url": "https://downloads.wordpress.org/plugin/user-switching.1.7.2.zip"
         }
       }
     },
@@ -304,7 +304,7 @@
         "name": "wordpress/wordpress-importer",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/wordpress-importer.0.8.1.zip"
+          "url": "https://downloads.wordpress.org/plugin/wordpress-importer.0.8.2.zip"
         }
       }
     },
@@ -340,7 +340,7 @@
         "name": "wordpress/wpcat2tag-importer",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/wpcat2tag-importer.0.6.1.zip"
+          "url": "https://downloads.wordpress.org/plugin/wpcat2tag-importer.0.6.2.zip"
         }
       }
     },
@@ -376,7 +376,7 @@
         "name": "wordpress/wp-graphql",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/wp-graphql.1.16.0.zip"
+          "url": "https://downloads.wordpress.org/plugin/wp-graphql.1.20.0.zip"
         }
       }
     },
@@ -388,7 +388,7 @@
         "name": "wordpress/wp-search-with-algolia",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/wp-search-with-algolia.2.6.1.zip"
+          "url": "https://downloads.wordpress.org/plugin/wp-search-with-algolia.2.7.0.zip"
         }
       }
     },
@@ -400,7 +400,7 @@
         "name": "wordpress/login-lockdown",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/login-lockdown.2.06.zip"
+          "url": "https://downloads.wordpress.org/plugin/login-lockdown.2.08.zip"
         }
       }
     },
@@ -412,7 +412,7 @@
         "name": "wordpress/polylang",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/polylang.3.4.5.zip"
+          "url": "https://downloads.wordpress.org/plugin/polylang.3.5.3.zip"
         }
       }
     },
@@ -448,7 +448,7 @@
         "name": "wordpress/woocommerce",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/woocommerce.8.1.1.zip"
+          "url": "https://downloads.wordpress.org/plugin/woocommerce.8.5.2.zip"
         }
       }
     },
@@ -472,7 +472,7 @@
         "name": "wp-graphql/wp-graphql-acf",
         "dist": {
           "type": "tar",
-          "url": "https://api.github.com/repos/wp-graphql/wp-graphql-acf/tarball/v0.6.1"
+          "url": "https://api.github.com/repos/wp-graphql/wp-graphql-acf/tarball/v0.6.1-beta.2.0.0"
         }
       }
     },
@@ -508,7 +508,7 @@
         "name": "wp-graphql/wp-graphql-woocommerce",
         "dist": {
           "type": "tar",
-          "url": "https://api.github.com/repos/wp-graphql/wp-graphql-woocommerce/tarball/v0.18.0"
+          "url": "https://api.github.com/repos/wp-graphql/wp-graphql-woocommerce/tarball/v0.19.0"
         }
       }
     },
