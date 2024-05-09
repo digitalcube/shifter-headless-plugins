@@ -256,7 +256,7 @@
         "name": "wordpress/tablepress",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/tablepress.2.3.zip"
+          "url": "https://downloads.wordpress.org/plugin/tablepress.2.3.1.zip"
         }
       }
     },
@@ -268,7 +268,7 @@
         "name": "wordpress/the-events-calendar",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/the-events-calendar.6.3.7.zip"
+          "url": "https://downloads.wordpress.org/plugin/the-events-calendar.6.4.0.1.zip"
         }
       }
     },
@@ -376,7 +376,7 @@
         "name": "wordpress/wp-graphql",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/wp-graphql.1.23.0.zip"
+          "url": "https://downloads.wordpress.org/plugin/wp-graphql.1.25.0.zip"
         }
       }
     },
@@ -448,7 +448,7 @@
         "name": "wordpress/woocommerce",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/woocommerce.8.8.2.zip"
+          "url": "https://downloads.wordpress.org/plugin/woocommerce.8.8.3.zip"
         }
       }
     },
