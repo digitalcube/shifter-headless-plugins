@@ -268,7 +268,7 @@
         "name": "wordpress/the-events-calendar",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/the-events-calendar.6.4.0.1.zip"
+          "url": "https://downloads.wordpress.org/plugin/the-events-calendar.6.5.0.zip"
         }
       }
     },
@@ -376,7 +376,7 @@
         "name": "wordpress/wp-graphql",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/wp-graphql.1.25.0.zip"
+          "url": "https://downloads.wordpress.org/plugin/wp-graphql.1.26.0.zip"
         }
       }
     },
@@ -448,7 +448,7 @@
         "name": "wordpress/woocommerce",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/woocommerce.8.8.3.zip"
+          "url": "https://downloads.wordpress.org/plugin/woocommerce.8.9.0.zip"
         }
       }
     },
