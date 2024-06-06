@@ -52,7 +52,7 @@
         "name": "wordpress/advanced-custom-fields",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.6.2.9.zip"
+          "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.6.3.1.zip"
         }
       }
     },
@@ -64,7 +64,7 @@
         "name": "wordpress/all-in-one-wp-migration",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/all-in-one-wp-migration.7.81.zip"
+          "url": "https://downloads.wordpress.org/plugin/all-in-one-wp-migration.7.82.zip"
         }
       }
     },
@@ -124,7 +124,7 @@
         "name": "wordpress/code-snippets",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/code-snippets.3.6.4.zip"
+          "url": "https://downloads.wordpress.org/plugin/code-snippets.3.6.5.1.zip"
         }
       }
     },
@@ -244,7 +244,7 @@
         "name": "wordpress/search-and-replace",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/search-and-replace.3.2.1.zip"
+          "url": "https://downloads.wordpress.org/plugin/search-and-replace.3.2.2.zip"
         }
       }
     },
@@ -256,7 +256,7 @@
         "name": "wordpress/tablepress",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/tablepress.2.3.1.zip"
+          "url": "https://downloads.wordpress.org/plugin/tablepress.2.3.2.zip"
         }
       }
     },
@@ -268,7 +268,7 @@
         "name": "wordpress/the-events-calendar",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/the-events-calendar.6.5.0.zip"
+          "url": "https://downloads.wordpress.org/plugin/the-events-calendar.6.5.0.1.zip"
         }
       }
     },
@@ -376,7 +376,7 @@
         "name": "wordpress/wp-graphql",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/wp-graphql.1.26.0.zip"
+          "url": "https://downloads.wordpress.org/plugin/wp-graphql.1.27.0.zip"
         }
       }
     },
@@ -400,7 +400,7 @@
         "name": "wordpress/login-lockdown",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/login-lockdown.2.09.zip"
+          "url": "https://downloads.wordpress.org/plugin/login-lockdown.2.10.zip"
         }
       }
     },
@@ -412,7 +412,7 @@
         "name": "wordpress/polylang",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/polylang.3.6.1.zip"
+          "url": "https://downloads.wordpress.org/plugin/polylang.3.6.2.zip"
         }
       }
     },
@@ -448,7 +448,7 @@
         "name": "wordpress/woocommerce",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/woocommerce.8.9.0.zip"
+          "url": "https://downloads.wordpress.org/plugin/woocommerce.8.9.2.zip"
         }
       }
     },
@@ -508,7 +508,7 @@
         "name": "wp-graphql/wp-graphql-woocommerce",
         "dist": {
           "type": "tar",
-          "url": "https://api.github.com/repos/wp-graphql/wp-graphql-woocommerce/tarball/v0.19.0"
+          "url": "https://api.github.com/repos/wp-graphql/wp-graphql-woocommerce/tarball/v0.20.0"
         }
       }
     },
@@ -520,7 +520,7 @@
         "name": "valu-digital/wp-graphql-polylang",
         "dist": {
           "type": "tar",
-          "url": "https://api.github.com/repos/valu-digital/wp-graphql-polylang/tarball/v0.6.0"
+          "url": "https://api.github.com/repos/valu-digital/wp-graphql-polylang/tarball/v0.7.0"
         }
       }
     },
