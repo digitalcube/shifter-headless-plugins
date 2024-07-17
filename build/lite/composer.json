@@ -385,6 +385,18 @@
       "package": {
         "version": "dev-master",
         "type": "wordpress-plugin",
+        "name": "wordpress/wpgraphql-acf",
+        "dist": {
+          "type": "zip",
+          "url": "https://downloads.wordpress.org/plugin/wpgraphql-acf.2.2.0.zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "version": "dev-master",
+        "type": "wordpress-plugin",
         "name": "wordpress/wp-search-with-algolia",
         "dist": {
           "type": "zip",
@@ -461,30 +473,6 @@
         "dist": {
           "type": "zip",
           "url": "https://github.com/wp-api/basic-auth/archive/master.zip"
-        }
-      }
-    },
-    {
-      "type": "package",
-      "package": {
-        "version": "dev-master",
-        "type": "wordpress-plugin",
-        "name": "wp-graphql/wp-graphql-acf",
-        "dist": {
-          "type": "tar",
-          "url": "https://api.github.com/repos/wp-graphql/wp-graphql-acf/tarball/v0.6.1-beta.2.0.0"
-        }
-      }
-    },
-    {
-      "type": "package",
-      "package": {
-        "version": "dev-master",
-        "type": "wordpress-plugin",
-        "name": "wp-graphql/wp-graphql-custom-post-type-ui",
-        "dist": {
-          "type": "tar",
-          "url": "https://api.github.com/repos/wp-graphql/wp-graphql-custom-post-type-ui/tarball/v1.2.0"
         }
       }
     },
@@ -593,9 +581,8 @@
     "wordpress/wp-jamstack-deployments": "dev-master",
     "wordpress/wp-gatsby": "dev-master",
     "wordpress/wp-graphql": "dev-master",
+    "wordpress/wpgraphql-acf": "dev-master",
     "wordpress/wp-search-with-algolia": "dev-master",
-    "wp-graphql/wp-graphql-acf": "dev-master",
-    "wp-graphql/wp-graphql-custom-post-type-ui": "dev-master",
     "pristas-peter/wp-graphql-gutenberg": "dev-master",
     "pristas-peter/wp-graphql-gutenberg-acf": "dev-master",
     "wpe-headless": "dev-master"

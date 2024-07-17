@@ -33,6 +33,7 @@
 | [JAMstack Deployments](https://wordpress.org/plugins/wp-jamstack-deployments/) | wp-jamstack-deployments | 1.1.1 |  | [https://github.com/crgeary/wp-jamstack-deployments](https://github.com/crgeary/wp-jamstack-deployments) |
 | [WPGatsby](https://wordpress.org/plugins/wp-gatsby/) | wp-gatsby | 2.3.3 |  | []() |
 | [WPGraphQL](https://wordpress.org/plugins/wp-graphql/) | wp-graphql | 1.27.2 |  | [https://github.com/wp-graphql/wp-graphql](https://github.com/wp-graphql/wp-graphql) |
+| [WPGraphQL for ACF](https://wordpress.org/plugins/wpgraphql-acf/) | wpgraphql-acf | 2.2.0 |  | []() |
 | [WP Search with Algolia](https://wordpress.org/plugins/wp-search-with-algolia/) | wp-search-with-algolia | 2.8.1 |  | [https://github.com/WebDevStudios/wp-search-with-algolia](https://github.com/WebDevStudios/wp-search-with-algolia) |
 | [Login Lockdown &amp; Protection](https://wordpress.org/plugins/login-lockdown/) | login-lockdown | 2.11 | True | [https://wploginlockdown.com/](https://wploginlockdown.com/) |
 | [Polylang](https://wordpress.org/plugins/polylang/) | polylang | 3.6.3 | True | [https://polylang.pro](https://polylang.pro) |
@@ -45,8 +46,6 @@
 | Name | Version/Tag | Full only? | Repo |
 | --- | --- | --- | --- |
 | basic-auth | master | True | [https://github.com/wp-api/basic-auth](https://github.com/wp-api/basic-auth) |
-| wp-graphql-acf | v0.6.1-beta.2.0.0 |  | [https://github.com/wp-graphql/wp-graphql-acf](https://github.com/wp-graphql/wp-graphql-acf) |
-| wp-graphql-custom-post-type-ui | v1.2.0 |  | [https://github.com/wp-graphql/wp-graphql-custom-post-type-ui](https://github.com/wp-graphql/wp-graphql-custom-post-type-ui) |
 | wp-graphql-jwt-authentication | v0.7.0 | True | [https://github.com/wp-graphql/wp-graphql-jwt-authentication](https://github.com/wp-graphql/wp-graphql-jwt-authentication) |
 | wp-graphql-woocommerce | v0.20.0 | True | [https://github.com/wp-graphql/wp-graphql-woocommerce](https://github.com/wp-graphql/wp-graphql-woocommerce) |
 | wp-graphql-polylang | v0.7.0 | True | [https://github.com/valu-digital/wp-graphql-polylang](https://github.com/valu-digital/wp-graphql-polylang) |
