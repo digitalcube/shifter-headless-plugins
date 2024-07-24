@@ -29,6 +29,7 @@ wordpress:
   - name: wp-jamstack-deployments
   - name: wp-gatsby
   - name: wp-graphql
+  - name: wpgraphql-acf
   - name: wp-search-with-algolia
   - name: login-lockdown
     full: true
@@ -49,9 +50,6 @@ github:
   - name: wp-graphql-acf
     type: prerelease_src
     repo: wp-graphql/wp-graphql-acf
-  - name: wp-graphql-custom-post-type-ui
-    type: prerelease_src
-    repo: wp-graphql/wp-graphql-custom-post-type-ui
   - name: wp-graphql-jwt-authentication
     type: prerelease_src
     repo: wp-graphql/wp-graphql-jwt-authentication
