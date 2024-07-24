@@ -47,6 +47,9 @@ github:
     arg: master
     repo: wp-api/basic-auth
     full: true
+  - name: wp-graphql-acf
+    type: prerelease_src
+    repo: wp-graphql/wp-graphql-acf
   - name: wp-graphql-jwt-authentication
     type: prerelease_src
     repo: wp-graphql/wp-graphql-jwt-authentication

@@ -52,7 +52,7 @@
         "name": "wordpress/advanced-custom-fields",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.6.3.3.zip"
+          "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.6.3.4.zip"
         }
       }
     },
@@ -88,7 +88,7 @@
         "name": "wordpress/classic-editor",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/classic-editor.1.6.3.zip"
+          "url": "https://downloads.wordpress.org/plugin/classic-editor.1.6.4.zip"
         }
       }
     },
@@ -268,7 +268,7 @@
         "name": "wordpress/the-events-calendar",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/the-events-calendar.6.5.1.6.zip"
+          "url": "https://downloads.wordpress.org/plugin/the-events-calendar.6.6.0.1.zip"
         }
       }
     },
@@ -292,7 +292,7 @@
         "name": "wordpress/user-switching",
         "dist": {
           "type": "zip",
-          "url": "https://downloads.wordpress.org/plugin/user-switching.1.7.3.zip"
+          "url": "https://downloads.wordpress.org/plugin/user-switching.1.8.0.zip"
         }
       }
     },
@@ -481,6 +481,18 @@
       "package": {
         "version": "dev-master",
         "type": "wordpress-plugin",
+        "name": "wp-graphql/wp-graphql-acf",
+        "dist": {
+          "type": "tar",
+          "url": "https://api.github.com/repos/wp-graphql/wp-graphql-acf/tarball/v0.6.2"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "version": "dev-master",
+        "type": "wordpress-plugin",
         "name": "wp-graphql/wp-graphql-jwt-authentication",
         "dist": {
           "type": "tar",
@@ -583,6 +595,7 @@
     "wordpress/wp-graphql": "dev-master",
     "wordpress/wpgraphql-acf": "dev-master",
     "wordpress/wp-search-with-algolia": "dev-master",
+    "wp-graphql/wp-graphql-acf": "dev-master",
     "pristas-peter/wp-graphql-gutenberg": "dev-master",
     "pristas-peter/wp-graphql-gutenberg-acf": "dev-master",
     "wpe-headless": "dev-master"

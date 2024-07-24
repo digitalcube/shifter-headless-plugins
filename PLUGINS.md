@@ -5,10 +5,10 @@
 | Name | Slug | Version | Full only? | Homepage |
 | --- | --- | --- | --- | --- |
 | [ACF to REST API](https://wordpress.org/plugins/acf-to-rest-api/) | acf-to-rest-api | 3.3.3 |  | [http://github.com/airesvsg/acf-to-rest-api](http://github.com/airesvsg/acf-to-rest-api) |
-| [Advanced Custom Fields (ACF)](https://wordpress.org/plugins/advanced-custom-fields/) | advanced-custom-fields | 6.3.3 |  | [https://www.advancedcustomfields.com](https://www.advancedcustomfields.com) |
+| [Advanced Custom Fields (ACF)](https://wordpress.org/plugins/advanced-custom-fields/) | advanced-custom-fields | 6.3.4 |  | [https://www.advancedcustomfields.com](https://www.advancedcustomfields.com) |
 | [All-in-One WP Migration and Backup](https://wordpress.org/plugins/all-in-one-wp-migration/) | all-in-one-wp-migration | 7.84 |  | [https://servmask.com/](https://servmask.com/) |
 | [Atlas Content Modeler](https://wordpress.org/plugins/atlas-content-modeler/) | atlas-content-modeler | 0.26.2 |  | [https://developers.wpengine.com/](https://developers.wpengine.com/) |
-| [Classic Editor](https://wordpress.org/plugins/classic-editor/) | classic-editor | 1.6.3 |  | [https://wordpress.org/plugins/classic-editor/](https://wordpress.org/plugins/classic-editor/) |
+| [Classic Editor](https://wordpress.org/plugins/classic-editor/) | classic-editor | 1.6.4 |  | [https://wordpress.org/plugins/classic-editor/](https://wordpress.org/plugins/classic-editor/) |
 | [Admin Columns](https://wordpress.org/plugins/codepress-admin-columns/) | codepress-admin-columns | 4.7.7 |  | [https://www.admincolumns.com](https://www.admincolumns.com) |
 | [Custom Post Type UI](https://wordpress.org/plugins/custom-post-type-ui/) | custom-post-type-ui | 1.17.1 |  | [https://github.com/WebDevStudios/custom-post-type-ui/](https://github.com/WebDevStudios/custom-post-type-ui/) |
 | [Code Snippets](https://wordpress.org/plugins/code-snippets/) | code-snippets | 3.6.5.1 |  | [https://codesnippets.pro](https://codesnippets.pro) |
@@ -23,9 +23,9 @@
 | [Safe SVG](https://wordpress.org/plugins/safe-svg/) | safe-svg | 2.2.5 |  | [https://wordpress.org/plugins/safe-svg/](https://wordpress.org/plugins/safe-svg/) |
 | [Search &amp; Replace](https://wordpress.org/plugins/search-and-replace/) | search-and-replace | 3.2.2 |  | [https://wordpress.org/plugins/search-and-replace/](https://wordpress.org/plugins/search-and-replace/) |
 | [TablePress &#8211; Tables in WordPress made easy](https://wordpress.org/plugins/tablepress/) | tablepress | 2.4 |  | [https://tablepress.org/](https://tablepress.org/) |
-| [The Events Calendar](https://wordpress.org/plugins/the-events-calendar/) | the-events-calendar | 6.5.1.6 |  | []() |
+| [The Events Calendar](https://wordpress.org/plugins/the-events-calendar/) | the-events-calendar | 6.6.0.1 |  | []() |
 | [User Role Editor](https://wordpress.org/plugins/user-role-editor/) | user-role-editor | 4.64.2 |  | [https://www.role-editor.com](https://www.role-editor.com) |
-| [User Switching](https://wordpress.org/plugins/user-switching/) | user-switching | 1.7.3 |  | [https://wordpress.org/plugins/user-switching/](https://wordpress.org/plugins/user-switching/) |
+| [User Switching](https://wordpress.org/plugins/user-switching/) | user-switching | 1.8.0 |  | [https://wordpress.org/plugins/user-switching/](https://wordpress.org/plugins/user-switching/) |
 | [WordPress Importer](https://wordpress.org/plugins/wordpress-importer/) | wordpress-importer | 0.8.2 |  | [https://wordpress.org/plugins/wordpress-importer/](https://wordpress.org/plugins/wordpress-importer/) |
 | [WP REST API Controller](https://wordpress.org/plugins/wp-rest-api-controller/) | wp-rest-api-controller | 2.1.2 |  | []() |
 | [WP REST Cache](https://wordpress.org/plugins/wp-rest-cache/) | wp-rest-cache | 2024.1.3 |  | [https://www.acato.nl](https://www.acato.nl) |
@@ -46,6 +46,7 @@
 | Name | Version/Tag | Full only? | Repo |
 | --- | --- | --- | --- |
 | basic-auth | master | True | [https://github.com/wp-api/basic-auth](https://github.com/wp-api/basic-auth) |
+| wp-graphql-acf | v0.6.2 |  | [https://github.com/wp-graphql/wp-graphql-acf](https://github.com/wp-graphql/wp-graphql-acf) |
 | wp-graphql-jwt-authentication | v0.7.0 | True | [https://github.com/wp-graphql/wp-graphql-jwt-authentication](https://github.com/wp-graphql/wp-graphql-jwt-authentication) |
 | wp-graphql-woocommerce | v0.20.0 | True | [https://github.com/wp-graphql/wp-graphql-woocommerce](https://github.com/wp-graphql/wp-graphql-woocommerce) |
 | wp-graphql-polylang | v0.7.0 | True | [https://github.com/valu-digital/wp-graphql-polylang](https://github.com/valu-digital/wp-graphql-polylang) |
